@@ -1,0 +1,319 @@
+{
+  "clamp": [ 
+  {
+    "Artikelnummer": "9742-WASI4-30",
+    "Beschreibung": "Endklemmen fuer gerahmte Module, Hoehe 30mm",
+    "clamp_type": "Endklemme",
+    "height": 30,
+    "color": "weißaluminium",
+    "besonderheit": "gerahmt",
+    "sales_units": 50
+  },
+  {
+    "Artikelnummer": "9742-WASI4-30SE",
+    "Beschreibung": "Endklemmen fuer gerahmte Module, Hoehe 30mm, schwarz",
+    "clamp_type": "Endklemme",
+    "height": 30,
+    "color": "schwarz",
+    "besonderheit": "gerahmt",
+    "sales_units": 50
+  },
+  {
+    "Artikelnummer": "9742-WASI4-32",
+    "Beschreibung": "Endklemmen fuer gerahmte Module, Hoehe 32mm",
+    "clamp_type": "Endklemme",
+    "height": 32,
+    "color": "weißaluminium",
+    "besonderheit": "gerahmt",
+    "sales_units": 50
+  },
+  {
+    "Artikelnummer": "9742-WASI4-32SE",
+    "Beschreibung": "Endklemmen fuer gerahmte Module, Hoehe 32mm, schwarz",
+    "clamp_type": "Endklemme",
+    "height": 32,
+    "color": "schwarz",
+    "besonderheit": "gerahmt",
+    "sales_units": 50
+  },
+  {
+    "Artikelnummer": "9742-WASI4-34",
+    "Beschreibung": "Endklemmen fuer gerahmte Module, Hoehe 34mm",
+    "clamp_type": "Endklemme",
+    "height": 34,
+    "color": "weißaluminium",
+    "besonderheit": "gerahmt",
+    "sales_units": 50
+  },
+  {
+    "Artikelnummer": "9742-WASI4-34SE",
+    "Beschreibung": "Endklemmen fuer gerahmte Module, Hoehe 34mm, schwarz",
+    "clamp_type": "Endklemme",
+    "height": 34,
+    "color": "schwarz",
+    "besonderheit": "gerahmt",
+    "sales_units": 50
+  },
+  {
+    "Artikelnummer": "9742-WASI4-35",
+    "Beschreibung": "Endklemmen fuer gerahmte Module, Hoehe 35mm",
+    "clamp_type": "Endklemme",
+    "height": 35,
+    "color": "weißaluminium",
+    "besonderheit": "gerahmt",
+    "sales_units": 50
+  },
+  {
+    "Artikelnummer": "9742-WASI4-35SE",
+    "Beschreibung": "Endklemmen fuer gerahmte Module, Hoehe 35mm, schwarz",
+    "clamp_type": "Endklemme",
+    "height": 35,
+    "color": "schwarz",
+    "besonderheit": "gerahmt",
+    "sales_units": 50
+  },
+  {
+    "Artikelnummer": "9745-WASI13",
+    "Beschreibung": "Mittelklemmen fuer gerahmte Module",
+    "clamp_type": "Mittelklemme",
+    "height": 36,
+    "color": "weißaluminium",
+    "besonderheit": "gerahmt",
+    "sales_units": 100
+  },
+  {
+    "Artikelnummer": "9745-WASI13SE",
+    "Beschreibung": "Mittelklemmen fuer gerahmte Module, schwarz",
+    "clamp_type": "Mittelklemme",
+    "height": 36,
+    "color": "schwarz",
+    "besonderheit": "gerahmt",
+    "sales_units": 100
+  },
+  {
+    "Artikelnummer": "9742-WASI4-38",
+    "Beschreibung": "Endklemmen fuer gerahmte Module, Hoehe 38mm",
+    "clamp_type": "Endklemme",
+    "height": 38,
+    "color": "weißaluminium",
+    "besonderheit": "gerahmt",
+    "sales_units": 50
+  },
+  {
+    "Artikelnummer": "9742-WASI4-38SE",
+    "Beschreibung": "Endklemmen fuer gerahmte Module, Hoehe 38mm, schwarz",
+    "clamp_type": "Endklemme",
+    "height": 38,
+    "color": "schwarz",
+    "besonderheit": "gerahmt",
+    "sales_units": 50
+  },
+  {
+    "Artikelnummer": "9742-WASI4-40",
+    "Beschreibung": "Endklemmen fuer gerahmte Module, Hoehe 40mm",
+    "clamp_type": "Endklemme",
+    "height": 40,
+    "color": "weißaluminium",
+    "besonderheit": "gerahmt",
+    "sales_units": 50
+  },
+  {
+    "Artikelnummer": "9742-WASI4-40SE",
+    "Beschreibung": "Endklemmen fuer gerahmte Module, Hoehe 40mm, schwarz",
+    "clamp_type": "Endklemme",
+    "height": 40,
+    "color": "schwarz",
+    "besonderheit": "gerahmt",
+    "sales_units": 50
+  },
+  {
+    "Artikelnummer": "9742-WASI4-42",
+    "Beschreibung": "Endklemmen fuer gerahmte Module, Hoehe 42mm",
+    "clamp_type": "Endklemme",
+    "height": 42,
+    "color": "weißaluminium",
+    "besonderheit": "gerahmt",
+    "sales_units": 50
+  },
+  {
+    "Artikelnummer": "9742-WASI4-43",
+    "Beschreibung": "Endklemmen fuer gerahmte Module, Hoehe 43mm",
+    "clamp_type": "Endklemme",
+    "height": 43,
+    "color": "weißaluminium",
+    "besonderheit": "gerahmt",
+    "sales_units": 50
+  },
+  {
+    "Artikelnummer": "9742-WASI4-46SE",
+    "Beschreibung": "Endklemmen fuer gerahmte Module, Hoehe 46mm, schwarz",
+    "clamp_type": "Endklemme",
+    "height": 46,
+    "color": "schwarz",
+    "besonderheit": "gerahmt",
+    "sales_units": 50
+  },
+  {
+    "Artikelnummer": "9742-WASI4-50",
+    "Beschreibung": "Endklemmen fuer gerahmte Module, Hoehe 50mm",
+    "clamp_type": "Endklemme",
+    "height": 50,
+    "color": "weißaluminium",
+    "besonderheit": "gerahmt",
+    "sales_units": 50
+  },
+  {
+    "Artikelnummer": "9742-WASI4-50SE",
+    "Beschreibung": "Endklemmen fuer gerahmte Module, Hoehe 50mm, schwarz",
+    "clamp_type": "Endklemme",
+    "height": 50,
+    "color": "schwarz",
+    "besonderheit": "gerahmt",
+    "sales_units": 50
+  },
+  {
+    "Artikelnummer": "9742-GM L80/6-9",
+    "Beschreibung": "Endklemmen fuer Glasmodule, Hoehen 6-9mm",
+    "clamp_type": "Endklemme",
+    "height": 6,
+    "color": "weißaluminium",
+    "besonderheit": "Glas",
+    "sales_units": 140
+  },
+  {
+    "Artikelnummer": "9745-GM L80/6-9",
+    "Beschreibung": "Mittelklemmen fuer Glasmodule, Hoehen 6-9mm",
+    "clamp_type": "Mittelklemme",
+    "height": 6,
+    "color": "weißaluminium",
+    "besonderheit": "Glas",
+    "sales_units": 40
+  },
+  {
+    "Artikelnummer": "9742-WASICLIPE32",
+    "Beschreibung": "Endklemmen Klick fuer Modulhoehe 32mm",
+    "clamp_type": "Endklemme",
+    "height": 32,
+    "color": "weißaluminium",
+    "besonderheit": "WASICLIPS 32",
+    "sales_units": 50
+  },
+  {
+    "Artikelnummer": "9742-WASICLIPE32SE",
+    "Beschreibung": "Endklemmen Klick fuer Modulhoehe 32mm, schwarz",
+    "clamp_type": "Endklemme",
+    "height": 32,
+    "color": "schwarz",
+    "besonderheit": "WASICLIPS 32",
+    "sales_units": 50
+  },
+  {
+    "Artikelnummer": "9742-WASICLIPE35",
+    "Beschreibung": "Endklemmen Klick fuer Modulhoehe 35mm",
+    "clamp_type": "Endklemme",
+    "height": 35,
+    "color": "weißaluminium",
+    "besonderheit": "WASICLIPS 35",
+    "sales_units": 50
+  },
+  {
+    "Artikelnummer": "9742-WASICLIPE35SE",
+    "Beschreibung": "Endklemmen Klick fuer Modulhoehe 35mm, schwarz",
+    "clamp_type": "Endklemme",
+    "height": 35,
+    "color": "schwarz",
+    "besonderheit": "WASICLIPS 35",
+    "sales_units": 50
+  },
+  {
+    "Artikelnummer": "9742-WASICLIPE38",
+    "Beschreibung": "Endklemmen Klick fuer Modulhoehe 38mm",
+    "clamp_type": "Endklemme",
+    "height": 38,
+    "color": "weißaluminium",
+    "besonderheit": "WASICLIPS 40",
+    "sales_units": 50
+  },
+  {
+    "Artikelnummer": "9742-WASICLIPE38SE",
+    "Beschreibung": "Endklemmen Klick fuer Modulhoehe 38mm, schwarz",
+    "clamp_type": "Endklemme",
+    "height": 38,
+    "color": "schwarz",
+    "besonderheit": "WASICLIPS 40",
+    "sales_units": 50
+  },
+  {
+    "Artikelnummer": "9742-WASICLIPE40",
+    "Beschreibung": "Endklemmen Klick fuer Modulhoehe 40mm",
+    "clamp_type": "Endklemme",
+    "height": 40,
+    "color": "weißaluminium",
+    "besonderheit": "WASICLIPS 40",
+    "sales_units": 50
+  },
+  {
+    "Artikelnummer": "9742-WASICLIPE40SE",
+    "Beschreibung": "Endklemmen Klick fuer Modulhoehe 40mm, schwarz",
+    "clamp_type": "Endklemme",
+    "height": 40,
+    "color": "schwarz",
+    "besonderheit": "WASICLIPS 40",
+    "sales_units": 50
+  },
+  {
+    "Artikelnummer": "9745-WASICLIPM1",
+    "Beschreibung": "Mittelklemmen + WASICLIPS fuer Modulhoehen 28-34mm",
+    "clamp_type": "Mittelklemme",
+    "height": 28,
+    "color": "weißaluminium",
+    "besonderheit": "WASICLIPS 32",
+    "sales_units": 100
+  },
+  {
+    "Artikelnummer": "9745-WASICLIPM1SE",
+    "Beschreibung": "Mittelklemmen + WASICLIPS fuer Modulhoehen 28-34mm, schwarz",
+    "clamp_type": "Mittelklemme",
+    "height": 28,
+    "color": "schwarz",
+    "besonderheit": "WASICLIPS 32",
+    "sales_units": 100
+  },
+  {
+    "Artikelnummer": "9745-WASICLIPM2",
+    "Beschreibung": "Mittelklemmen + WASICLIPS fuer Modulhoehen 35mm",
+    "clamp_type": "Mittelklemme",
+    "height": 35,
+    "color": "weißaluminium",
+    "besonderheit": "WASICLIPS 35",
+    "sales_units": 100
+  },
+  {
+    "Artikelnummer": "9745-WASICLIPM2SE",
+    "Beschreibung": "Mittelklemmen + WASICLIPS fuer Modulhoehen 35mm, schwarz",
+    "clamp_type": "Mittelklemme",
+    "height": 35,
+    "color": "schwarz",
+    "besonderheit": "WASICLIPS 35",
+    "sales_units": 100
+  },
+  {
+    "Artikelnummer": "9745-WASICLIPM3",
+    "Beschreibung": "Mittelklemmen + WASICLIPS fuer Modulhoehen 36-44mm",
+    "clamp_type": "Mittelklemme",
+    "height": 36,
+    "color": "weißaluminium",
+    "besonderheit": "WASICLIPS 40",
+    "sales_units": 100
+  },
+  {
+    "Artikelnummer": "9745-WASICLIPM3SE",
+    "Beschreibung": "Mittelklemmen + WASICLIPS fuer Modulhoehen 36-44mm, schwarz",
+    "clamp_type": "Mittelklemme",
+    "height": 36,
+    "color": "schwarz",
+    "besonderheit": "WASICLIPS 40",
+    "sales_units": 100
+  }
+]
+}

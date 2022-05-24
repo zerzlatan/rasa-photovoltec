@@ -1,0 +1,281 @@
+version: '2.0'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+  - give_clamp_id
+  - want_article
+  - give_height
+  - give_sales_unit
+  - give_info
+  - deny
+  - affirm
+  - give_rail_info
+  - thanks
+  - goodbye
+  - want_clamp
+  - stop
+  - bot_challenge
+  - give_color
+  - give_quantity
+  - greet
+  - nlu_fallback
+  - out_of_scope
+  - test_hello_world
+  - want_brick
+  - want_brick_all_infos
+  - specify_brick_without_quantity
+  - want_turmbiber_no_quantity
+  - want_wood
+  - want_brick_no_quantity_no_color
+  - give_mount_id
+  - tell_time:
+      use_entities: []
+entities:
+  - MISC
+  - adjustable
+  - article
+  - brick_color
+  - brick_type
+  - clamp_type
+  - framed
+  - heavy_versions
+  - height
+  - quantity
+  - rail_adesign
+  - rail_bfeature
+  - rail_color
+  - sales_units
+  - w_clamp_id
+  - w_mount_id
+slots:
+  brick_type:
+    type: text
+    influence_conversation: true
+  label:
+    type: text
+    influence_conversation: false
+  brick_color:
+    type: text
+    influence_conversation: true
+  quantity:
+    type: text
+    influence_conversation: true
+  requested_slot:
+    type: text
+    influence_conversation: true
+  rail_color:
+    type: text
+    influence_conversation: true
+  rail_adesign:
+    type: text
+    influence_conversation: true
+  sales_units:
+    type: text
+    influence_conversation: true
+  rail_bfeature:
+    type: text
+    influence_conversation: true
+  adjustable:
+    type: text
+    influence_conversation: true
+  heavy_versions:
+    type: text
+    influence_conversation: true
+  article:
+    type: categorical
+    influence_conversation: true
+    values:
+      - dachhaken
+      - klemme
+      - schiene
+  framed:
+    type: categorical
+    influence_conversation: true
+    values:
+      - gerahmt
+      - wasiclip
+      - glas
+  clamp_type:
+    type: text
+    influence_conversation: true
+  height:
+    type: text
+    influence_conversation: true
+  w_clamp_id:
+    type: text
+    influence_conversation: false
+  w_mount_id:
+    type: text
+    influence_conversation: false
+responses:
+  utter_greet:
+    - text: Hallo! Wie kann ich dir helfen?
+  utter_recommend_brick:
+    - text: Welcher Ziegel waere passend?
+  utter_goodbye:
+    - text: Bye
+  utter_iamabot:
+    - text: 'Ich bin ein Chatbot, entwickelt mit Rasa.'
+  utter_out_of_scope:
+    - text: Ich habe nicht verstanden.
+  utter_ask_quantity:
+    - text: Wie viele soll ich bestellen?
+  utter_rephrase:
+    - text: Koennen Sie das wiederholen? Ich verstehe nicht wie ich helfen kann
+  utter_acquired_all_order_details:
+    - text: >-
+        Alles klar, eine Bestellung ueber {quantity} {brick_color} {brick_type}
+        wurden uebermittelt. Kann ich sonst noch was fuer dich tun?
+  utter_ask_brick_color:
+    - text: 'In welcher Farbe sollen die {brick_type} bestellt werden?'
+  utter_ask_framed:
+    - text: >-
+        Welche Art von {clamp_type} moechten Sie bestellen fuer gerahmte Module,
+        Glas oder mit WASICLIP?
+  utter_ask_brick_type:
+    - text: Welchen Ziegeltyp moechten Sie bestellen?
+  utter_ask_continue:
+    - text: 'Bist du sicher, dass du die Bestellung abbrechen moechtest?'
+  utter_submit:
+    - text: >-
+        Alles klar, eine Bestellung ueber {quantity} {brick_color} {brick_type}
+        wurde an den Lieferanten uebermittelt. Kann ich sonst noch was fuer dich
+        tun?
+  utter_brick_slots:
+    - text: '{quantity} {brick_color} {brick_type}'
+  utter_recommend_wood:
+    - text: Gutes Holz.
+  utter_you_are_welcome:
+    - text: >-
+        Gern geschehen, gibt es sonst noch eine Sache bei der ich helfen kann?
+        Andernfalls wuensche ich Ihnen einen schoenen Tag!
+  utter_ask_rail_adesign:
+    - text: Welchen Profiltyp der Aluminiumschienen moechten Sie bestellen?
+  utter_ask_sales_units:
+    - text: Wie viele dieser Artikel sollen im Auftrag enthalten sein?
+  utter_ask_rail_color:
+    - text: In welcher farblichen Ausfuehrung soll Ihre Bestellung geliefert werden?
+  utter_rail_slots:
+    - text: >-
+        Dem Angebot wurden {sales_units} {rail_adesign} in {rail_color} und
+        {rail_bfeature} hinzugefuegt, {w_clamp_id}, kann ich sonst noch etwas
+        hinzufuegen?
+  utter_ask_rail_bfeature:
+    - text: >-
+        Bevorzugen Sie breite Profile, eine seitliche Nutung oder moechten Sie
+        die Schienen in unserem Standardmass bestellen?
+  utter_ask_adjustable:
+    - text: >-
+        Moechten sie starre Dachhaken so antworten Sie mit ja, fuer verstellbare
+        antworten Sie mit nein!
+  utter_ask_heavy_versions:
+    - text: >-
+        Moechten Sie die hoehergewichtige Version der verstellbaren Dachhaken
+        bestellen, so antworten Sie mit ja oder das Standardgewicht, dann nein?
+  utter_hook_slots:
+    - text: >-
+        Die Liste wurde um {sales_units} Dachhaken {adjustable} {heavy_versions}
+        ergaenzt, {w_mount_id}
+  utter_ask_clamp_type:
+    - text: Moechten Sie End- oder Mittelklemmen bestellen?
+  utter_ask_height:
+    - text: 'Welche Hoehe sollen Ihre {clamp_type} befestigen?'
+  utter_clamp_slots:
+    - text: >-
+        Dem Angebot wurden {sales_units} {clamp_type} fuer {height} in
+        {rail_color} hinzugefuegt, darf es sonst noch etwas sein?
+actions:
+  - action_ask_rail_adesign
+  - action_hello_world
+  - action_interpret
+  - action_interpret_id
+  - action_tell_time
+  - utter_ask_continue
+  - utter_ask_heavy_versions
+  - utter_ask_sales_units
+  - utter_clamp_slots
+  - utter_goodbye
+  - utter_hook_slots
+  - utter_rail_slots
+  - utter_you_are_welcome
+  - validate_simple_brick_form
+  - validate_simple_clamp_form
+  - validate_simple_hook_form
+  - validate_simple_rail_form
+forms:
+  simple_brick_form:
+    required_slots:
+      brick_color:
+        - entity: brick_color
+          type: from_entity
+      brick_type:
+        - entity: brick_type
+          type: from_entity
+      quantity:
+        - entity: quantity
+          type: from_entity
+  simple_rail_form:
+    ignored_intents:
+      - MISC
+      - quantity
+      - brick_color
+      - brick_type
+      - article
+    required_slots:
+      rail_adesign:
+        - entity: rail_adesign
+          type: from_entity
+      rail_bfeature:
+        - entity: rail_bfeature
+          type: from_entity
+      rail_color:
+        - entity: rail_color
+          type: from_entity
+      sales_units:
+        - entity: sales_units
+          type: from_entity
+  simple_hook_form:
+    ignored_intents:
+      - article
+    required_slots:
+      adjustable:
+        - intent: affirm
+          type: from_intent
+          value: nicht verstellbar
+        - intent: deny
+          type: from_intent
+          value: verstellbar
+      heavy_versions:
+        - intent: affirm
+          type: from_intent
+          value: schwere Ausfuehrung
+        - intent: deny
+          type: from_intent
+          value: leichte Ausfuehrung
+      sales_units:
+        - entity: sales_units
+          type: from_entity
+      w_mount_id:
+        - entity: w_mount_id
+          type: from_entity
+  simple_clamp_form:
+    required_slots:
+      clamp_type:
+        - entity: clamp_type
+          type: from_entity
+      framed:
+        - entity: framed
+          type: from_entity
+      height:
+        - entity: height
+          type: from_entity
+      rail_color:
+        - entity: rail_color
+          type: from_entity
+      sales_units:
+        - entity: sales_units
+          type: from_entity
+      w_clamp_id:
+        - entity: w_clamp_id
+          type: from_entity

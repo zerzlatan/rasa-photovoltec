@@ -1,0 +1,837 @@
+version: "2.0"
+rules:
+  - rule: whenever Mittelklemme is defined start simple_clamp_loop
+    condition:
+      - slot_was_set:
+          - clamp_type: Mittelklemme
+    steps:
+      - action: simple_clamp_form
+      - active_loop: simple_clamp_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: whenever clamp_type is defined as Endklemme
+    condition:
+      - slot_was_set:
+          - clamp_type: Endklemme
+      - active_loop: null
+    steps:
+      - action: simple_clamp_form
+      - active_loop: simple_clamp_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: whenever article is schiene
+    condition:
+      - slot_was_set:
+          - article: schiene
+    steps:
+      - intent: want_article
+      - action: simple_rail_form
+      - active_loop: simple_rail_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: whenever article is schiene, so we start simple_rail_loop al null
+    condition:
+      - slot_was_set:
+          - article: schiene
+      - active_loop: null
+    steps:
+      - intent: want_article
+      - action: simple_rail_form
+      - active_loop: simple_rail_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: 'whenever article sets adesign, we start simple_rail_loop'
+    condition:
+      - slot_was_set:
+          - rail_adesign: 40er Montageschiene
+      - active_loop: null
+    steps:
+      - action: simple_rail_form
+      - active_loop: simple_rail_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: 'whenever w_mount_id is given, article set on Dachhaken start hook_form'
+    condition:
+      - slot_was_set:
+          - article: Dachhaken
+    steps:
+      - intent: give_mount_id
+      - action: simple_hook_form
+      - active_loop: simple_hook_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: whenever Klemme als article is defined we start simple_clamp_loop
+    condition:
+      - slot_was_set:
+          - article: Klemme
+    steps:
+      - intent: want_article
+      - action: simple_clamp_form
+      - active_loop: simple_clamp_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: whenever Klemme als clamp_id is defined we start simple_clamp_loop
+    condition:
+      - slot_was_set:
+          - article: Klemme
+      - active_loop: null
+    steps:
+      - intent: give_clamp_id
+      - action: simple_clamp_form
+      - active_loop: simple_clamp_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: whenever article is Dachhaken we start simple_hook_loop (active_loop null)
+    condition:
+      - slot_was_set:
+          - article: Dachhaken
+      - active_loop: null
+    steps:
+      - intent: want_article
+      - action: simple_hook_form
+      - active_loop: simple_hook_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: Say welcome message whenever a user greets
+    steps:
+      - intent: greet
+      - action: utter_greet
+  - rule: Say goodbye anytime the user says goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+  - rule: Say 'I am a bot' anytime the user challenges
+    steps:
+      - intent: bot_challenge
+      - action: utter_iamabot
+  - rule: Single stage fallback | ask user to choose what they meant
+    steps:
+      - intent: nlu_fallback
+      - action: action_default_ask_affirmation
+  - rule: Single stage fallback | call default fallback if user is not ok
+    steps:
+      - action: action_default_ask_affirmation
+      - intent: out_of_scope
+      - action: utter_rephrase
+  - rule: Activate simple Brick Form
+    condition:
+      - slot_was_set:
+          - article: Blechziegel
+    steps:
+      - action: simple_brick_form
+      - active_loop: simple_brick_form
+      - slot_was_set:
+          - requested_slot: true
+
+  - rule: Activate Brick Form lc
+    condition:
+      - slot_was_set:
+          - article: blechziegel
+    steps:
+      - action: simple_brick_form
+      - active_loop: simple_brick_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: Activate Brick Form lc 2 words
+    condition:
+      - slot_was_set:
+          - article: blech-ziegel
+    steps:
+      - action: simple_brick_form
+      - active_loop: simple_brick_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: Activate Brick Form lc pfanne
+    condition:
+      - slot_was_set:
+          - article: blechpfanne
+    steps:
+      - action: simple_brick_form
+      - active_loop: simple_brick_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: Activate Brick Form lc pfanne 2 words
+    condition:
+      - slot_was_set:
+          - article: blech-pfanne
+    steps:
+      - action: simple_brick_form
+      - active_loop: simple_brick_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: Activate Brick Form brick_type beton
+    condition:
+      - slot_was_set:
+          - brick_type: beton
+    steps:
+      - action: simple_brick_form
+      - active_loop: simple_brick_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: Activate Brick Form brick_type ton250
+    condition:
+      - slot_was_set:
+          - brick_type: ton250
+    steps:
+      - action: simple_brick_form
+      - active_loop: simple_brick_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: Activate Brick Form brick_type ton260
+    condition:
+      - slot_was_set:
+          - brick_type: ton260
+    steps:
+      - action: simple_brick_form
+      - active_loop: simple_brick_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: Activate Brick Form brick_type sonder
+    condition:
+      - slot_was_set:
+          - brick_type: sonderziegel
+    steps:
+      - action: simple_brick_form
+      - active_loop: simple_brick_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: submit simple brick form
+    condition:
+      - active_loop: simple_brick_form
+    steps:
+      - action: simple_brick_form
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: validate_simple_brick_form
+      - action: utter_brick_slots
+      - action: action_reset_slots
+  - rule: utter Bauvorhaben starts the loop
+    steps:
+      - intent: define_bauvorhaben
+      - action: simple_bauvorhaben_form
+      - active_loop: simple_bauvorhaben_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: submit simple_bauvorhaben_form
+    condition:
+      - active_loop: simple_bauvorhaben_form
+    steps:
+      - action: simple_bauvorhaben_form
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: action_utter_bauvorhaben_slots
+  - rule: Activate Rail Form
+    condition:
+      - slot_was_set:
+          - article: schiene
+    steps:
+      - action: simple_rail_form
+      - active_loop: simple_rail_form
+      - slot_was_set:
+          - requested_slot: true
+
+  - rule: Activate Rail Form plural
+    condition:
+      - slot_was_set:
+          - article: schienen
+    steps:
+      - action: simple_rail_form
+      - active_loop: simple_rail_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: Activate Rail Form lc
+    condition:
+      - slot_was_set:
+          - article: schiene
+    steps:
+      - action: simple_rail_form
+      - active_loop: simple_rail_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: Activate Rail Form lc plural
+    condition:
+      - slot_was_set:
+          - article: schienen
+    steps:
+      - action: simple_rail_form
+      - active_loop: simple_rail_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: submit simple Rail Form
+    condition:
+      - active_loop: simple_rail_form
+    steps:
+      - action: simple_rail_form
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: utter_rail_slots
+      - action: action_reset_slots
+  - rule: Interruption in simple_rail_form
+    condition:
+      - active_loop: simple_rail_form
+    steps:
+      - intent: tell_time
+      - action: action_tell_time
+      - action: simple_rail_form
+      - active_loop: simple_rail_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: Always specify the rail_adesign asap if in the simple_rail_form loop
+    condition:
+      - active_loop: simple_rail_form
+      - slot_was_set:
+          - rail_bfeature: true
+    steps:
+      - action: action_ask_rail_adesign
+  - rule: submit simple hook form
+    condition:
+      - active_loop: simple_hook_form
+    steps:
+      - action: simple_hook_form
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: validate_simple_hook_form
+      - action: utter_hook_slots
+      - action: action_reset_slots
+  - rule: Activate Rail Form
+    condition:
+      - active_loop: null
+      - slot_was_set:
+          - rail_adesign: true
+    steps:
+      - action: simple_rail_form
+      - active_loop: simple_rail_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: Interruption in simple_hook_form
+    condition:
+      - active_loop: simple_hook_form
+    steps:
+      - intent: tell_time
+      - action: action_tell_time
+      - action: simple_hook_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: Activate simple_clamp_form
+    steps:
+      - intent: want_clamp
+      - action: simple_clamp_form
+      - active_loop: simple_clamp_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: Interruption in simple_clamp_form
+    condition:
+      - active_loop: simple_clamp_form
+    steps:
+      - intent: tell_time
+      - action: action_tell_time
+      - action: simple_clamp_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: submit simple_clamp_form
+    condition:
+      - active_loop: simple_clamp_form
+    steps:
+      - action: simple_clamp_form
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: validate_simple_clamp_form
+      - action: utter_clamp_slots
+      - action: action_reset_slots
+  - rule: >-
+      whenever intent give_clamp_id uttered follow with action_interpret_id
+      gives clamp type start simple_clamp_form is  Endklemme
+    condition:
+      - slot_was_set:
+          - clamp_type: Endklemme
+    steps:
+      - intent: give_clamp_id
+      - action: action_interpret_id
+      - action: simple_clamp_form
+      - active_loop: simple_clamp_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: >-
+      whenever intent give_clamp_id uttered follow with action_interpret_id
+      gives clamp type start simple_clamp_form is  Mittelklemme
+    condition:
+      - slot_was_set:
+          - clamp_type: Mittelklemme
+    steps:
+      - intent: give_clamp_id
+      - action: action_interpret_id
+      - action: simple_clamp_form
+      - active_loop: simple_clamp_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: >-
+      whenever intent give_clamp_id uttered follow with action_interpret_id
+      gives rail_adesign start simple_rail_form is
+    condition:
+      - slot_was_set:
+          - rail_adesign: 40er Montageschienen
+      - active_loop: null
+    steps:
+      - intent: give_clamp_id
+      - action: action_interpret_id
+      - action: simple_rail_form
+      - active_loop: simple_rail_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: >-
+      whenever intent give_clamp_id uttered follow with action_interpret_id
+      gives rail_adesign start simple_rail_form is
+    condition:
+      - slot_was_set:
+          - rail_adesign: 80er Montageschienen
+    steps:
+      - intent: give_clamp_id
+      - action: action_interpret_id
+      - action: simple_rail_form
+      - active_loop: simple_rail_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: >-
+      whenever w_clamp_id is given, article set on "Klemme" start clamp_form al
+      null
+    condition:
+      - slot_was_set:
+          - article: Klemme
+      - active_loop: null
+    steps:
+      - intent: give_clamp_id
+      - action: simple_clamp_form
+      - active_loop: simple_clamp_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: >-
+      whenever w_clamp_id is given, article set on Klemme start clamp_form al
+      null
+    condition:
+      - slot_was_set:
+          - article: Klemme
+      - active_loop: null
+    steps:
+      - intent: give_clamp_id
+      - action: simple_clamp_form
+      - active_loop: simple_clamp_form
+      - slot_was_set:
+          - requested_slot: true
+
+  - rule: whenever User wants to know current positions, read them all for him
+    steps:
+      - intent: read_current_positions
+      - action: action_read_current_positions
+
+  - rule: Always generate PDF Task when User utters
+    steps:
+      - intent: generate_final_task
+      - action: action_generate_final_task
+
+  - rule: Activate simple_hanger_screw_form
+    condition:
+      - slot_was_set:
+          - article: Stockschraube
+    steps:
+      - action: simple_hanger_screw_form
+      - active_loop: simple_hanger_screw_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: submit simple_hanger_screw_form
+    condition:
+      - active_loop: simple_hanger_screw_form
+    steps:
+      - action: simple_hanger_screw_form
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: validate_simple_hanger_screw_form
+      - action: utter_hanger_screw_slots
+      - action: action_reset_slots
+  - rule: whenever ask_continue is uttered the next message will be interpret
+    steps:
+      - action: utter_ask_continue
+      - or:
+          - intent: affirm
+          - intent: stop
+      - action: action_deactivate_loop
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: utter_position_cancelled
+      - action: action_reset_slots
+  - rule: whenever article is Stockschraube, we start simple_hanger_screw_form
+    condition:
+      - slot_was_set:
+          - article: stockschraube
+    steps:
+      - action: simple_hanger_screw_form
+      - active_loop: simple_hanger_screw_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: whenever article is Stockschraube, so we start simple_hanger_screw_form al null
+    condition:
+      - slot_was_set:
+          - article: stockschraube
+      - active_loop: null
+    steps:
+      - action: simple_hanger_screw_form
+      - active_loop: simple_hanger_screw_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: Activate hanger_screw Form with info
+    condition:
+      - slot_was_set:
+          - article: stockschraube
+    steps:
+      - intent: give_info
+      - action: simple_hanger_screw_form
+      - active_loop: simple_hanger_screw_form
+      - slot_was_set:
+          - requested_slot: true
+
+  - rule: 'whenever w_mount_id is given, article set on Stockschraube start simple_hanger_screw_form'
+    condition:
+      - slot_was_set:
+          - article: stockschraube
+    steps:
+      - intent: give_mount_id
+      - action: simple_hanger_screw_form
+      - active_loop: simple_hanger_screw_form
+      - slot_was_set:
+          - requested_slot: true
+
+
+  - rule: Activate simple_plate_form
+    condition:
+      - slot_was_set:
+          - article: Adapterblech
+    steps:
+      - action: simple_plate_form
+      - active_loop: simple_plate_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: submit simple_plate_form
+    condition:
+      - active_loop: simple_plate_form
+    steps:
+      - action: simple_plate_form
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: validate_simple_plate_form
+      - action: utter_plate_slots
+      - action: action_reset_slots
+
+  - rule: whenever article is Adapterblech, we start simple_plate_form
+    condition:
+      - slot_was_set:
+          - article: Adapterblech
+    steps:
+      - intent: want_article
+      - action: simple_plate_form
+      - active_loop: simple_plate_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: whenever article is Adapterblech, so we start simple_plate_form al null
+    condition:
+      - slot_was_set:
+          - article: Adapterblech
+      - active_loop: null
+    steps:
+      - intent: want_article
+      - action: simple_plate_form
+      - active_loop: simple_plate_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: Activate simple_plate_form Form with info
+    condition:
+      - slot_was_set:
+          - article: Adapterblech
+    steps:
+      - intent: give_info
+      - action: simple_plate_form
+      - active_loop: simple_plate_form
+      - slot_was_set:
+          - requested_slot: true
+
+  - rule: 'whenever w_mount_id is given, article set on Adapterblech start simple_plate_form'
+    condition:
+      - slot_was_set:
+          - article: Adapterblech
+    steps:
+      - intent: give_mount_id
+      - action: action_interpret_id
+      - action: simple_plate_form
+      - active_loop: simple_plate_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: 'whenever ascrew_type is set start Adapterblech Form'
+    condition:
+      - slot_was_set:
+          - ascrew_type: M10
+      - active_loop: null
+    steps:
+      - intent: want_article
+      - action: simple_plate_form
+      - active_loop: simple_plate_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: 'whenever tutorial is requested, tutorial is delivered and loop is broken'
+    steps:
+      - intent: request_tutorial_simple
+      - action: utter_tutorial_simple
+
+  - rule: Activate PV Form lc sin
+    condition:
+      - slot_was_set:
+          - article: photovoltaikmodul
+    steps:
+      - action: simple_pv_form
+      - active_loop: simple_pv_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: Activate PV Form lc 2 words sin
+    condition:
+      - slot_was_set:
+          - article: photovoltaik-modul
+    steps:
+      - action: simple_pv_form
+      - active_loop: simple_pv_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: Activate PV Form lc plr
+    condition:
+      - slot_was_set:
+          - article: photovoltaikmodule
+    steps:
+      - action: simple_pv_form
+      - active_loop: simple_pv_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: Activate PV Form lc 2 words plr
+    condition:
+      - slot_was_set:
+          - article: photovoltaik-module
+    steps:
+      - action: simple_pv_form
+      - active_loop: simple_pv_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: submit simple pv form
+    condition:
+      - active_loop: simple_pv_form
+    steps:
+      - action: simple_pv_form
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: validate_simple_pv_form
+      - action: utter_pv_slots
+      - action: action_reset_slots
+  - rule: whenever sonderziegel is defined start simple_brick_form
+    condition:
+      - slot_was_set:
+          - brick_type: sonderziegel
+    steps:
+      - action: simple_brick_form
+      - active_loop: simple_brick_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: whenever beton is defined as beton go simple brick form
+    condition:
+      - slot_was_set:
+          - brick_type: beton
+      - active_loop: null
+    steps:
+      - action: simple_brick_form
+      - active_loop: simple_brick_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: whenever ton250 is defined start simple_brick_form
+    condition:
+      - slot_was_set:
+          - brick_type: ton250
+    steps:
+      - action: simple_brick_form
+      - active_loop: simple_brick_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: whenever ton260 is defined as beton go simple brick form
+    condition:
+      - slot_was_set:
+          - brick_type: ton260
+      - active_loop: null
+    steps:
+      - action: simple_brick_form
+      - active_loop: simple_brick_form
+      - slot_was_set:
+          - requested_slot: true
+  - rule: whenever brick_type is defined as beton go simple brick form
+    condition:
+      - slot_was_set:
+          - brick_type: true
+      - active_loop: null
+    steps:
+      - action: simple_brick_form
+      - active_loop: simple_brick_form
+      - slot_was_set:
+          - requested_slot: true
+
+  - rule: whenever clamp form is active you can interrupt by saying stop 01
+    condition:
+      - active_loop: simple_clamp_form
+    steps:
+      - intent: stop
+      - action: utter_ask_continue
+  - rule: whenever clamp form is active you can interrupt by saying stop 02
+    condition:
+      - active_loop: simple_clamp_form
+    steps:
+      - action: utter_ask_continue
+      - or:
+          - intent: affirm
+          - intent: stop
+      - action: action_deactivate_loop
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: utter_position_cancelled
+      - action: action_reset_slots
+  - rule: whenever brick form is active you can interrupt by saying stop 01
+    condition:
+      - active_loop: simple_brick_form
+    steps:
+      - intent: stop
+      - action: utter_ask_continue
+
+  - rule: whenever brick form is active you can interrupt by saying stop 02
+    condition:
+      - active_loop: simple_brick_form
+    steps:
+      - action: utter_ask_continue
+      - or:
+          - intent: affirm
+          - intent: stop
+      - action: action_deactivate_loop
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: utter_position_cancelled
+      - action: action_reset_slots
+  - rule: whenever bauvorhaben form is active you can interrupt by saying stop 01
+    condition:
+      - active_loop: simple_bauvorhaben_form
+    steps:
+      - intent: stop
+      - action: utter_ask_continue
+
+  - rule: whenever bauvorhaben form is active you can interrupt by saying stop 02
+    condition:
+      - active_loop: simple_bauvorhaben_form
+    steps:
+      - action: utter_ask_continue
+      - or:
+          - intent: affirm
+          - intent: stop
+      - action: action_deactivate_loop
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: utter_position_cancelled
+      - action: action_reset_slots
+  - rule: whenever plate form is active you can interrupt by saying stop 01
+    condition:
+      - active_loop: simple_plate_form
+    steps:
+      - intent: stop
+      - action: utter_ask_continue
+
+  - rule: whenever plate form is active you can interrupt by saying stop 02
+    condition:
+      - active_loop: simple_plate_form
+    steps:
+      - action: utter_ask_continue
+      - or:
+          - intent: affirm
+          - intent: stop
+      - action: action_deactivate_loop
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: utter_position_cancelled
+      - action: action_reset_slots
+  - rule: whenever hanger_screw form is active you can interrupt by saying stop 01
+    condition:
+      - active_loop: simple_hanger_screw_form
+    steps:
+      - intent: stop
+      - action: utter_ask_continue
+  - rule: whenever hanger_screw form is active you can interrupt by saying stop 02
+    condition:
+      - active_loop: simple_hanger_screw_form
+    steps:
+      - action: utter_ask_continue
+      - or:
+          - intent: affirm
+          - intent: stop
+      - action: action_deactivate_loop
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: utter_position_cancelled
+      - action: action_reset_slots
+  - rule: whenever rail form is active you can interrupt by saying stop 01
+    condition:
+      - active_loop: simple_rail_form
+    steps:
+      - intent: stop
+      - action: utter_ask_continue
+
+  - rule: whenever rail form is active you can interrupt by saying stop 02
+    condition:
+      - active_loop: simple_rail_form
+    steps:
+      - action: utter_ask_continue
+      - or:
+          - intent: affirm
+          - intent: stop
+      - action: action_deactivate_loop
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: utter_position_cancelled
+      - action: action_reset_slots
+  - rule: whenever hook form is active you can interrupt by saying stop 01
+    condition:
+      - active_loop: simple_hook_form
+    steps:
+      - intent: stop
+      - action: utter_ask_continue
+  - rule: whenever hook form is active you can interrupt by saying stop 02
+    condition:
+      - active_loop: simple_hook_form
+    steps:
+      - action: utter_ask_continue
+      - or:
+          - intent: affirm
+          - intent: stop
+      - action: action_deactivate_loop
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: utter_position_cancelled
+      - action: action_reset_slots
+  - rule: delete position number xy
+    steps:
+      - intent: delete_position
+      - action: action_delete_number_position
+  - rule: delete latest position
+    steps:
+      - intent: delete_latest_position
+      - action: action_delete_latest_position

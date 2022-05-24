@@ -1,0 +1,148 @@
+{
+  "framed": {
+    "precision": 0.9831932773109243,
+    "recall": 0.975,
+    "f1-score": 0.9790794979079498,
+    "support": 120,
+    "confused_with": {
+      "clamp_type": 1
+    }
+  },
+  "brick_type": {
+    "precision": 0.9544592030360531,
+    "recall": 0.9617590822179732,
+    "f1-score": 0.9580952380952381,
+    "support": 523,
+    "confused_with": {
+      "article": 14,
+      "sales_units": 3
+    }
+  },
+  "w_clamp_id": {
+    "precision": 1.0,
+    "recall": 0.8354430379746836,
+    "f1-score": 0.9103448275862069,
+    "support": 79,
+    "confused_with": {
+      "sales_units": 7,
+      "w_mount_id": 4
+    }
+  },
+  "height": {
+    "precision": 0.9821428571428571,
+    "recall": 0.990990990990991,
+    "f1-score": 0.9865470852017937,
+    "support": 222,
+    "confused_with": {
+      "sales_units": 2
+    }
+  },
+  "rail_bfeature": {
+    "precision": 0.8666666666666667,
+    "recall": 0.8068965517241379,
+    "f1-score": 0.8357142857142856,
+    "support": 145,
+    "confused_with": {
+      "rail_adesign": 7
+    }
+  },
+  "w_mount_id": {
+    "precision": 0.9183673469387755,
+    "recall": 1.0,
+    "f1-score": 0.9574468085106383,
+    "support": 45,
+    "confused_with": {}
+  },
+  "rail_adesign": {
+    "precision": 0.8711656441717791,
+    "recall": 0.9659863945578231,
+    "f1-score": 0.9161290322580644,
+    "support": 147,
+    "confused_with": {
+      "rail_bfeature": 2,
+      "article": 2
+    }
+  },
+  "article": {
+    "precision": 0.959349593495935,
+    "recall": 0.9580514208389715,
+    "f1-score": 0.958700067704807,
+    "support": 739,
+    "confused_with": {
+      "brick_type": 18
+    }
+  },
+  "alength": {
+    "precision": 0.9862068965517241,
+    "recall": 0.9930555555555556,
+    "f1-score": 0.9896193771626298,
+    "support": 144,
+    "confused_with": {
+      "ascrew_type": 1
+    }
+  },
+  "bstreet": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "sales_units": 2
+    }
+  },
+  "clamp_type": {
+    "precision": 0.9666666666666667,
+    "recall": 0.9666666666666667,
+    "f1-score": 0.9666666666666667,
+    "support": 150,
+    "confused_with": {
+      "article": 2
+    }
+  },
+  "sales_units": {
+    "precision": 0.9326599326599326,
+    "recall": 0.9805309734513274,
+    "f1-score": 0.9559965487489216,
+    "support": 565,
+    "confused_with": {
+      "rail_bfeature": 3
+    }
+  },
+  "ascrew_type": {
+    "precision": 0.9375,
+    "recall": 0.8823529411764706,
+    "f1-score": 0.9090909090909091,
+    "support": 68,
+    "confused_with": {
+      "sales_units": 4
+    }
+  },
+  "rail_color": {
+    "precision": 0.9528301886792453,
+    "recall": 0.9619047619047619,
+    "f1-score": 0.957345971563981,
+    "support": 105,
+    "confused_with": {
+      "rail_bfeature": 2,
+      "rail_adesign": 2
+    }
+  },
+  "micro avg": {
+    "precision": 0.9480688088283025,
+    "recall": 0.9564505566470203,
+    "f1-score": 0.9522412387938061,
+    "support": 3054
+  },
+  "macro avg": {
+    "precision": 0.8793720195228971,
+    "recall": 0.8770455983613831,
+    "f1-score": 0.8771983083008636,
+    "support": 3054
+  },
+  "weighted avg": {
+    "precision": 0.9482576267793618,
+    "recall": 0.9564505566470203,
+    "f1-score": 0.9518339189067352,
+    "support": 3054
+  }
+}

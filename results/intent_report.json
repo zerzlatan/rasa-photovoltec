@@ -1,0 +1,205 @@
+{
+  "give_info": {
+    "precision": 0.8535714285714285,
+    "recall": 0.8659420289855072,
+    "f1-score": 0.8597122302158272,
+    "support": 276,
+    "confused_with": {
+      "want_article": 19,
+      "give_sales_unit": 10
+    }
+  },
+  "give_clamp_id": {
+    "precision": 0.9705882352941176,
+    "recall": 0.9428571428571428,
+    "f1-score": 0.9565217391304348,
+    "support": 35,
+    "confused_with": {
+      "give_mount_id": 2
+    }
+  },
+  "give_height": {
+    "precision": 0.9705882352941176,
+    "recall": 0.9428571428571428,
+    "f1-score": 0.9565217391304348,
+    "support": 70,
+    "confused_with": {
+      "give_info": 3,
+      "give_sales_unit": 1
+    }
+  },
+  "want_article": {
+    "precision": 0.9753937007874016,
+    "recall": 0.9734774066797642,
+    "f1-score": 0.9744346116027531,
+    "support": 1018,
+    "confused_with": {
+      "give_info": 20,
+      "give_sales_unit": 4
+    }
+  },
+  "test_hello_world": {
+    "precision": 1.0,
+    "recall": 0.42857142857142855,
+    "f1-score": 0.6,
+    "support": 7,
+    "confused_with": {
+      "request_tutorial_simple": 2,
+      "want_article": 1
+    }
+  },
+  "give_mount_id": {
+    "precision": 0.8181818181818182,
+    "recall": 1.0,
+    "f1-score": 0.9,
+    "support": 9,
+    "confused_with": {}
+  },
+  "greet": {
+    "precision": 0.8245614035087719,
+    "recall": 0.7580645161290323,
+    "f1-score": 0.7899159663865545,
+    "support": 62,
+    "confused_with": {
+      "goodbye": 8,
+      "give_info": 3
+    }
+  },
+  "read_current_positions": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 51,
+    "confused_with": {}
+  },
+  "request_tutorial_simple": {
+    "precision": 0.6666666666666666,
+    "recall": 0.5333333333333333,
+    "f1-score": 0.5925925925925926,
+    "support": 15,
+    "confused_with": {
+      "tell_time": 2,
+      "give_info": 2
+    }
+  },
+  "thanks": {
+    "precision": 0.9038461538461539,
+    "recall": 0.9215686274509803,
+    "f1-score": 0.9126213592233009,
+    "support": 51,
+    "confused_with": {
+      "stop": 2,
+      "affirm": 1
+    }
+  },
+  "delete_latest_position": {
+    "precision": 1.0,
+    "recall": 0.9130434782608695,
+    "f1-score": 0.9545454545454545,
+    "support": 23,
+    "confused_with": {
+      "want_article": 2
+    }
+  },
+  "generate_final_task": {
+    "precision": 0.9900990099009901,
+    "recall": 1.0,
+    "f1-score": 0.9950248756218906,
+    "support": 100,
+    "confused_with": {}
+  },
+  "bot_challenge": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "deny": {
+    "precision": 0.8055555555555556,
+    "recall": 0.8285714285714286,
+    "f1-score": 0.8169014084507044,
+    "support": 35,
+    "confused_with": {
+      "affirm": 4,
+      "greet": 1
+    }
+  },
+  "delete_position": {
+    "precision": 0.9777777777777777,
+    "recall": 1.0,
+    "f1-score": 0.9887640449438202,
+    "support": 44,
+    "confused_with": {}
+  },
+  "define_bauvorhaben": {
+    "precision": 0.9090909090909091,
+    "recall": 0.7692307692307693,
+    "f1-score": 0.8333333333333333,
+    "support": 13,
+    "confused_with": {
+      "give_sales_unit": 2,
+      "give_info": 1
+    }
+  },
+  "tell_time": {
+    "precision": 0.8611111111111112,
+    "recall": 1.0,
+    "f1-score": 0.9253731343283582,
+    "support": 31,
+    "confused_with": {}
+  },
+  "goodbye": {
+    "precision": 0.7166666666666667,
+    "recall": 0.671875,
+    "f1-score": 0.6935483870967741,
+    "support": 64,
+    "confused_with": {
+      "greet": 8,
+      "affirm": 4
+    }
+  },
+  "affirm": {
+    "precision": 0.8311688311688312,
+    "recall": 0.8421052631578947,
+    "f1-score": 0.8366013071895425,
+    "support": 76,
+    "confused_with": {
+      "goodbye": 4,
+      "deny": 4
+    }
+  },
+  "give_sales_unit": {
+    "precision": 0.9606126914660832,
+    "recall": 0.9799107142857143,
+    "f1-score": 0.9701657458563536,
+    "support": 448,
+    "confused_with": {
+      "give_info": 7,
+      "want_article": 1
+    }
+  },
+  "stop": {
+    "precision": 0.868421052631579,
+    "recall": 0.868421052631579,
+    "f1-score": 0.868421052631579,
+    "support": 38,
+    "confused_with": {
+      "affirm": 3,
+      "tell_time": 1
+    }
+  },
+  "accuracy": 0.9360582760016187,
+  "macro avg": {
+    "precision": 0.9001857736914274,
+    "recall": 0.8685633015715517,
+    "f1-score": 0.8773809039180813,
+    "support": 2471
+  },
+  "weighted avg": {
+    "precision": 0.9357183493129099,
+    "recall": 0.9360582760016187,
+    "f1-score": 0.9352789607191038,
+    "support": 2471
+  }
+}

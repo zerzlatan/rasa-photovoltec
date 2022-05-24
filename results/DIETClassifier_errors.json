@@ -1,0 +1,4818 @@
+[
+  {
+    "text": "goodevening",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 11,
+        "confidence_entity": 0.5408036112785339,
+        "value": "goodevening",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "johr",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.5616886615753174,
+        "value": "johr",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "wie funktionierst du? ich möchte eine Einführung bitte",
+    "entities": [
+      {
+        "start": 4,
+        "end": 17,
+        "value": "funktionierst",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "bist du ein Chatbot?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "rail_bfeature",
+        "start": 12,
+        "end": 19,
+        "confidence_entity": 0.9701729416847229,
+        "value": "Chatbot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "seitliche Nutung im standardmass",
+    "entities": [
+      {
+        "start": 0,
+        "end": 16,
+        "value": "seitliche Nutung",
+        "entity": "rail_bfeature"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_bfeature",
+        "start": 0,
+        "end": 16,
+        "confidence_entity": 0.9704218506813049,
+        "value": "seitliche Nutung",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "rail_bfeature",
+        "start": 20,
+        "end": 32,
+        "confidence_entity": 0.8914000988006592,
+        "value": "Keine",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "wasiclip waere super",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "wasiclip",
+        "entity": "framed"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "clamp_type",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.6299810409545898,
+        "value": "WASICLIP",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "breites Profil",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "rail_adesign",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.6507248282432556,
+        "value": "breites",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "88279",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.5616886615753174,
+        "value": "88279",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "für die gerahmten Module",
+    "entities": [
+      {
+        "start": 8,
+        "end": 17,
+        "value": "gerahmten",
+        "entity": "sales_units"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_bfeature",
+        "start": 8,
+        "end": 17,
+        "confidence_entity": 0.8346985578536987,
+        "value": "gerahmt",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "die leichten",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "die leichten",
+        "entity": "rail_bfeature"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_bfeature",
+        "start": 4,
+        "end": 12,
+        "confidence_entity": 0.8929006457328796,
+        "value": "leichten",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "niedriggewichtige",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "value": "niedriggewichtige",
+        "entity": "rail_bfeature"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 17,
+        "confidence_entity": 0.5616886615753174,
+        "value": "ultraleicht",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "in normale Groesse",
+    "entities": [
+      {
+        "start": 3,
+        "end": 18,
+        "value": "normale Groesse",
+        "entity": "sales_units"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_bfeature",
+        "start": 3,
+        "end": 18,
+        "confidence_entity": 0.8553662896156311,
+        "value": "Keine",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "normal",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "normal",
+        "entity": "rail_bfeature"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "zweihundertfünfzig tonziegel",
+    "entities": [
+      {
+        "start": 0,
+        "end": 28,
+        "value": "zweihundertfünfzig tonziegel",
+        "entity": "brick_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 18,
+        "confidence_entity": 0.99903404712677,
+        "value": "zweihundertfünfzig",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Familie Schwarz Amtzell",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "rail_color",
+        "start": 8,
+        "end": 15,
+        "confidence_entity": 0.9983874559402466,
+        "value": "Schwarz",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "betonziegel 40 an der zahl",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "beton",
+        "entity": "brick_type"
+      },
+      {
+        "start": 12,
+        "end": 14,
+        "value": "40",
+        "entity": "sales_units"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 11,
+        "confidence_entity": 0.9469076991081238,
+        "value": "beton",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "sales_units",
+        "start": 12,
+        "end": 14,
+        "confidence_entity": 0.9750354290008545,
+        "value": "40",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ich moechte Mittelklemmen",
+    "entities": [
+      {
+        "start": 12,
+        "end": 25,
+        "value": "mittelklemme",
+        "entity": "clamp_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "article",
+        "start": 12,
+        "end": 25,
+        "confidence_entity": 0.8143441677093506,
+        "value": "mittelklemme",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "End",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "endklemme",
+        "entity": "clamp_type"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ich moechte haken bestellen",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "article",
+        "start": 12,
+        "end": 17,
+        "confidence_entity": 0.9538842439651489,
+        "value": "dachhaken",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich moechte noch mehr von den dachhaken bestellen",
+    "entities": [
+      {
+        "start": 30,
+        "end": 39,
+        "value": "dachhaken",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Ich brauche noch 4 Trapezdach-Montageschienen in flache Ausfuehrung.",
+    "entities": [
+      {
+        "start": 17,
+        "end": 18,
+        "value": "4",
+        "entity": "sales_units"
+      },
+      {
+        "start": 19,
+        "end": 45,
+        "value": "trapezdach",
+        "entity": "rail_bfeature"
+      },
+      {
+        "start": 49,
+        "end": 55,
+        "value": "flach",
+        "entity": "rail_bfeature"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 17,
+        "end": 18,
+        "confidence_entity": 0.9898777604103088,
+        "value": "4",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "rail_adesign",
+        "start": 19,
+        "end": 45,
+        "confidence_entity": 0.49565237760543823,
+        "value": "trapezdach",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "rail_bfeature",
+        "start": 49,
+        "end": 55,
+        "confidence_entity": 0.39117494225502014,
+        "value": "flach",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich moechte fuenfzig Verkaufseinheiten Trapezdach-Montageschienen bestellen",
+    "entities": [
+      {
+        "start": 12,
+        "end": 20,
+        "value": "fuenfzig",
+        "entity": "sales_units"
+      },
+      {
+        "start": 39,
+        "end": 65,
+        "value": "trapezdach",
+        "entity": "rail_bfeature"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 12,
+        "end": 20,
+        "confidence_entity": 0.8329697251319885,
+        "value": "fuenfzig",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ich moechte breite Schienen kaufen",
+    "entities": [
+      {
+        "start": 12,
+        "end": 18,
+        "value": "breite",
+        "entity": "rail_bfeature"
+      },
+      {
+        "start": 19,
+        "end": 27,
+        "value": "schiene",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_adesign",
+        "start": 12,
+        "end": 18,
+        "confidence_entity": 0.919678270816803,
+        "value": "80er Montageschienen",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "article",
+        "start": 19,
+        "end": 27,
+        "confidence_entity": 0.9985870122909546,
+        "value": "schiene",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "40er Montageschienen in weissaluminium",
+    "entities": [
+      {
+        "start": 0,
+        "end": 20,
+        "value": "40er Montageschienen",
+        "entity": "rail_adesign"
+      },
+      {
+        "start": 24,
+        "end": 38,
+        "value": "weissaluminium",
+        "entity": "rail_bfeature"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_adesign",
+        "start": 0,
+        "end": 20,
+        "confidence_entity": 0.9814221858978271,
+        "value": "40er Montageschienen",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "rail_color",
+        "start": 24,
+        "end": 38,
+        "confidence_entity": 0.9991254210472107,
+        "value": "weissaluminium",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ich brauche noch mehr von den breiten Schienen",
+    "entities": [
+      {
+        "start": 38,
+        "end": 46,
+        "value": "schiene",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_adesign",
+        "start": 30,
+        "end": 37,
+        "confidence_entity": 0.6684436202049255,
+        "value": "80er Montageschienen",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "article",
+        "start": 38,
+        "end": 46,
+        "confidence_entity": 0.998923122882843,
+        "value": "schiene",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich brauche schienen mit breitem Profil",
+    "entities": [
+      {
+        "start": 12,
+        "end": 20,
+        "value": "schiene",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "article",
+        "start": 12,
+        "end": 20,
+        "confidence_entity": 0.9982054233551025,
+        "value": "schiene",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "rail_adesign",
+        "start": 25,
+        "end": 32,
+        "confidence_entity": 0.6285510063171387,
+        "value": "breitem",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ich möchte nochmals Schienen bestellen keine Besonderheiten Version metallen",
+    "entities": [
+      {
+        "start": 20,
+        "end": 28,
+        "value": "schiene",
+        "entity": "article"
+      },
+      {
+        "start": 39,
+        "end": 44,
+        "value": "keine",
+        "entity": "rail_bfeature"
+      },
+      {
+        "start": 68,
+        "end": 76,
+        "value": "weissaluminium",
+        "entity": "rail_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "article",
+        "start": 20,
+        "end": 28,
+        "confidence_entity": 0.9976897239685059,
+        "value": "schiene",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "rail_color",
+        "start": 68,
+        "end": 76,
+        "confidence_entity": 0.9741520285606384,
+        "value": "weissaluminium",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich brauche trapezdach-montageschienen",
+    "entities": [
+      {
+        "start": 12,
+        "end": 38,
+        "value": "trapezdach",
+        "entity": "rail_bfeature"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "article",
+        "start": 12,
+        "end": 38,
+        "confidence_entity": 0.9637516140937805,
+        "value": "trapezdach",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich brauche betonziegel",
+    "entities": [
+      {
+        "start": 12,
+        "end": 23,
+        "value": "beton",
+        "entity": "brick_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "article",
+        "start": 12,
+        "end": 23,
+        "confidence_entity": 0.9716711640357971,
+        "value": "beton",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ziegel ton260",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "ziegel",
+        "entity": "article"
+      },
+      {
+        "start": 7,
+        "end": 13,
+        "value": "ton260",
+        "entity": "brick_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "article",
+        "start": 0,
+        "end": 13,
+        "confidence_entity": 0.46533581614494324,
+        "value": "ziegel ton260",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ich brauche mehr ziegel in ton 260",
+    "entities": [
+      {
+        "start": 17,
+        "end": 23,
+        "value": "blechziegel",
+        "entity": "brick_type"
+      },
+      {
+        "start": 27,
+        "end": 34,
+        "value": "ton 260",
+        "entity": "brick_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "article",
+        "start": 17,
+        "end": 23,
+        "confidence_entity": 0.9996497631072998,
+        "value": "blechziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "brick_type",
+        "start": 27,
+        "end": 34,
+        "confidence_entity": 0.9810186624526978,
+        "value": "ton260",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich möchte Schienen mit breitem profil erwerben",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "schiene",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "article",
+        "start": 11,
+        "end": 19,
+        "confidence_entity": 0.9978780746459961,
+        "value": "schiene",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "rail_adesign",
+        "start": 24,
+        "end": 31,
+        "confidence_entity": 0.6195269227027893,
+        "value": "breitem",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ich möchte stockschrauben für 25 centimeter laenge",
+    "entities": [
+      {
+        "start": 11,
+        "end": 25,
+        "value": "stockschraube",
+        "entity": "article"
+      },
+      {
+        "start": 30,
+        "end": 43,
+        "value": "250 mm",
+        "entity": "alength"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "article",
+        "start": 11,
+        "end": 25,
+        "confidence_entity": 0.9999490976333618,
+        "value": "stockschraube",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "alength",
+        "start": 30,
+        "end": 32,
+        "confidence_entity": 0.9356467127799988,
+        "value": "25",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "ascrew_type",
+        "start": 33,
+        "end": 43,
+        "confidence_entity": 0.7787600755691528,
+        "value": "cm",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "salut, ich hätte gerne pv module",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "salut",
+        "entity": "clamp_type"
+      },
+      {
+        "start": 23,
+        "end": 32,
+        "value": "photovoltaikmodul",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "framed",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.7468817830085754,
+        "value": "salut",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "article",
+        "start": 23,
+        "end": 32,
+        "confidence_entity": 0.9946974515914917,
+        "value": "photovoltaikmodul",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "einundzwanzig stück bitte mehr brauche ich nichnt",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "einundzwanzig",
+        "entity": "sales_units"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 13,
+        "confidence_entity": 0.8061808347702026,
+        "value": "einundzwanzig",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "article",
+        "start": 43,
+        "end": 49,
+        "confidence_entity": 0.7667526006698608,
+        "value": "nichnt",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "zweifünfzig tonziegel",
+    "entities": [
+      {
+        "start": 0,
+        "end": 21,
+        "value": "ton250",
+        "entity": "brick_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 11,
+        "confidence_entity": 0.8869973421096802,
+        "value": "zweifünfzig",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "18 stück bitte sehr",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "18",
+        "entity": "bstreet"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.4943685531616211,
+        "value": "18",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "18 bittesehr",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "18",
+        "entity": "bstreet"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.4443160593509674,
+        "value": "18",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Montagevorrichtung fuers Trapezdach-Montageschienen bitte",
+    "entities": [
+      {
+        "start": 25,
+        "end": 51,
+        "value": "trapezdach",
+        "entity": "rail_bfeature"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_bfeature",
+        "start": 0,
+        "end": 18,
+        "confidence_entity": 0.3185988664627075,
+        "value": "Montagevorrichtung",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "rail_bfeature",
+        "start": 25,
+        "end": 51,
+        "confidence_entity": 0.9474655389785767,
+        "value": "trapezdach",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "hundertfuenfzig breite Ausfuehrung",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "hundertfuenfzig",
+        "entity": "sales_units"
+      },
+      {
+        "start": 16,
+        "end": 34,
+        "value": "80er Montageschienen",
+        "entity": "rail_adesign"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_adesign",
+        "start": 0,
+        "end": 15,
+        "confidence_entity": 0.554463267326355,
+        "value": "hundertfuenfzig",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "rail_adesign",
+        "start": 16,
+        "end": 34,
+        "confidence_entity": 0.6217363476753235,
+        "value": "80er Montageschienen",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "40er Montageschienen ultraleicht",
+    "entities": [
+      {
+        "start": 0,
+        "end": 20,
+        "value": "40er Montageschienen",
+        "entity": "rail_adesign"
+      },
+      {
+        "start": 21,
+        "end": 32,
+        "value": "ultraleicht",
+        "entity": "rail_bfeature"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_adesign",
+        "start": 0,
+        "end": 20,
+        "confidence_entity": 0.9972174167633057,
+        "value": "40er Montageschienen",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Baienfurt",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.37369444966316223,
+        "value": "Baienfurt",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Rondelburg",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.37369444966316223,
+        "value": "Rondelburg",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "88218",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.37369444966316223,
+        "value": "88218",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "niedriggewichtig",
+    "entities": [
+      {
+        "start": 0,
+        "end": 16,
+        "value": "niedriggewichtig",
+        "entity": "rail_bfeature"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 16,
+        "confidence_entity": 0.391390860080719,
+        "value": "ultraleicht",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "die normalen Schienen",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "die normalen",
+        "entity": "rail_bfeature"
+      },
+      {
+        "start": 13,
+        "end": 21,
+        "value": "schiene",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_bfeature",
+        "start": 4,
+        "end": 12,
+        "confidence_entity": 0.862238347530365,
+        "value": "Keine",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "article",
+        "start": 13,
+        "end": 21,
+        "confidence_entity": 0.9990412592887878,
+        "value": "schiene",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "die dunklen Montageschienen",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "value": "dunklen",
+        "entity": "rail_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_color",
+        "start": 4,
+        "end": 11,
+        "confidence_entity": 0.9974988102912903,
+        "value": "schwarz",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "rail_adesign",
+        "start": 12,
+        "end": 27,
+        "confidence_entity": 0.6199290156364441,
+        "value": "schiene",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "beton ziegel bitte sehr",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "beton ziegel",
+        "entity": "brick_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "brick_type",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.5354341268539429,
+        "value": "beton",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "article",
+        "start": 6,
+        "end": 12,
+        "confidence_entity": 0.9493932723999023,
+        "value": "blechziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich brauche Ziegel",
+    "entities": [
+      {
+        "start": 12,
+        "end": 18,
+        "value": "blechziegel",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "brick_type",
+        "start": 12,
+        "end": 18,
+        "confidence_entity": 0.391700804233551,
+        "value": "blechziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Ich moechte Montageschienen bestellen",
+    "entities": [
+      {
+        "start": 12,
+        "end": 27,
+        "value": "schiene",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_adesign",
+        "start": 12,
+        "end": 27,
+        "confidence_entity": 0.8378328084945679,
+        "value": "schiene",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich brauche 40er Montageschienen fuer ein Trapezdach-Montageschienen",
+    "entities": [
+      {
+        "start": 12,
+        "end": 32,
+        "value": "40er Montageschienen",
+        "entity": "rail_adesign"
+      },
+      {
+        "start": 42,
+        "end": 68,
+        "value": "trapezdach",
+        "entity": "rail_bfeature"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_adesign",
+        "start": 12,
+        "end": 32,
+        "confidence_entity": 0.996637225151062,
+        "value": "40er Montageschienen",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "rail_adesign",
+        "start": 42,
+        "end": 68,
+        "confidence_entity": 0.5379152894020081,
+        "value": "trapezdach",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich brauche 40er Montageschienen in schwarz",
+    "entities": [
+      {
+        "start": 12,
+        "end": 32,
+        "value": "40er Montageschienen",
+        "entity": "rail_color"
+      },
+      {
+        "start": 36,
+        "end": 43,
+        "value": "schwarz",
+        "entity": "rail_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_adesign",
+        "start": 12,
+        "end": 32,
+        "confidence_entity": 0.9964641332626343,
+        "value": "40er Montageschienen",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "rail_color",
+        "start": 36,
+        "end": 43,
+        "confidence_entity": 0.9669581055641174,
+        "value": "schwarz",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ich möchte haken bestellen",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "article",
+        "start": 11,
+        "end": 16,
+        "confidence_entity": 0.9537392854690552,
+        "value": "dachhaken",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich möchte breite Standardschienen kaufen",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "breite",
+        "entity": "rail_bfeature"
+      },
+      {
+        "start": 18,
+        "end": 34,
+        "value": "40er Montageschienen",
+        "entity": "rail_adesign"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_adesign",
+        "start": 11,
+        "end": 17,
+        "confidence_entity": 0.8858687281608582,
+        "value": "80er Montageschienen",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "rail_adesign",
+        "start": 18,
+        "end": 34,
+        "confidence_entity": 0.9618847966194153,
+        "value": "40er Montageschienen",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich möchte schienen bestellen",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "schienen",
+        "entity": "sales_units"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "article",
+        "start": 11,
+        "end": 19,
+        "confidence_entity": 0.9997650980949402,
+        "value": "schiene",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "noch adapterbleche für M10 schraubendurchmesser",
+    "entities": [
+      {
+        "start": 5,
+        "end": 18,
+        "value": "adapterblech",
+        "entity": "article"
+      },
+      {
+        "start": 23,
+        "end": 26,
+        "value": "M10",
+        "entity": "ascrew_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "article",
+        "start": 5,
+        "end": 18,
+        "confidence_entity": 0.9998899698257446,
+        "value": "adapterblech",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "ascrew_type",
+        "start": 23,
+        "end": 26,
+        "confidence_entity": 0.9964183568954468,
+        "value": "M10",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "ascrew_type",
+        "start": 27,
+        "end": 47,
+        "confidence_entity": 0.8951328992843628,
+        "value": "schraubendurchmesser",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "m-zwölf bleche",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "M12",
+        "entity": "ascrew_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "ascrew_type",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9986844658851624,
+        "value": "M12",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "article",
+        "start": 8,
+        "end": 14,
+        "confidence_entity": 0.6487378478050232,
+        "value": "bleche",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ich möchte 40er Montageschienen keine Sonderausfuehrung",
+    "entities": [
+      {
+        "start": 11,
+        "end": 31,
+        "value": "40er Montageschienen",
+        "entity": "rail_adesign"
+      },
+      {
+        "start": 32,
+        "end": 37,
+        "value": "keine",
+        "entity": "rail_bfeature"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_adesign",
+        "start": 11,
+        "end": 31,
+        "confidence_entity": 0.9966444969177246,
+        "value": "40er Montageschienen",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "rail_bfeature",
+        "start": 32,
+        "end": 55,
+        "confidence_entity": 0.6002910137176514,
+        "value": "keine Sonderausfuehrung",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "wir brauchen mehr blech-ziegel",
+    "entities": [
+      {
+        "start": 18,
+        "end": 30,
+        "value": "blechziegel",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "brick_type",
+        "start": 18,
+        "end": 30,
+        "confidence_entity": 0.99505615234375,
+        "value": "blechziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "wir brauchen mehr ziegel beton",
+    "entities": [
+      {
+        "start": 18,
+        "end": 30,
+        "value": "beton",
+        "entity": "brick_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "article",
+        "start": 18,
+        "end": 24,
+        "confidence_entity": 0.9872905611991882,
+        "value": "blechziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "brick_type",
+        "start": 25,
+        "end": 30,
+        "confidence_entity": 0.6040909290313721,
+        "value": "beton",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "wir brauchen mehr beton ziegel",
+    "entities": [
+      {
+        "start": 18,
+        "end": 30,
+        "value": "beton",
+        "entity": "brick_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "article",
+        "start": 18,
+        "end": 23,
+        "confidence_entity": 0.3261356055736542,
+        "value": "beton",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "article",
+        "start": 24,
+        "end": 30,
+        "confidence_entity": 0.9043722748756409,
+        "value": "blechziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "wir brauchen mehr besondere ziegel",
+    "entities": [
+      {
+        "start": 18,
+        "end": 34,
+        "value": "sonderziegel",
+        "entity": "brick_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "brick_type",
+        "start": 18,
+        "end": 27,
+        "confidence_entity": 0.9789702296257019,
+        "value": "besondere",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "article",
+        "start": 28,
+        "end": 34,
+        "confidence_entity": 0.8250027298927307,
+        "value": "blechziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich möchte breite Montageschienen bestellen",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "80er Montageschienen",
+        "entity": "rail_adesign"
+      },
+      {
+        "start": 18,
+        "end": 33,
+        "value": "schiene",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_adesign",
+        "start": 11,
+        "end": 17,
+        "confidence_entity": 0.8918742537498474,
+        "value": "80er Montageschienen",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "rail_adesign",
+        "start": 18,
+        "end": 33,
+        "confidence_entity": 0.6345141530036926,
+        "value": "schiene",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich brauche noch blechziegel",
+    "entities": [
+      {
+        "start": 17,
+        "end": 28,
+        "value": "blechziegel",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "brick_type",
+        "start": 17,
+        "end": 28,
+        "confidence_entity": 0.8102569580078125,
+        "value": "blechziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich brauche blechpfannen für betonziegel bitte",
+    "entities": [
+      {
+        "start": 12,
+        "end": 24,
+        "value": "blechziegel",
+        "entity": "article"
+      },
+      {
+        "start": 29,
+        "end": 40,
+        "value": "beton",
+        "entity": "brick_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "article",
+        "start": 12,
+        "end": 24,
+        "confidence_entity": 0.9998779296875,
+        "value": "blechziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "ascrew_type",
+        "start": 29,
+        "end": 40,
+        "confidence_entity": 0.7527101039886475,
+        "value": "beton",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich möchte auch noch blechziegel",
+    "entities": [
+      {
+        "start": 21,
+        "end": 32,
+        "value": "blechziegel",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "brick_type",
+        "start": 21,
+        "end": 32,
+        "confidence_entity": 0.9415110349655151,
+        "value": "blechziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "erweitere das angebot um sonderziegel",
+    "entities": [
+      {
+        "start": 25,
+        "end": 37,
+        "value": "sonderziegel",
+        "entity": "brick_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "article",
+        "start": 25,
+        "end": 37,
+        "confidence_entity": 0.9998410940170288,
+        "value": "sonderziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich möchte blechziegel bestellen ton250 oder sonder ziegel",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "value": "blechziegel",
+        "entity": "article"
+      },
+      {
+        "start": 33,
+        "end": 39,
+        "value": "ton250",
+        "entity": "brick_type"
+      },
+      {
+        "start": 45,
+        "end": 58,
+        "value": "sonderziegel",
+        "entity": "brick_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "article",
+        "start": 11,
+        "end": 22,
+        "confidence_entity": 0.9971730709075928,
+        "value": "blechziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "brick_type",
+        "start": 33,
+        "end": 39,
+        "confidence_entity": 0.9997459053993225,
+        "value": "ton250",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brick_type",
+        "start": 45,
+        "end": 51,
+        "confidence_entity": 0.748654842376709,
+        "value": "sonderziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "article",
+        "start": 52,
+        "end": 58,
+        "confidence_entity": 0.4541082978248596,
+        "value": "blechziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "1234",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "1234",
+        "entity": "sales_units"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "30 stückli",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "30",
+        "entity": "sales_units"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.6239964962005615,
+        "value": "30 stückli",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "stop, ich brauche doch keine",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "rail_bfeature",
+        "start": 23,
+        "end": 28,
+        "confidence_entity": 0.6047823429107666,
+        "value": "Keine",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "bitte entferne den zuletzt hinzugefuegten artikel von der positionsliste",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "article",
+        "start": 27,
+        "end": 41,
+        "confidence_entity": 0.9766839146614075,
+        "value": "hinzugefuegten",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Einführung in die Funktionalitäten",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "rail_bfeature",
+        "start": 18,
+        "end": 34,
+        "confidence_entity": 0.9901914596557617,
+        "value": "Funktionalitäten",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "40 Verkaufseinheiten der ultra-leichten Standardschienen, bitte",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "40",
+        "entity": "sales_units"
+      },
+      {
+        "start": 25,
+        "end": 39,
+        "value": "ultraleicht",
+        "entity": "rail_bfeature"
+      },
+      {
+        "start": 40,
+        "end": 56,
+        "value": "40er Montageschienen",
+        "entity": "rail_adesign"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.952568531036377,
+        "value": "40",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "rail_adesign",
+        "start": 40,
+        "end": 56,
+        "confidence_entity": 0.8396333456039429,
+        "value": "40er Montageschienen",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "gehramtes modul",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "gehramtes",
+        "entity": "framed"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "article",
+        "start": 0,
+        "end": 15,
+        "confidence_entity": 0.9693844318389893,
+        "value": "gehramtes modul",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "gerahmtes modul",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "gerahmtes",
+        "entity": "framed"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "framed",
+        "start": 0,
+        "end": 15,
+        "confidence_entity": 0.9433159828186035,
+        "value": "gerahmtes modul",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "m-zehn",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "M10",
+        "entity": "ascrew_type"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "wasi clip",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "WASICLIP",
+        "entity": "framed"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "framed",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9078343510627747,
+        "value": "WASICLIP",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Bad Waldseerstr. 18",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "bstreet",
+        "start": 17,
+        "end": 19,
+        "confidence_entity": 0.8234149217605591,
+        "value": "18",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Riedlingstr. 15",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 13,
+        "end": 15,
+        "confidence_entity": 0.9862240552902222,
+        "value": "15",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Geiselharz Netto PV-Anlage",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "clamp_type",
+        "start": 17,
+        "end": 26,
+        "confidence_entity": 0.3691333532333374,
+        "value": "PV-Anlage",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "m-zwölf",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "M12",
+        "entity": "ascrew_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_bfeature",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.36486926674842834,
+        "value": "M12",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "gerahmtem Ramen",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "gerahmtem",
+        "entity": "rail_bfeature"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.9637812972068787,
+        "value": "gerahmt",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Sonderausführung none",
+    "entities": [
+      {
+        "start": 17,
+        "end": 21,
+        "value": "none",
+        "entity": "rail_bfeature"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "die normalen",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "die normalen",
+        "entity": "rail_bfeature"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_bfeature",
+        "start": 4,
+        "end": 12,
+        "confidence_entity": 0.8995908498764038,
+        "value": "Keine",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "stockschrauben 25 cm",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "stockschraube",
+        "entity": "article"
+      },
+      {
+        "start": 15,
+        "end": 20,
+        "value": "250 mm",
+        "entity": "alength"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "alength",
+        "start": 15,
+        "end": 20,
+        "confidence_entity": 0.9968822002410889,
+        "value": "250 mm",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "sonder ausfuehrung",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "sonderziegel",
+        "entity": "brick_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "brick_type",
+        "start": 0,
+        "end": 18,
+        "confidence_entity": 0.6943768262863159,
+        "value": "sonderziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Mittel",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "mittelklemme",
+        "entity": "clamp_type"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "i moechte Hoka bestellen",
+    "entities": [
+      {
+        "start": 10,
+        "end": 14,
+        "value": "dachhaken",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "clamp_type",
+        "start": 10,
+        "end": 14,
+        "confidence_entity": 0.8401663303375244,
+        "value": "dachhaken",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich brauche montageschienen",
+    "entities": [
+      {
+        "start": 12,
+        "end": 27,
+        "value": "schiene",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_bfeature",
+        "start": 12,
+        "end": 27,
+        "confidence_entity": 0.9935605525970459,
+        "value": "schiene",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich moechte Trapezdach-Montageschienen kaufen, 3 Verkaufseinheiten",
+    "entities": [
+      {
+        "start": 12,
+        "end": 38,
+        "value": "trapezdach",
+        "entity": "rail_bfeature"
+      },
+      {
+        "start": 47,
+        "end": 48,
+        "value": "3",
+        "entity": "sales_units"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_adesign",
+        "start": 12,
+        "end": 38,
+        "confidence_entity": 0.9887698888778687,
+        "value": "trapezdach",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "sales_units",
+        "start": 47,
+        "end": 48,
+        "confidence_entity": 0.9945133924484253,
+        "value": "3",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ich moechte schwarze 40er Montageschienen bestellen, fuenf Verkaufseinheiten",
+    "entities": [
+      {
+        "start": 12,
+        "end": 20,
+        "value": "schwarze",
+        "entity": "rail_color"
+      },
+      {
+        "start": 21,
+        "end": 41,
+        "value": "40er Montageschienen",
+        "entity": "rail_adesign"
+      },
+      {
+        "start": 53,
+        "end": 58,
+        "value": "fuenf",
+        "entity": "sales_units"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_color",
+        "start": 12,
+        "end": 20,
+        "confidence_entity": 0.9982792139053345,
+        "value": "schwarz",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "rail_adesign",
+        "start": 21,
+        "end": 41,
+        "confidence_entity": 0.9800260066986084,
+        "value": "40er Montageschienen",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "jetzt hätte ich noch gerne Adapterbleche für M12 Profil",
+    "entities": [
+      {
+        "start": 27,
+        "end": 40,
+        "value": "adapterblech",
+        "entity": "article"
+      },
+      {
+        "start": 45,
+        "end": 48,
+        "value": "M12",
+        "entity": "ascrew_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "article",
+        "start": 27,
+        "end": 40,
+        "confidence_entity": 0.9999558925628662,
+        "value": "adapterblech",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich möchte schwarze Standardmontageschienen bestellen",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "schwarz",
+        "entity": "rail_color"
+      },
+      {
+        "start": 20,
+        "end": 43,
+        "value": "40er Montageschienen",
+        "entity": "rail_adesign"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_color",
+        "start": 11,
+        "end": 19,
+        "confidence_entity": 0.9983187913894653,
+        "value": "schwarz",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "article",
+        "start": 20,
+        "end": 43,
+        "confidence_entity": 0.8591135144233704,
+        "value": "40er Montageschienen",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "schwarze 40er Montageschienen also die eloxierten, haben Sie solche noch vorrätig?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "schwarz",
+        "entity": "rail_color"
+      },
+      {
+        "start": 9,
+        "end": 29,
+        "value": "40er Montageschienen",
+        "entity": "rail_adesign"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_color",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.99810791015625,
+        "value": "schwarz",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "rail_adesign",
+        "start": 9,
+        "end": 29,
+        "confidence_entity": 0.981232762336731,
+        "value": "40er Montageschienen",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "rail_color",
+        "start": 39,
+        "end": 49,
+        "confidence_entity": 0.9236969351768494,
+        "value": "eloxierten",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ich möchte noch mehr ziegel",
+    "entities": [
+      {
+        "start": 21,
+        "end": 27,
+        "value": "blechziegel",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "brick_type",
+        "start": 21,
+        "end": 27,
+        "confidence_entity": 0.35849729180336,
+        "value": "blechziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "besorge mir noch mehr von blech-ziegel",
+    "entities": [
+      {
+        "start": 26,
+        "end": 38,
+        "value": "blechziegel",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "brick_type",
+        "start": 26,
+        "end": 38,
+        "confidence_entity": 0.9670194983482361,
+        "value": "blechziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich brauche noch mehr blechziegel",
+    "entities": [
+      {
+        "start": 22,
+        "end": 33,
+        "value": "blechziegel",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "brick_type",
+        "start": 22,
+        "end": 33,
+        "confidence_entity": 0.831678032875061,
+        "value": "blechziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich brauche zusätzlich noch ton250 ziegel",
+    "entities": [
+      {
+        "start": 28,
+        "end": 41,
+        "value": "ton250 ziegel",
+        "entity": "brick_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "brick_type",
+        "start": 28,
+        "end": 34,
+        "confidence_entity": 0.8303021192550659,
+        "value": "ton250",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "article",
+        "start": 35,
+        "end": 41,
+        "confidence_entity": 0.9369914531707764,
+        "value": "blechziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich brauche nochmals sonderziegel",
+    "entities": [
+      {
+        "start": 21,
+        "end": 33,
+        "value": "sonderziegel",
+        "entity": "brick_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "article",
+        "start": 21,
+        "end": 33,
+        "confidence_entity": 0.7736886739730835,
+        "value": "sonderziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich brache pv-module",
+    "entities": [
+      {
+        "start": 11,
+        "end": 20,
+        "value": "photovoltaikmodul",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ich breauche noch mehr stockschrauben 25 cm bitte",
+    "entities": [
+      {
+        "start": 23,
+        "end": 37,
+        "value": "stockschraube",
+        "entity": "article"
+      },
+      {
+        "start": 38,
+        "end": 43,
+        "value": "250 mm",
+        "entity": "alength"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "article",
+        "start": 4,
+        "end": 12,
+        "confidence_entity": 0.9299760460853577,
+        "value": "breauche",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "article",
+        "start": 23,
+        "end": 37,
+        "confidence_entity": 0.9999018907546997,
+        "value": "stockschraube",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "alength",
+        "start": 38,
+        "end": 43,
+        "confidence_entity": 0.9748099446296692,
+        "value": "250 mm",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich brauche auch noch normale dachhaken",
+    "entities": [
+      {
+        "start": 22,
+        "end": 29,
+        "value": "Keine",
+        "entity": "rail_bfeature"
+      },
+      {
+        "start": 30,
+        "end": 39,
+        "value": "dachhaken",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_bfeature",
+        "start": 22,
+        "end": 39,
+        "confidence_entity": 0.8197745084762573,
+        "value": "normale dachhaken",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ich möchte ziegel bitte",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "blechziegel",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "brick_type",
+        "start": 11,
+        "end": 17,
+        "confidence_entity": 0.4667624533176422,
+        "value": "blechziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "24",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "24",
+        "entity": "sales_units"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "height",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.2280340939760208,
+        "value": "24",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "fünfundzwanzig Centimeter",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "fünfundzwanzig",
+        "entity": "sales_units"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "brick_type",
+        "start": 0,
+        "end": 25,
+        "confidence_entity": 0.6411942839622498,
+        "value": "fünfundzwanzig Centimeter",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "8 Millimeter Hoehe",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "8 mm",
+        "entity": "height"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 12,
+        "confidence_entity": 0.5604605078697205,
+        "value": "8 mm",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "9742-WASI4-30",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "9742-WASI4-30",
+        "entity": "w_clamp_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "w_clamp_id",
+        "start": 0,
+        "end": 11,
+        "confidence_entity": 0.9490410685539246,
+        "value": "9742-WASI4-",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "sales_units",
+        "start": 11,
+        "end": 13,
+        "confidence_entity": 0.6361774802207947,
+        "value": "30",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "9742-WASI4-38",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "9742-WASI4-38",
+        "entity": "w_clamp_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "w_clamp_id",
+        "start": 0,
+        "end": 11,
+        "confidence_entity": 0.9420426487922668,
+        "value": "9742-WASI4-",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "height",
+        "start": 11,
+        "end": 13,
+        "confidence_entity": 0.6153189539909363,
+        "value": "38",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "9742-WASI4-40",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "9742-WASI4-40",
+        "entity": "w_clamp_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "w_clamp_id",
+        "start": 0,
+        "end": 11,
+        "confidence_entity": 0.9379992485046387,
+        "value": "9742-WASI4-",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "height",
+        "start": 11,
+        "end": 13,
+        "confidence_entity": 0.4071994423866272,
+        "value": "40",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Standardmontageschienen",
+    "entities": [
+      {
+        "start": 0,
+        "end": 23,
+        "value": "40er Montageschienen",
+        "entity": "rail_adesign"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_bfeature",
+        "start": 0,
+        "end": 23,
+        "confidence_entity": 0.4508105516433716,
+        "value": "40er Montageschienen",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ultra-leichte 40er Montageschienen waeren perfekt",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "ultraleicht",
+        "entity": "rail_bfeature"
+      },
+      {
+        "start": 14,
+        "end": 34,
+        "value": "40er Montageschienen",
+        "entity": "rail_adesign"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_adesign",
+        "start": 0,
+        "end": 13,
+        "confidence_entity": 0.9975969195365906,
+        "value": "ultraleicht",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "rail_adesign",
+        "start": 14,
+        "end": 34,
+        "confidence_entity": 0.9830588102340698,
+        "value": "40er Montageschienen",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "88255",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.5355135798454285,
+        "value": "88255",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "die gerahmten",
+    "entities": [
+      {
+        "start": 4,
+        "end": 13,
+        "value": "gerahmten",
+        "entity": "rail_bfeature"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 4,
+        "end": 13,
+        "confidence_entity": 0.9397128224372864,
+        "value": "gerahmt",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "gerahmter Version",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "gerahmter",
+        "entity": "rail_bfeature"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.9705657958984375,
+        "value": "gerahmt",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "die leichten Schienen",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "die leichten",
+        "entity": "rail_bfeature"
+      },
+      {
+        "start": 13,
+        "end": 21,
+        "value": "schiene",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_bfeature",
+        "start": 4,
+        "end": 12,
+        "confidence_entity": 0.7864496111869812,
+        "value": "leichten",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "article",
+        "start": 13,
+        "end": 21,
+        "confidence_entity": 0.9977680444717407,
+        "value": "schiene",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Schomburger Str. 5",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "rail_color",
+        "start": 0,
+        "end": 11,
+        "confidence_entity": 0.7068284749984741,
+        "value": "Schomburger",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "sales_units",
+        "start": 17,
+        "end": 18,
+        "confidence_entity": 0.9962201714515686,
+        "value": "5",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "standardmass",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "standardmass",
+        "entity": "rail_bfeature"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ich brauche mehr mittelklemme",
+    "entities": [
+      {
+        "start": 17,
+        "end": 29,
+        "value": "mittelklemme",
+        "entity": "clamp_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "article",
+        "start": 17,
+        "end": 29,
+        "confidence_entity": 0.3684805631637573,
+        "value": "mittelklemme",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Wir brauchen noch 3 hohe Trapezdach-Montageschienen fuer den aktuellen Auftrag.",
+    "entities": [
+      {
+        "start": 18,
+        "end": 19,
+        "value": "3",
+        "entity": "sales_units"
+      },
+      {
+        "start": 20,
+        "end": 24,
+        "value": "hoch",
+        "entity": "rail_bfeature"
+      },
+      {
+        "start": 25,
+        "end": 51,
+        "value": "trapezdach",
+        "entity": "rail_bfeature"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 18,
+        "end": 19,
+        "confidence_entity": 0.9973375201225281,
+        "value": "3",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "rail_bfeature",
+        "start": 25,
+        "end": 51,
+        "confidence_entity": 0.9960979223251343,
+        "value": "trapezdach",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich brauche alufarbene ultra-leichte Standardmontageschienen, 40 Stueck",
+    "entities": [
+      {
+        "start": 12,
+        "end": 22,
+        "value": "weissaluminium",
+        "entity": "rail_color"
+      },
+      {
+        "start": 23,
+        "end": 36,
+        "value": "ultraleicht",
+        "entity": "rail_bfeature"
+      },
+      {
+        "start": 37,
+        "end": 60,
+        "value": "40er Montageschienen",
+        "entity": "rail_adesign"
+      },
+      {
+        "start": 62,
+        "end": 64,
+        "value": "40",
+        "entity": "sales_units"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_color",
+        "start": 12,
+        "end": 22,
+        "confidence_entity": 0.9667928218841553,
+        "value": "weissaluminium",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "rail_adesign",
+        "start": 23,
+        "end": 36,
+        "confidence_entity": 0.9006993770599365,
+        "value": "ultraleicht",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "rail_adesign",
+        "start": 37,
+        "end": 60,
+        "confidence_entity": 0.9877371788024902,
+        "value": "40er Montageschienen",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "sales_units",
+        "start": 62,
+        "end": 64,
+        "confidence_entity": 0.8278687000274658,
+        "value": "40",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "fuenfzig Verkaufseinheiten ultraleichte Standardmontageschienen",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "fuenfzig",
+        "entity": "sales_units"
+      },
+      {
+        "start": 27,
+        "end": 39,
+        "value": "ultraleichte",
+        "entity": "rail_bfeature"
+      },
+      {
+        "start": 40,
+        "end": 63,
+        "value": "40er Montageschienen",
+        "entity": "rail_adesign"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.9988207221031189,
+        "value": "fuenfzig",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "rail_bfeature",
+        "start": 27,
+        "end": 39,
+        "confidence_entity": 0.9891422986984253,
+        "value": "ultraleicht",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "sales_units",
+        "start": 40,
+        "end": 63,
+        "confidence_entity": 0.5813643336296082,
+        "value": "40er Montageschienen",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "40er Montageschienen in weissaluminium",
+    "entities": [
+      {
+        "start": 0,
+        "end": 20,
+        "value": "40er Montageschienen",
+        "entity": "rail_adesign"
+      },
+      {
+        "start": 24,
+        "end": 38,
+        "value": "weissaluminium",
+        "entity": "rail_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_adesign",
+        "start": 0,
+        "end": 20,
+        "confidence_entity": 0.9858249425888062,
+        "value": "40er Montageschienen",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "rail_bfeature",
+        "start": 24,
+        "end": 38,
+        "confidence_entity": 0.9967390894889832,
+        "value": "weissaluminium",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "23 Stueck waeren ideal",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "23",
+        "entity": "sales_units"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.9994248151779175,
+        "value": "23",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "rail_bfeature",
+        "start": 17,
+        "end": 22,
+        "confidence_entity": 0.5643681287765503,
+        "value": "ideal",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ich moechte Stockschrauben kaufen",
+    "entities": [
+      {
+        "start": 12,
+        "end": 26,
+        "value": "stockschraube",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_adesign",
+        "start": 12,
+        "end": 26,
+        "confidence_entity": 0.9809548854827881,
+        "value": "stockschraube",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "M 10 Adapterbleche brauchen wir noch",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "M10",
+        "entity": "ascrew_type"
+      },
+      {
+        "start": 5,
+        "end": 18,
+        "value": "adapterblech",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "ascrew_type",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.6531807780265808,
+        "value": "M",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "alength",
+        "start": 2,
+        "end": 4,
+        "confidence_entity": 0.4293037950992584,
+        "value": "10",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "article",
+        "start": 5,
+        "end": 18,
+        "confidence_entity": 0.9985874891281128,
+        "value": "adapterblech",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "schwarze Montageschienen wären optimal, sind die noch vorrätig?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "schwarz",
+        "entity": "rail_color"
+      },
+      {
+        "start": 9,
+        "end": 24,
+        "value": "schiene",
+        "entity": "rail_adesign"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_color",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.999086856842041,
+        "value": "schwarz",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "article",
+        "start": 9,
+        "end": 24,
+        "confidence_entity": 0.7088741064071655,
+        "value": "schiene",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich brauche noch Adapterbleche für m-zwölf Stockschrauben",
+    "entities": [
+      {
+        "start": 17,
+        "end": 30,
+        "value": "adapterblech",
+        "entity": "article"
+      },
+      {
+        "start": 35,
+        "end": 42,
+        "value": "M12",
+        "entity": "ascrew_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "article",
+        "start": 17,
+        "end": 30,
+        "confidence_entity": 0.999957799911499,
+        "value": "adapterblech",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "ascrew_type",
+        "start": 35,
+        "end": 42,
+        "confidence_entity": 0.9983481168746948,
+        "value": "M12",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "article",
+        "start": 43,
+        "end": 57,
+        "confidence_entity": 0.9999411106109619,
+        "value": "stockschraube",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich brauche breite Montageschienen in metallener ausfuehrung",
+    "entities": [
+      {
+        "start": 12,
+        "end": 18,
+        "value": "80er Montageschienen",
+        "entity": "rail_adesign"
+      },
+      {
+        "start": 38,
+        "end": 48,
+        "value": "weissaluminium",
+        "entity": "rail_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_adesign",
+        "start": 12,
+        "end": 18,
+        "confidence_entity": 0.8335622549057007,
+        "value": "80er Montageschienen",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "rail_adesign",
+        "start": 19,
+        "end": 34,
+        "confidence_entity": 0.5938176512718201,
+        "value": "schiene",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "rail_color",
+        "start": 38,
+        "end": 48,
+        "confidence_entity": 0.9988190531730652,
+        "value": "weissaluminium",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "bestell mehr ziegel",
+    "entities": [
+      {
+        "start": 13,
+        "end": 19,
+        "value": "blechziegel",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "brick_type",
+        "start": 13,
+        "end": 19,
+        "confidence_entity": 0.4554578959941864,
+        "value": "blechziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich möchte noch mehr blech-ziegel",
+    "entities": [
+      {
+        "start": 21,
+        "end": 33,
+        "value": "blechziegel",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "brick_type",
+        "start": 21,
+        "end": 33,
+        "confidence_entity": 0.9969350099563599,
+        "value": "blechziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "besorge mir noch mehr von ziegel",
+    "entities": [
+      {
+        "start": 26,
+        "end": 32,
+        "value": "blechziegel",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "brick_type",
+        "start": 26,
+        "end": 32,
+        "confidence_entity": 0.7497683763504028,
+        "value": "blechziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich hätte gerne ton260 ziegel",
+    "entities": [
+      {
+        "start": 16,
+        "end": 29,
+        "value": "ton260 ziegel",
+        "entity": "brick_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "brick_type",
+        "start": 16,
+        "end": 22,
+        "confidence_entity": 0.7247011065483093,
+        "value": "ton260",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "article",
+        "start": 23,
+        "end": 29,
+        "confidence_entity": 0.8411960601806641,
+        "value": "blechziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ziegel für beton bitte",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "blechziegel",
+        "entity": "article"
+      },
+      {
+        "start": 11,
+        "end": 16,
+        "value": "beton",
+        "entity": "brick_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "brick_type",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.49306774139404297,
+        "value": "blechziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "brick_type",
+        "start": 11,
+        "end": 16,
+        "confidence_entity": 0.9677043557167053,
+        "value": "beton",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich brauche blechziegel unbedingt",
+    "entities": [
+      {
+        "start": 12,
+        "end": 23,
+        "value": "blechziegel",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "brick_type",
+        "start": 12,
+        "end": 23,
+        "confidence_entity": 0.6828771233558655,
+        "value": "blechziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich brauche ton250 blechziegel",
+    "entities": [
+      {
+        "start": 12,
+        "end": 18,
+        "value": "ton250",
+        "entity": "brick_type"
+      },
+      {
+        "start": 19,
+        "end": 30,
+        "value": "blechziegel",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "brick_type",
+        "start": 12,
+        "end": 18,
+        "confidence_entity": 0.7192120552062988,
+        "value": "ton250",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brick_type",
+        "start": 19,
+        "end": 30,
+        "confidence_entity": 0.7317778468132019,
+        "value": "blechziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "16 weitere Dachhaken bitte",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "16",
+        "entity": "sales_units"
+      },
+      {
+        "start": 11,
+        "end": 20,
+        "value": "dachhaken",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.9926823973655701,
+        "value": "16",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ich brauche schiene für trapezdach",
+    "entities": [
+      {
+        "start": 12,
+        "end": 19,
+        "value": "schiene",
+        "entity": "article"
+      },
+      {
+        "start": 24,
+        "end": 34,
+        "value": "trapezdach",
+        "entity": "rail_bfeature"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "article",
+        "start": 12,
+        "end": 19,
+        "confidence_entity": 0.9962235689163208,
+        "value": "schiene",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "ascrew_type",
+        "start": 24,
+        "end": 34,
+        "confidence_entity": 0.5410343408584595,
+        "value": "trapezdach",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich brauche blechziegel für ziegel ausserhalb des sortiments #",
+    "entities": [
+      {
+        "start": 12,
+        "end": 23,
+        "value": "blechziegel",
+        "entity": "article"
+      },
+      {
+        "start": 28,
+        "end": 34,
+        "value": "blechziegel",
+        "entity": "article"
+      },
+      {
+        "start": 35,
+        "end": 60,
+        "value": "sonderziegel",
+        "entity": "brick_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "article",
+        "start": 12,
+        "end": 23,
+        "confidence_entity": 0.9999570846557617,
+        "value": "blechziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "article",
+        "start": 28,
+        "end": 34,
+        "confidence_entity": 0.9224536418914795,
+        "value": "blechziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "brick_type",
+        "start": 35,
+        "end": 60,
+        "confidence_entity": 0.8019747138023376,
+        "value": "sonderziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "sales_units",
+        "start": 61,
+        "end": 62,
+        "confidence_entity": 0.42981353402137756,
+        "value": "#",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "zwoelf",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "zwoelf",
+        "entity": "sales_units"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "12 stück",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "12",
+        "entity": "ascrew_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.9886085987091064,
+        "value": "12",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "m-zwoelf",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "M12",
+        "entity": "ascrew_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.9908071160316467,
+        "value": "M12",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "vierzehn davon aber ich brauche noch andere",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "vierzehn",
+        "entity": "sales_units"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.9997956156730652,
+        "value": "vierzehn",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "brick_type",
+        "start": 37,
+        "end": 43,
+        "confidence_entity": 0.7597969174385071,
+        "value": "andere",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Schomburger Str. 3",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "rail_color",
+        "start": 0,
+        "end": 11,
+        "confidence_entity": 0.7838101983070374,
+        "value": "Schomburger",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "sales_units",
+        "start": 17,
+        "end": 18,
+        "confidence_entity": 0.9969273209571838,
+        "value": "3",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Diesmal ist eine andere Baustelle",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "brick_type",
+        "start": 17,
+        "end": 23,
+        "confidence_entity": 0.7859686613082886,
+        "value": "andere",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "nein, es ist keine Bauzulassung notwendig",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "rail_bfeature",
+        "start": 13,
+        "end": 18,
+        "confidence_entity": 0.5540578961372375,
+        "value": "Keine",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "testz",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.6271648406982422,
+        "value": "testz",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "weissaluminium",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "weissaluminium",
+        "entity": "rail_color"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_bfeature",
+        "start": 0,
+        "end": 14,
+        "confidence_entity": 0.4222763180732727,
+        "value": "weissaluminium",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Standardausfuehrung",
+    "entities": [
+      {
+        "start": 0,
+        "end": 19,
+        "value": "Keine",
+        "entity": "rail_bfeature"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 19,
+        "confidence_entity": 0.38209110498428345,
+        "value": "Keine",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "noch 25 stockschrauben 20 cm",
+    "entities": [
+      {
+        "start": 5,
+        "end": 7,
+        "value": "25",
+        "entity": "sales_units"
+      },
+      {
+        "start": 8,
+        "end": 22,
+        "value": "stockschraube",
+        "entity": "article"
+      },
+      {
+        "start": 23,
+        "end": 28,
+        "value": "200 mm",
+        "entity": "alength"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "alength",
+        "start": 5,
+        "end": 7,
+        "confidence_entity": 0.9870139360427856,
+        "value": "25",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "article",
+        "start": 8,
+        "end": 22,
+        "confidence_entity": 0.9970013499259949,
+        "value": "stockschraube",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "alength",
+        "start": 23,
+        "end": 28,
+        "confidence_entity": 0.9982563853263855,
+        "value": "200 mm",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "breit",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "rail_adesign",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.40215644240379333,
+        "value": "breit",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "wir haben zu wenig Ziegel",
+    "entities": [
+      {
+        "start": 19,
+        "end": 25,
+        "value": "blechziegel",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "brick_type",
+        "start": 19,
+        "end": 25,
+        "confidence_entity": 0.5724257826805115,
+        "value": "blechziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich moechte Dachhaken fuer unsere Baustelle",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "article",
+        "start": 12,
+        "end": 21,
+        "confidence_entity": 0.6275073289871216,
+        "value": "dachhaken",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Wir benoetigen noch sieben Verkaufseinheiten von achtziger Montageschienen fuer unsere Baustelle",
+    "entities": [
+      {
+        "start": 20,
+        "end": 26,
+        "value": "sieben",
+        "entity": "sales_units"
+      },
+      {
+        "start": 49,
+        "end": 74,
+        "value": "80er Montageschienen",
+        "entity": "rail_adesign"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 20,
+        "end": 44,
+        "confidence_entity": 0.7229800820350647,
+        "value": "sieben Verkaufseinheiten",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "rail_adesign",
+        "start": 49,
+        "end": 74,
+        "confidence_entity": 0.977927565574646,
+        "value": "80er Montageschienen",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich brauche alufarbene Standardmontageschienen, 3 Verkaufseinheiten",
+    "entities": [
+      {
+        "start": 12,
+        "end": 22,
+        "value": "weissaluminium",
+        "entity": "rail_color"
+      },
+      {
+        "start": 23,
+        "end": 46,
+        "value": "40er Montageschienen",
+        "entity": "rail_adesign"
+      },
+      {
+        "start": 48,
+        "end": 49,
+        "value": "3",
+        "entity": "sales_units"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_color",
+        "start": 12,
+        "end": 22,
+        "confidence_entity": 0.5582370758056641,
+        "value": "weissaluminium",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "rail_bfeature",
+        "start": 23,
+        "end": 46,
+        "confidence_entity": 0.7382540702819824,
+        "value": "40er Montageschienen",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "sales_units",
+        "start": 48,
+        "end": 49,
+        "confidence_entity": 0.990044355392456,
+        "value": "3",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ich brauche Mittelklemmen",
+    "entities": [
+      {
+        "start": 12,
+        "end": 25,
+        "value": "mittelklemme",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "clamp_type",
+        "start": 12,
+        "end": 25,
+        "confidence_entity": 0.9986220598220825,
+        "value": "mittelklemme",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "bestell mehr blech-ziegel",
+    "entities": [
+      {
+        "start": 13,
+        "end": 25,
+        "value": "blechziegel",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "brick_type",
+        "start": 13,
+        "end": 25,
+        "confidence_entity": 0.9924472570419312,
+        "value": "blechziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich brauche noch blech-ziegel",
+    "entities": [
+      {
+        "start": 17,
+        "end": 29,
+        "value": "blechziegel",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "brick_type",
+        "start": 17,
+        "end": 29,
+        "confidence_entity": 0.5969574451446533,
+        "value": "blechziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "wir brauchen mehr sonder ziegel",
+    "entities": [
+      {
+        "start": 18,
+        "end": 24,
+        "value": "sonderziegel",
+        "entity": "brick_type"
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "value": "blechziegel",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "brick_type",
+        "start": 18,
+        "end": 31,
+        "confidence_entity": 0.9512248039245605,
+        "value": "sonderziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich brauche blechziegel für den austausch von betonziegeln",
+    "entities": [
+      {
+        "start": 12,
+        "end": 23,
+        "value": "blechziegel",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "article",
+        "start": 12,
+        "end": 23,
+        "confidence_entity": 0.9989182949066162,
+        "value": "blechziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "brick_type",
+        "start": 46,
+        "end": 58,
+        "confidence_entity": 0.9342802166938782,
+        "value": "betonziegeln",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ich brauche auch noch sonderziegel",
+    "entities": [
+      {
+        "start": 22,
+        "end": 34,
+        "value": "sonderziegel",
+        "entity": "brick_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "article",
+        "start": 22,
+        "end": 34,
+        "confidence_entity": 0.9666124582290649,
+        "value": "sonderziegel",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "guten tag miteinand, ich hätte gerne photovoltaikmodule",
+    "entities": [
+      {
+        "start": 37,
+        "end": 55,
+        "value": "photovoltaikmodul",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "clamp_type",
+        "start": 10,
+        "end": 19,
+        "confidence_entity": 0.9947326183319092,
+        "value": "miteinand",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "article",
+        "start": 37,
+        "end": 55,
+        "confidence_entity": 0.4781567454338074,
+        "value": "photovoltaikmodul",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ich möchte schwarze montageschienen bitte",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "schwarz",
+        "entity": "rail_color"
+      },
+      {
+        "start": 20,
+        "end": 35,
+        "value": "schiene",
+        "entity": "article"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "rail_color",
+        "start": 11,
+        "end": 19,
+        "confidence_entity": 0.9986295700073242,
+        "value": "schwarz",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "rail_adesign",
+        "start": 20,
+        "end": 35,
+        "confidence_entity": 0.9914345741271973,
+        "value": "schiene",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "12 Stück bitte",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "12",
+        "entity": "ascrew_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.9703924655914307,
+        "value": "12",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "M12 bittesehr",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "M12",
+        "entity": "ascrew_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.7024319171905518,
+        "value": "M12",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "6 bis 9 mm hohe Endklemmen",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "6",
+        "entity": "height"
+      },
+      {
+        "start": 6,
+        "end": 7,
+        "value": "9",
+        "entity": "height"
+      },
+      {
+        "start": 16,
+        "end": 26,
+        "value": "endklemme",
+        "entity": "clamp_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "height",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.8965685963630676,
+        "value": "6",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "height",
+        "start": 6,
+        "end": 10,
+        "confidence_entity": 0.9739550948143005,
+        "value": "9 mm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "clamp_type",
+        "start": 16,
+        "end": 26,
+        "confidence_entity": 0.9997459053993225,
+        "value": "endklemme",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "9742-GM L80/6-9",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "9742-GM L80/6-9",
+        "entity": "w_clamp_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "w_clamp_id",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.6018705368041992,
+        "value": "9742-GM",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "w_mount_id",
+        "start": 8,
+        "end": 12,
+        "confidence_entity": 0.3245634138584137,
+        "value": "L80/",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "sales_units",
+        "start": 12,
+        "end": 14,
+        "confidence_entity": 0.5120760202407837,
+        "value": "6-",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "sales_units",
+        "start": 14,
+        "end": 15,
+        "confidence_entity": 0.4504857063293457,
+        "value": "9",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "9745-GM L80/6-9",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "9745-GM L80/6-9",
+        "entity": "w_clamp_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "w_clamp_id",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.6018705368041992,
+        "value": "9745-GM",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "w_mount_id",
+        "start": 8,
+        "end": 12,
+        "confidence_entity": 0.3245634138584137,
+        "value": "L80/",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "sales_units",
+        "start": 12,
+        "end": 14,
+        "confidence_entity": 0.5120760202407837,
+        "value": "6-",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "sales_units",
+        "start": 14,
+        "end": 15,
+        "confidence_entity": 0.4504857063293457,
+        "value": "9",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Bauvorhaben Reichle Goldschmied",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sales_units",
+        "start": 0,
+        "end": 11,
+        "confidence_entity": 0.9307221174240112,
+        "value": "Bauvorhaben",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

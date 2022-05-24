@@ -1,0 +1,3107 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hallo
+    - guten tag
+    - guten morgen
+    - gruess gott
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - Gruess Gott!
+    - Guten Tag!
+    - Guten Tag bot
+    - Guten Tag lieber bot
+    - Hallo.
+    - Sag mal hallo
+    - Hallo du da
+    - Hallo du bot
+    - Hallo lieber bot.
+    - Hallo bot.
+    - Hey!
+    - Hey robo
+    - Hey bot
+    - Hey bot kannst du hallo sagen
+    - Hi
+    - Hi bot kannst du hallo sagen
+    - Hi hallo
+    - Mahlzeit!
+    - Moin!
+    - Moin, bot kannst du hallo sagen
+    - Moin moin!
+    - Na du?!
+    - Na du, bot
+    - Na du sag mal hallo
+    - Na du bot, sag mal hallo
+    - Sag mal hallo.
+    - Kannst du hallo sagen
+    - Kannst mich begruessen
+    - Kannst du uns begruessen
+    - sei gegruesst
+    - sei gegruesst bot
+    - Servus
+    - Servus bot
+    - hi bot
+    - huhu bot
+    - huhu du da
+    - huhu hallo
+    - huhu
+    - huhu sag mal hallo
+    - Guten Abend mr bot
+    - Guten Tag
+    - Guten Abend bot
+    - guten abend
+    - hi, kannst du mir helfen
+    - guten tag mister
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - bis bald
+    - auf wiedersehen
+    - ciao
+    - gute nacht
+    - Schoenen Abend noch
+    - Auf Wiederschauen
+    - Auf Wiederschauen bot
+    - Auf Wiedersehen bot
+    - Auf Wiedersehen, chat bot.
+    - bis dann
+    - bis demnaechst
+    - bis denn
+    - bis die Tage
+    - Bis morgen
+    - bis nachher
+    - Bis spaeter
+    - bis zum naechsten Mal
+    - bis bald bot
+    - bis dann bot
+    - bis demnaechst bot
+    - bis denn bot
+    - bis die Tage bot
+    - Bis morgen bot
+    - bis nachher bot
+    - Bis spaeter bot
+    - bis zum naechsten Mal bot
+    - Bis zum naechsten Mal. Tschau.
+    - bot
+    - Ciao.
+    - Ich gehe jetzt
+    - Ich verabschiede mich jetzt
+    - Mach es gut
+    - Machs gut!
+    - Man sieht sich!
+    - Pass gut auf dich auf!
+    - Schoenen Tag
+    - schoenen tag noch
+    - Schoenes Wochenende
+    - Schoen Feierabend
+    - Tschau
+    - tschues
+    - tschues bot
+    - Tschuess.
+    - Tschuess chat bot.
+    - Wir sehen uns!
+    - Wir sehen uns das naechste mal
+    - Auf Wiedersehen!
+    - Auf Wiedersehen!
+    - vielen Dank! Auf Wiedersehen!
+    - auf wiedersehen, bis zum naechsten mal
+    - genau, bis bald!
+    - vielen Dank! Wiedersehen!
+    - Vielen Dank, das wars. Bis zum nächsten mal
+    - Bye
+    - fürs [trapezdach](rail_bfeature)
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - Ja
+    - ja
+    - sicher
+    - sure
+    - Alles klar.
+    - Alles klar bot
+    - auf jeden fall
+    - Dann erzaehl mal.
+    - Dann erzaehl mal bot
+    - gern
+    - gern bot
+    - Gerne.
+    - Gerne. Ja.
+    - Ich will mehr darueber wissen.
+    - ja bot
+    - Ja.
+    - Ja bitte.
+    - Ja doch, erzaehl mal.
+    - Ja erzaehl mal.
+    - Ja erzaehl mal noch ein bisschen.
+    - Ja erzaehl mal noch ein bisschen mehr.
+    - Ja, erzaehl mal was.
+    - Ja gerne.
+    - Ja ja doch.
+    - Ja ja, hab ich.
+    - Ja klar.
+    - Jo.
+    - johr
+    - Na gut.
+    - Na immer mehr.
+    - na klar
+    - Na klar.
+    - Natuerlich.
+    - Noch mehr.
+    - Erzaehle mir mehr
+    - Erzaehle noch mehr
+    - nu klar
+    - ok
+    - okay
+    - Okay.
+    - Okay, dann kommen wir mal wieder.
+    - Sehr gern.
+    - Sehr gern bot
+    - Na klar bot
+    - Natuerlich bot
+    - nu klar bot
+    - ok bot
+    - okay bot
+    - ja, [zwanzig](sales_units)
+    - ja, eine Bauzulassung ist notwendig
+    - jawohl das wird benötigt
+    - ja, eine Bauzulassung brauchen wir
+    - ja, die verstellbaren bitte
+    - ja, unbedingt
+    - ja, das sagte ich bereits
+    - ja unbedingt notwendig
+    - ja unbedingt
+    - ja, bitte sehr!
+    - jup sehr sicher
+    - jup da bin ich mir sehr sicher
+    - ja sehr sicher bin ich mir
+    - ja ich bin mir sehr sicher
+    - ja sehr sicher
+    - ja ich bin mir dabei sehr sicher
+    - ja bin mir sehr sicher
+    - ja ich bin mir sehr sicher!
+    - ja auf jeden fall
+    - ja bitte
+    - ja, bitte sehr
+    - ja bitte abbrechen
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - nein
+    - niemals
+    - ich denke nicht
+    - Nein
+    - ich moechte nicht
+    - nein, das geht nicht
+    - nein, es ist keine Bauzulassung notwendig
+    - nein, wird nicht benötigt
+    - nein, negativ eine bauzulassung brauchen wir nicht
+    - nein, das muss nicht sein
+    - negativ
+    - nein, ohne bitte
+    - nein, eher nicht der Fall
+    - nein brauchen wir diesmal nicht
+    - ne
+    - negative brauchen wir nicht
+    - nein das ist nicht notwendig diesmal
+    - nein nicht notwendig
+    - nö brauche ich net
+    - negativ, ich bevorzuge das standardgewicht
+    - nö eine bauzulassung wird nicht benötigt
+    - nein nicht nötig
+    - [zweiundfünfzig](sales_units) reichen vollkommen aus mehr brauchen wir nicht
+    - nein auch nicht
+    - nein nicht unbedingt notwendig
+    - nein doch [ton250](brick_type)
+    - ne das auch net bitte sehr
+    - ne das ist nicht relevant für das vorhaben
+- intent: request_tutorial_simple
+  examples: |
+    - Best Practices
+    - Olli Best Practices
+    - Orderbot Instruction
+    - Einführung in die Funktionalitäten
+    - Funktionen des virtuellen Assistenten
+    - Erklär mir wie du funktionierst
+    - Wie benutze ich dich am besten
+    - wie benutze ich dich effizient
+    - was kann ich mit dir anstellen
+    - wie funktioniert das?
+    - blödes teil, wie kann ich jetzt bestellen
+    - Wieso funktioniert das nicht?
+    - wie funktioniert dieses tool?
+    - wie [funktionierst](article) du? ich möchte eine Einführung bitte
+    - Wie funktioniert diese App?
+- intent: test_hello_world
+  examples: |
+    - Test
+    - test
+    - ich wuerde gerne testen
+    - lass mich testen
+    - lass mich testen bitte
+    - testz
+    - tester
+- intent: tell_time
+  examples: |
+    - Kannst du mir die Uhrzeit nennen?
+    - Kannst du mir die Uhrzeit sagen?
+    - Kannst du mir die Zeit nennen?
+    - Kannst du mir die Zeit sagen?
+    - Kannst du mir sagen wie Spaet es ist?
+    - Weisst du wie spaet es ist?
+    - Weisst du wieviel uhr es ist?
+    - Sag mir doch bitte wie spaet es ist.
+    - Sag mir wie spaet es ist.
+    - Sagst du mir wie spaet es ist
+    - Sagst du mir bitte wie spaet es ist
+    - Kannst du mir die uhrzeit sagen
+    - Sagst du mir bitte die Uhrzeit
+    - Sagst du mir bitte wie spaet es ist?
+    - Wie spaet haben wir es?
+    - Wie spaet ist es?
+    - Wie viel Uhr haben wir es?
+    - Wie viel Uhr ist es?
+    - Weisst du, wie viel Uhr wir haben?
+    - Wie spaet haben wir gerade?
+    - Wie spaet haben wir es gerade?
+    - Was sagt die Uhr?
+    - Kann ich dich nach der Uhrzeit fragen?
+    - Kann ich dich nach der Zeit fragen?
+    - Weisst du die Uhrzeit?
+    - was sagt die Uhr?
+    - weisst du wie spaet es ist?
+    - wie spaet ist es?
+    - was sagt die uhr?
+    - weißt du wie spät es ist?
+    - wie spät ist es?
+- intent: bot_challenge
+  examples: |
+    - bist du ein bot?
+    - bist du ein Chatbot?
+    - bist du ein Mensch?
+    - spreche ich mit einem bot?
+    - spreche ich mit einem menschen?
+- intent: give_info
+  examples: |
+    - [40er Montageschienen](rail_adesign)
+    - [Standardmontageschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"}
+    - [schwarze](rail_color) [vierziger Montageschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"}
+    - [alufarbene]{"entity": "rail_color", "value": "weissaluminium"} [Standardmontageschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"} mit [seitlicher Nutung]{"entity": "rail_bfeature", "value": "seitliche Nutung"}
+    - [80er Montageschienen](rail_adesign)
+    - [5](sales_units) Verkaufseinheiten [schwarze](rail_color) [vierziger Montageschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"}
+    - [35](sales_units) [alufarbene]{"entity": "rail_color", "value": "weissaluminium"} [Standardmontageschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"}
+    - [40](sales_units) Verkaufseinheiten [ultraleichter]{"entity": "rail_bfeature", "value": "ultraleicht"} [Standardmontageschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"}
+    - [40](sales_units) Verkaufseinheiten der [ultra-leichten]{"entity": "rail_bfeature", "value": "ultraleicht"} [Standardschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"}, bitte
+    - [schwarze](rail_color) [Standardmontageschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"} [15](sales_units) Verkaufseinheiten
+    - ich brauche [schwarze](rail_color) [40er Standardmontageschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"}
+    - [metallene]{"entity": "rail_color", "value": "weissaluminium"} Farbe
+    - [schwarz](rail_color)
+    - [weiss]{"entity": "rail_color", "value": "weissaluminium"}
+    - [weissaluminium](rail_color)
+    - [40er Montageschienen](rail_adesign), bitte
+    - Bitte [40er Montageschienen](rail_adesign)
+    - [Standard]{"entity": "rail_bfeature", "value": "Keine"}
+    - [breite Ausfuehrung]{"entity": "rail_adesign", "value": "80er Montageschienen"} der [Schienen]{"entity": "article", "value": "schiene"}
+    - [seitliche Nutung](rail_bfeature), bitte
+    - Montagevorrichtung fuers [Trapezdach-Montageschienen]{"entity": "rail_bfeature", "value": "trapezdach"} bitte
+    - [standard]{"entity": "rail_bfeature", "value": "Keine"}
+    - [standard]{"entity": "rail_bfeature", "value": "Keine"}, [5](sales_units) Verkaufseinheiten
+    - [Standardausfuehrung]{"entity": "rail_bfeature", "value": "Keine"}
+    - [hundertfuenfzig](sales_units) [breite Ausfuehrung]{"entity": "rail_adesign", "value": "80er Montageschienen"}
+    - [standard]{"entity": "rail_bfeature", "value": "Keine"}, [siebzehn](sales_units) Verkaufseinheiten
+    - [Endklemmen]{"entity": "clamp_type", "value": "endklemme"}
+    - [seitliche Nutung](rail_bfeature) im standardmass
+    - [ultraleichte]{"entity": "rail_bfeature", "value": "ultraleicht"} [40er Montageschienen](rail_adesign)
+    - [ultra-leichte]{"entity": "rail_bfeature", "value": "ultraleicht"} [40er Montageschienen](rail_adesign) waeren perfekt
+    - [40er montageschienen](rail_adesign)
+    - [wasiclip](framed)
+    - [gerahmt](framed)
+    - [Glas](framed)
+    - [wasiclip](framed) waere super
+    - [gerahmt](framed) waere top
+    - [Glas](framed) waeren toll
+    - [wasiclip](framed), bitte
+    - [gerahmt](framed), bitte
+    - [Glas](framed), bitte
+    - [Mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} [wasiclip](framed)
+    - [hell]{"entity": "rail_color", "value": "weissaluminium"}
+    - ich brauche [wasiclip](framed) [Mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} [28 mm](height)
+    - [40er Montageschienen](rail_adesign), [alufarben]{"entity": "rail_color", "value": "weissaluminium"} und [standard]{"entity": "rail_bfeature", "value": "Keine"} Ausfuehrung
+    - [Trapezdach]{"entity": "rail_bfeature", "value": "trapezdach"}
+    - [gerahmte](framed) Module
+    - [alufarben]{"entity": "rail_color", "value": "weissaluminium"}
+    - [metallen]{"entity": "rail_color", "value": "weissaluminium"}
+    - [glas](framed)
+    - [schwarze]{"entity": "rail_color", "value": "schwarz"} [40er Montageschienen](rail_adesign) wären perfekt
+    - [250 mm](alength)
+    - [200 mm](alength)
+    - Wir brauchen die langen, [250 mm](alength)
+    - Die kurzen passen [200 mm](alength)
+    - Wir brauchen [20 cm]{"entity": "alength", "value": "200 mm"}
+    - Wir brauchen [25 cm]{"entity": "alength", "value": "250 mm"}
+    - [200mm]{"entity": "alength", "value": "200 mm"}
+    - [250mm]{"entity": "alength", "value": "250 mm"}
+    - wir brauchen die [stockschrauben]{"entity": "article", "value": "stockschraube"} mit [25 cm]{"entity": "alength", "value": "250 mm"}
+    - auch wieder [200 mm](alength) bitte
+    - [M10](ascrew_type)
+    - [schwarze]{"entity": "rail_color", "value": "schwarz"} [40er Montageschienen](rail_adesign)
+    - [glas](framed), [25](sales_units) Stueck
+    - [Glas](framed) bitte
+    - [weißaluminium]{"entity": "rail_color", "value": "weissaluminium"}
+    - [weiß]{"entity": "rail_color", "value": "weissaluminium"}
+    - [seitliche Nutung](rail_bfeature)
+    - [40er Montageschienen](rail_adesign) mit [seitliche Nutung](rail_bfeature)
+    - [40er Montageschienen](rail_adesign) [ultraleicht](rail_bfeature)
+    - breites Profil
+    - [25 cm]{"entity": "alength", "value": "250 mm"} lange schrauben
+    - [20 cm]{"entity": "alength", "value": "200 mm"}
+    - [20 centimeter]{"entity": "alength", "value": "200 mm"}
+    - [25 zentimeter]{"entity": "alength", "value": "250 mm"}
+    - [40er Montageschienen](rail_adesign) [standard]{"entity": "rail_bfeature", "value": "Keine"}
+    - [40er Montageschienen](rail_adesign) mit [seitlicher Nutung]{"entity": "rail_bfeature", "value": "seitliche Nutung"}
+    - [breite Montageschienen](rail_adesign)
+    - [20 zentimeter]{"entity": "alength", "value": "200 mm"}
+    - [25 centimeter]{"entity": "alength", "value": "250 mm"}
+    - [schwarze]{"entity": "rail_color", "value": "schwarz"}
+    - für [gerahmte](framed) Module
+    - [gerahmtes](framed)
+    - [gehramtes](framed) modul
+    - [gerahmtes](framed) modul
+    - [dunkle]{"entity": "rail_color", "value": "schwarz"}
+    - [breite]{"entity": "rail_adesign", "value": "80er Montageschienen"} [schienen]{"entity": "article", "value": "schiene"} bitte
+    - für [m-zwölf]{"entity": "ascrew_type", "value": "M12"} Schrauben bitte
+    - [m-zwölf]{"entity": "ascrew_type", "value": "M12"} werden benötigt
+    - [m-zwölf]{"entity": "ascrew_type", "value": "M12"} bitte
+    - [M10](ascrew_type) bitte
+    - [m-zehn]{"entity": "ascrew_type", "value": "M10"}
+    - [m-zehn], bitte{"entity":"ascrew_type","value":"M10"}
+    - für [gerahmte](framed) Module bitte
+    - [Mittelklemme](clamp_type) mit [Wasi]{"entity": "framed", "value": "WASICLIP"} clip
+    - [wasi clip]{"entity": "framed", "value": "WASICLIP"}
+    - [wasiclip](framed), [40 mm](height)
+    - so [30 mm](height) circa
+    - [WASICLIP](framed), [36 mm](height)
+    - [WASICLIP](framed), [35 mm](height), [schwarz](rail_color)
+    - ich brauche [Mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} [36 mm](height) fuer [gerahmte](framed) Module
+    - ich brauche [Mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} fuer [gerahmte](framed) Module [36 mm](height)
+    - [schwarze]{"entity": "rail_color", "value": "schwarz"} [40er montageschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"}
+    - [weiße](rail_color)
+    - auch aus [glas](framed)
+    - Baienfurt
+    - 88255
+    - Bad Waldseerstr. 18
+    - Familie Gutalec
+    - Rondelburg
+    - 88218
+    - Riedlingstr. 15
+    - Familie Mueller-Schmidt
+    - Amtzell
+    - 88279
+    - Geiselharz Netto PV-Anlage
+    - mit [WASICLIP](framed)
+    - [Wasiclip]{"entity": "framed", "value": "WASICLIP"}
+    - [20 Centimeter]{"entity": "alength", "value": "200 mm"}
+    - [m-zwölf]{"entity": "ascrew_type", "value": "M12"}
+    - [schwarz](rail_color), bitte
+    - so [40 mm](height) ca
+    - mit [wasiclip]{"entity": "framed", "value": "WASICLIP"}
+    - [25 centimeter]{"entity": "alength", "value": "250 mm"} lang
+    - für die [gerahmten](sales_units) Module
+    - [gerahmtem](rail_bfeature) Ramen
+    - [gerahmten](sales_units) Rahmen
+    - für Module in [gerahmter](rail_bfeature) Ausführung
+    - die [gerahmten](rail_bfeature)
+    - die Module in [gerahmter](rail_bfeature) Ausführung
+    - [gerahmter](rail_bfeature) Version
+    - [25 Zentimeter]{"entity": "alength", "value": "250 mm"} lange bitte
+    - [seitlich genutet](rail_bfeature)
+    - Ausführung [seitlich genutet](rail_bfeature)
+    - die [Schienen]{"entity": "article", "value": "schiene"}, die [seitlich genutet](rail_bfeature) sind
+    - [Schienen]{"entity": "article", "value": "schiene"} mit [Nuten seitlich](rail_bfeature)
+    - die mit [Nuten seitlich](rail_bfeature)
+    - [Schienen]{"entity": "article", "value": "schiene"} mit den [Nuten seitlich](rail_bfeature)
+    - die [seitlich genuteten](rail_bfeature) [Schienen]{"entity": "article", "value": "schiene"}
+    - [seitlich genuteten](rail_bfeature)
+    - die [Schienen]{"entity": "article", "value": "schiene"} in der [seitlich genuteten](rail_bfeature) Ausführung
+    - die [Schienen]{"entity": "article", "value": "schiene"} in der [seitlich genuteten](rail_bfeature) Version
+    - [die leichten](rail_bfeature) [Schienen]{"entity": "article", "value": "schiene"}
+    - [die leichten](rail_bfeature)
+    - die [niedriggewichtigen](rail_bfeature) [Schienen]{"entity": "article", "value": "schiene"}
+    - die [niedriggewichtigen](rail_bfeature)
+    - [niedriggewichtig](rail_bfeature)
+    - lieber die [niedriggewichtigere](rail_bfeature) Ausführung
+    - [niedriggewichtige](rail_bfeature)
+    - die in Ausführung [ultra-leicht](rail_bfeature)
+    - lieber die [niedriggewichtigere](rail_bfeature) Version
+    - Version [ultra-leicht](rail_bfeature)
+    - [ultraleichtes](rail_bfeature) Design
+    - [normale Ausfuehrung](rail_bfeature) bitte
+    - Version [normale Ausfuehrung](rail_bfeature)
+    - Sonderausführung [none](rail_bfeature)
+    - [Schiene]{"entity": "article", "value": "schiene"} in [normale Groesse](rail_bfeature) bitte
+    - [normale Groesse](rail_bfeature)
+    - in [normale Groesse](sales_units)
+    - [normale](rail_bfeature)
+    - [normal](rail_bfeature)
+    - [normales](rail_bfeature) Ausführung
+    - [die normalen](rail_bfeature)
+    - [die normalen](rail_bfeature) [Schienen]{"entity": "article", "value": "schiene"}
+    - Farbe [metall]{"entity": "rail_color", "value": "weissaluminium"}
+    - [metall]{"entity": "rail_color", "value": "weissaluminium"}
+    - Version [metall]{"entity": "rail_color", "value": "weissaluminium"}
+    - in [schwarzer](rail_color) Ausführung
+    - in [schwarzer](rail_color) Ausfuehrung
+    - mit [20 Zentimeter](alength)
+    - [20 Zentimeter](alength)
+    - [25 Zentimeter](alength)
+    - Laenge [25 Zentimeter](alength)
+    - [250 millimeter](alength)
+    - [200 millimeter](alength)
+    - Laenge [250 Millimeter](alength)
+    - [250 Millimeter](alength) lange Version bitte
+    - [40 mm](height) und [weiß]{"entity": "rail_color", "value": "weissaluminium"}
+    - für [glas](framed)
+    - [standard]{"entity": "rail_bfeature", "value": "Keine"} Ausfuehrung bitte sehr
+    - [vierziger Montageschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"} Version [metall]{"entity": "rail_color", "value": "weissaluminium"}
+    - ich brauche [Endklemmen]{"entity": "clamp_type", "value": "endklemme"} mit [Wasi]{"entity": "framed", "value": "WASICLIP"} clip [40 mm](height) in [metall]{"entity": "rail_color", "value": "weissaluminium"}
+    - nochmal [Stockschrauben]{"entity": "article", "value": "stockschraube"} [25 Centimeter]{"entity": "alength", "value": "250 mm"} lange
+    - [25 cm]{"entity": "alength", "value": "250 mm"}
+    - [20 centimeter]{"entity": "alength", "value": "200 mm"} lange reichen aus
+    - die [dunkeln](rail_color)
+    - die [dunkeln](rail_color) [Schienen]{"entity": "article", "value": "schiene"}
+    - die [dunklen](rail_color) [Schienen]{"entity": "article", "value": "schiene"}
+    - die [dunklen](rail_color) Montageschienen
+    - [dunkel](rail_color) bitte
+    - [dunkle](rail_color) Montageschienen
+    - die [schwarzen](rail_color) [Schienen]{"entity": "article", "value": "schiene"}
+    - [schwarzes](rail_color) Design
+    - [schwarzes](rail_color) Ausfuehrung
+    - [schwarzes](rail_color) Modell
+    - [dunkles](rail_color) Design
+    - [dunkle](rail_color) Ausfuehrung
+    - [20 centi meter](alength)
+    - [ton-zweisechzig-ziegel]{"entity": "brick_type", "value": "ton260"} bitte sehr
+    - [beton](brick_type)
+    - [ton250](brick_type)
+    - [ton 250](brick_type)
+    - [zweihundertfünfzig tonziegel](brick_type)
+    - [25 centi meter](alength)
+    - [ton260](brick_type)
+    - [beton ziegel](brick_type) bitte sehr
+    - [sonder ziegel]{"entity": "brick_type", "value": "sonderziegel"}
+    - [ton 260](brick_type)
+    - fuer [beton](brick_type) bitte
+    - [sonder-ziegel]{"entity": "brick_type", "value": "sonderziegel"}
+    - [sonder](brick_type) version bitte
+    - für [gerahmte]{"entity": "framed", "value": "gerahmt"} module
+    - [sonder]{"entity": "brick_type", "value": "sonderziegel"} diesmal
+    - [400](sales_units)
+    - [400](sales_units) stück
+    - Familie Schwarz Amtzell
+    - Schomburger Str. 5
+    - [seitliche nutung](rail_bfeature) bitte
+    - noch [25](sales_units) [stockschrauben]{"entity": "article", "value": "stockschraube"} [20 cm]{"entity": "alength", "value": "200 mm"}
+    - [dunkel]{"entity": "rail_color", "value": "schwarz"}
+    - [dunkel]{"entity": "rail_color", "value": "schwarz"} und [vierhundert](sales_units) stück
+    - ich brauche [endklemmen]{"entity": "clamp_type", "value": "endklemme"} mit [wasiclip]{"entity": "framed", "value": "WASICLIP"} [29 mm](height)
+    - [stockschrauben]{"entity": "article", "value": "stockschraube"} in [25 cm]{"entity": "alength", "value": "250 mm"} bitte
+    - [betonziegel]{"entity": "brick_type", "value": "beton"} [40](sales_units) an der zahl
+    - [sonder]{"entity": "brick_type", "value": "sonderziegel"}
+    - ich brauche [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} für [gerahmte]{"entity": "framed", "value": "gerahmt"} module in [36 mm](height) in [schwarz](rail_color)
+    - ich brauche [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} für [gerahmte]{"entity": "framed", "value": "gerahmt"} module in [50 mm](height)
+    - [stockschrauben]{"entity": "article", "value": "stockschraube"} [25 cm]{"entity": "alength", "value": "250 mm"}
+    - [500](sales_units)
+    - [37 mm](height) und [dunkel]{"entity": "rail_color", "value": "schwarz"}
+    - [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} für [gerahmte]{"entity": "framed", "value": "gerahmt"} module in [36 mm](height)
+    - [50 mm](height) in [hell]{"entity": "rail_color", "value": "weissaluminium"}
+    - [gerahmte]{"entity": "framed", "value": "gerahmt"} module
+    - [breite]{"entity": "rail_adesign", "value": "80er Montageschienen"}
+    - breit
+    - [25 cm]{"entity": "alength", "value": "250 mm"} dieses mal
+    - [m-zehn]{"entity": "ascrew_type", "value": "M10"} bitte
+    - [ton 260]{"entity": "brick_type", "value": "ton260"} sind top
+    - [sondere](brick_type) version bitte
+    - [helle](rail_color) ausfuerung bitteseher
+    - [helle](rail_color) ausfuehrung bitte
+    - [helle](rail_color) version
+    - [30](sales_units) stück bittesehr
+    - ich brauche [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} mit [wasiclip]{"entity": "framed", "value": "WASICLIP"} mit [38 mm](height) in [hell]{"entity": "rail_color", "value": "weissaluminium"}
+    - [sonder]{"entity": "brick_type", "value": "sonderziegel"} ausfuehrung brudi
+    - [dunkle]{"entity": "rail_color", "value": "schwarz"} version
+    - [35 mm](height) in [dunkler](rail_color) version bitte
+    - für [ton 250](brick_type)
+    - [25 cm]{"entity": "alength", "value": "250 mm"} reichen
+    - [25 cm]{"entity": "alength", "value": "250 mm"} bitte sehr
+    - ich brauche [endklemmen]{"entity": "clamp_type", "value": "endklemme"} für [gerahmte]{"entity": "framed", "value": "gerahmt"} module in [50 mm](height) und [weiß]{"entity": "rail_color", "value": "weissaluminium"}
+    - [stockschrauben]{"entity": "article", "value": "stockschraube"} für [25 cm]{"entity": "alength", "value": "250 mm"} bitte
+    - [stockschrauben]{"entity": "article", "value": "stockschraube"} sind noch wichtig mit [25 cm]{"entity": "alength", "value": "250 mm"} und bauzulassung
+    - [sondere]{"entity": "brick_type", "value": "sonderziegel"} version
+    - [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} für [gerahmte]{"entity": "framed", "value": "gerahmt"} module hoehe [36 mm](height) und die in [weiß]{"entity": "rail_color", "value": "weissaluminium"} bitte sehr
+    - [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} für [gerahmte]{"entity": "framed", "value": "gerahmt"} module hoehe [35 mm](height) und die in [weiß]{"entity": "rail_color", "value": "weissaluminium"} bitte sehr
+    - ich brauche [endklemmen]{"entity": "clamp_type", "value": "endklemme"} für [gerahmte]{"entity": "framed", "value": "gerahmt"} module [42 mm](height)
+    - [dunkler](rail_color) ausfuehrung
+    - ich brauche [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} mit [wasiclip]{"entity": "framed", "value": "WASICLIP"} für [40 mm](height)
+    - ich brauche [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} mit [wasiclip]{"entity": "framed", "value": "WASICLIP"} [35 mm](height)
+    - [helle](rail_color) ausfuehrung
+    - ich brauche [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} mit [wasiclip]{"entity": "framed", "value": "WASICLIP"} für [33 mm](height)
+    - ich brauche [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} für [33 mm](height)
+    - ich brauche [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} mit [wasiclip]{"entity": "framed", "value": "WASICLIP"} für [30 mm](height)
+    - für ein [trapezdach](rail_bfeature) bitte
+    - [sonder]{"entity": "brick_type", "value": "sonderziegel"} ausfuehrung
+    - [20 cm]{"entity": "alength", "value": "200 mm"} laenge ist ausreichend
+    - [standardmass](rail_bfeature)
+    - [m10](ascrew_type)
+    - [breite]{"entity": "rail_adesign", "value": "80er Montageschienen"} version bitte sehr
+    - die [breiten](rail_adesign) dieses mal
+    - ich brauche [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} mit [wasiclip]{"entity": "framed", "value": "WASICLIP"} für [35 mm](height)
+    - ich brauche [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} mit [wasiclip]{"entity": "framed", "value": "WASICLIP"} für [32 mm](height)
+    - ich brauche [ton 260](brick_type)
+    - [sonder]{"entity": "brick_type", "value": "sonderziegel"} bitte
+    - [ton250](brick_type) wären perfekt für mein anliegen
+    - für [glasmodule](framed)
+- intent: want_article
+  examples: |
+    - ich brauche [endklemmen]{"entity": "clamp_type", "value": "endklemme"} mit [wasiclip]{"entity": "framed", "value": "WASICLIP"} für [40 mm](height)
+    - und noch einmal die lange version also [stockschrauben]{"entity": "article", "value": "stockschraube"} für [25 cm]{"entity": "alength", "value": "250 mm"}
+    - bestell [blech-ziegel]{"entity": "article", "value": "blechziegel"}
+    - wir brauchen noch mehr [Blech Ziegel]{"entity": "article", "value": "blechziegel"}
+    - bestell [Ziegel]{"entity": "article", "value": "blechziegel"} fuer mich, bitte
+    - wir brauchen mehr [ziegel]{"entity": "article", "value": "blechziegel"}
+    - wir haben zu wenig [Ziegel]{"entity": "article", "value": "blechziegel"}
+    - bestell noch ein paar [Ziegel]{"entity": "article", "value": "blechziegel"}
+    - ich brauche [Ziegel]{"entity": "article", "value": "blechziegel"}
+    - bestell [ziegel]{"entity": "article", "value": "blechziegel"} fuer mich bitte
+    - [40er Montageschienen](rail_adesign) in [weißaluminium]{"entity": "rail_color", "value": "weissaluminium"}
+    - ich moechte [schienen]{"entity": "article", "value": "schiene"} kaufen
+    - ich möchte [ton 260](brick_type) bestellen
+    - [Mittelklemme]{"entity": "clamp_type", "value": "mittelklemme"}
+    - [Endklemme]{"entity": "clamp_type", "value": "endklemme"}
+    - [Mittelklemme]{"entity": "clamp_type", "value": "mittelklemme"} bitte
+    - [Endklemmen]{"entity": "clamp_type", "value": "endklemme"} waeren optimal
+    - [Endklemmen]{"entity": "clamp_type", "value": "endklemme"} waeren gut
+    - [Mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} waeren gut
+    - [Mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} waeren optimal
+    - [Mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} waeren super
+    - ich moechte [Mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"}
+    - [End]{"entity": "clamp_type", "value": "endklemme"}
+    - [Mittel]{"entity": "clamp_type", "value": "mittelklemme"}
+    - ich brauche [Klemmen]{"entity": "article", "value": "klemme"}
+    - wir benoetigen noch mehr von den [Endklemmen]{"entity": "clamp_type", "value": "endklemme"}
+    - ich moechte [Klemmen]{"entity": "article", "value": "klemme"} bestellen
+    - wir bauchen noch mehr [klemmen]{"entity": "article", "value": "klemme"}
+    - mir braeuchten no mehr [Mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"}, kannst die fuer mi bestellen
+    - ich moechte [Klemmen]{"entity": "article", "value": "klemme"} fuer unsere Baustelle
+    - wir brauchen noch [Endklemmen]{"entity": "clamp_type", "value": "endklemme"}
+    - Ich brauche [Mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"}
+    - wir brauchen [Mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"}
+    - ich brauche [Endklemmen]{"entity": "clamp_type", "value": "endklemme"} fuer unsere Anlage
+    - wir benoetigen noch mehr [Klemmen]{"entity": "article", "value": "klemme"}
+    - wir benoetigen noch mehr [Endklemmen]{"entity": "clamp_type", "value": "endklemme"}
+    - wir brauchen [Klemmen]{"entity": "article", "value": "klemme"}
+    - ich brauche [Endklemmen]{"entity": "clamp_type", "value": "endklemme"}
+    - ich brauche noch [5](sales_units) [Endklemmen]{"entity": "clamp_type", "value": "endklemme"}
+    - ich brauche mehr [mittelklemme](clamp_type)
+    - ich haette gerne noch mehr [Mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"}
+    - ich moechte [Mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} bestellen
+    - ich moechte noch mehr von den [Mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} bestellen
+    - ich brauche [Mittelklemme]{"entity": "clamp_type", "value": "mittelklemme"}
+    - ich moechte [klemmen]{"entity": "article", "value": "klemme"} bestellen
+    - ich brauche [endklemmen]{"entity": "clamp_type", "value": "endklemme"}
+    - ich brauche [klemmen]{"entity": "article", "value": "klemme"}
+    - ich brauche [Dachhaken]{"entity": "article", "value": "dachhaken"}
+    - ich moechte [Dachhaken]{"entity": "article", "value": "dachhaken"} bestellen
+    - wir bauchen noch [haken]{"entity": "article", "value": "dachhaken"}
+    - i moechte [Hoka]{"entity": "article", "value": "dachhaken"} bestellen
+    - ich moechte Dachhaken fuer unsere Baustelle
+    - wir brauchen noch [Dachhaken]{"entity": "article", "value": "dachhaken"}
+    - Ich brauche [Montagehaken]{"entity": "article", "value": "dachhaken"}
+    - wir brauchen [Montagedachhaken]{"entity": "article", "value": "dachhaken"}
+    - ich brauche [Haken]{"entity": "article", "value": "dachhaken"} fuer unsere Anlage
+    - wir benoetigen noch mehr [Dachhaken]{"entity": "article", "value": "dachhaken"}
+    - wir benoetigen noch mehr [Haken]{"entity": "article", "value": "dachhaken"}
+    - wir brauchen [Dachhaken]{"entity": "article", "value": "dachhaken"}
+    - ich brauche [haken]{"entity": "article", "value": "dachhaken"}
+    - ich brauche [dachhaken](article)
+    - ich brauche mehr [haken]{"entity": "article", "value": "dachhaken"}
+    - ich haette gerne noch mehr [dachhaken](article)
+    - ich moechte haken bestellen
+    - ich moechte [dachhaken](article) bestellen
+    - ich moechte noch mehr von den [dachhaken](article) bestellen
+    - Ich moechte [Montageschienen]{"entity": "article", "value": "schiene"} bestellen
+    - Bestell Alu [Schienen]{"entity": "article", "value": "schiene"}
+    - Ich moechte [schwarze](rail_color) [Standardmontageschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"} bestellen
+    - Wir brauchen noch mehr [alufarbene]{"entity": "rail_color", "value": "weissaluminium"} [Standardmontageschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"} mit [seitlicher Nutung]{"entity": "rail_bfeature", "value": "seitliche Nutung"} bestellen.
+    - Bestelle [15](sales_units) Verkaufseinheiten [80er Montageschienen](rail_adesign) mit [seitlicher Nutung]{"entity": "rail_bfeature", "value": "seitliche Nutung"}
+    - Bestell [8](sales_units) Verkaufseinheiten [80er Montageschienen](rail_adesign)
+    - Wir benoetigen noch [sieben](sales_units) Verkaufseinheiten von [achtziger Montageschienen]{"entity": "rail_adesign", "value": "80er Montageschienen"} fuer unsere Baustelle
+    - Ich brauche noch [4](sales_units) [Trapezdach-Montageschienen]{"entity": "rail_bfeature", "value": "trapezdach"} in [flache]{"entity": "rail_bfeature", "value": "flach"} Ausfuehrung.
+    - Wir brauchen noch [3](sales_units) [hohe]{"entity": "rail_bfeature", "value": "hoch"} [Trapezdach-Montageschienen]{"entity": "rail_bfeature", "value": "trapezdach"} fuer den aktuellen Auftrag.
+    - ich brauche alu [schienen]{"entity": "article", "value": "schiene"}
+    - Wir brauchen [alufarbene]{"entity": "rail_color", "value": "weissaluminium"} [Standardmontageschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"} in [normaler Ausfuehrung]{"entity": "rail_bfeature", "value": "Keine"}
+    - Wir brauchen [schwarze](rail_color) [Standardmontageschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"} in [normaler Ausfuehrung]{"entity": "rail_bfeature", "value": "Keine"}
+    - ich brauche [alufarbene]{"entity": "rail_color", "value": "weissaluminium"} [schienen]{"entity": "article", "value": "schiene"}
+    - ich brauche [montageschienen]{"entity": "article", "value": "schiene"}
+    - ich brauche [alufarbene]{"entity": "rail_color", "value": "weissaluminium"} [ultra-leichte]{"entity": "rail_bfeature", "value": "ultraleicht"} [Standardmontageschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"}, [40](sales_units) Stueck
+    - ich brauche [alufarbene]{"entity": "rail_color", "value": "weissaluminium"} [Schienen]{"entity": "article", "value": "schiene"}
+    - ich brauche [alufarbene]{"entity": "rail_color", "value": "weissaluminium"} [Standardmontageschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"}, [3](sales_units) Verkaufseinheiten
+    - ich moechte [Trapezdach-Montageschienen]{"entity": "rail_bfeature", "value": "trapezdach"} kaufen, [3](sales_units) Verkaufseinheiten
+    - ich moechte [schwarze](rail_color) [40er Montageschienen](rail_adesign) bestellen, [fuenf](sales_units) Verkaufseinheiten
+    - ich moechte [fuenfzig](sales_units) Verkaufseinheiten [Trapezdach-Montageschienen]{"entity": "rail_bfeature", "value": "trapezdach"} bestellen
+    - Bestell [Schienen]{"entity": "article", "value": "schiene"} fuer mich
+    - ich brauche [40er Montageschienen](rail_adesign) fuer ein [Trapezdach-Montageschienen]{"entity": "rail_bfeature", "value": "trapezdach"}
+    - [fuenfzig](sales_units) Verkaufseinheiten [ultraleichte](rail_bfeature) [Standardmontageschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"}
+    - ich moechte [Schienen]{"entity": "article", "value": "schiene"} bestellen
+    - ich moechte [Standardmontageschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"} kaufen
+    - ich brauche [40er Montageschienen](rail_color) in [schwarz](rail_color)
+    - wir brauchen noch [5](sales_units) Einheiten [Schienen]{"entity": "article", "value": "schiene"} fuer die Baustelle
+    - ich brauche [schienen]{"entity": "article", "value": "schiene"} amigo
+    - ich brauche [schienen]{"entity": "article", "value": "schiene"}
+    - ich moechte [schienen]{"entity": "article", "value": "schiene"} bestellen
+    - ich moechte [schienen]{"entity": "article", "value": "schiene"}
+    - ich moechte [breite](rail_bfeature) [Schienen]{"entity": "article", "value": "schiene"} kaufen
+    - [40er Montageschienen](rail_adesign)
+    - [40er Montageschienen](rail_adesign) in [weissaluminium](rail_color)
+    - ich moechte [schwarze]{"entity": "rail_color", "value": "schwarz"} [Standardmontageschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"} bestellen
+    - [40er Montageschienen](rail_adesign) in [weissaluminium](rail_bfeature)
+    - ich brauche [Schienen]{"entity": "article", "value": "schiene"}
+    - ich brauche noch mehr [Montageschienen]{"entity": "article", "value": "schiene"}
+    - [40er Montageschienen](rail_adesign) in [schwarz](rail_color)
+    - ich brauche noch mehr von den breiten [Schienen]{"entity": "article", "value": "schiene"}
+    - [80er Montageschienen](rail_adesign), [standard]{"entity": "rail_bfeature", "value": "Keine"} in [aluminiumfarben]{"entity": "rail_color", "value": "weissaluminium"}
+    - ich moechte [40er Montageschienen](rail_adesign) bestellen, bitte
+    - ich brauche [Endklemme]{"entity": "clamp_type", "value": "endklemme"}
+    - bestell [mittelklemme](clamp_type)
+    - [zwoelf](sales_units) reichen aus
+    - ich brauche mehr [haken]{"entity": "article", "value": "dachhaken"} hier
+    - [schwarze]{"entity": "rail_color", "value": "schwarz"} [40er Montageschienen](rail_adesign) waeren perfekt
+    - ich moechte [Klemmen]{"entity": "article", "value": "klemme"} kaufen
+    - ich brauche [Mittelklemmen]{"entity": "article", "value": "mittelklemme"}
+    - [Mittelklemme]{"entity": "clamp_type", "value": "mittelklemme"} [wasiclip](framed)
+    - ich brauche [40er Montageschienen](rail_adesign)
+    - [ultraleichte]{"entity": "rail_bfeature", "value": "ultraleicht"}
+    - ich brauche [80er Montageschienen](rail_adesign)
+    - [standard]{"entity": "rail_bfeature", "value": "Keine"} in [weiss](rail_color)
+    - ich brauche [40er Montageschienen](rail_adesign) mit [seitlicher Nutung]{"entity": "rail_bfeature", "value": "seitliche Nutung"}
+    - ich brauche [40er Montageschienen](rail_adesign) fuer ein [Trapezdach]{"entity": "rail_bfeature", "value": "trapezdach"}
+    - ich brauche [Mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"}
+    - ich brauche [gerahmte](framed) [Mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"}
+    - ich brauche [Mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} fuer [gerahmte](framed) Module
+    - ich brauche [wasiclip](framed) [Mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"}
+    - ich brauche [wasiclip](framed) [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"}
+    - ich brauche [gerahmte](framed) [Endklemmen]{"entity": "clamp_type", "value": "endklemme"}
+    - ich brauche [Endklemmen]{"entity": "clamp_type", "value": "endklemme"} fuer [gerahmte](framed) Module
+    - ich brauche [Endklemmen]{"entity": "clamp_type", "value": "endklemme"} aus [Glas](framed)
+    - [23](sales_units) Stueck waeren ideal
+    - ich möchte [Stockschrauben]{"entity": "article", "value": "stockschraube"} bestellen
+    - ich brauche mehr [Stokschrauben]{"entity": "article", "value": "stockschraube"}
+    - bestell noch [Stockschrauben]{"entity": "article", "value": "stockschraube"}
+    - Fuege [Stockschraube]{"entity": "article", "value": "stockschraube"} dem Angebot hinzu bitte
+    - Ja, bitte bestell mir noch ein paar [Stockschrauben]{"entity": "article", "value": "stockschraube"}
+    - Für das Dach werden [Stockschrauben]{"entity": "article", "value": "stockschraube"} benötigt
+    - Hau [Stockschrauben]{"entity": "article", "value": "stockschraube"} auf die Liste
+    - Für den Anschluss brauchen wir [Adapterbleche]{"entity": "article", "value": "adapterblech"}
+    - ich möchte [Adapterbleche]{"entity": "article", "value": "adapterblech"} bestellen
+    - ich brauche mehr [Adapterbleche]{"entity": "article", "value": "adapterblech"}
+    - bestell noch [Adapterbleche]{"entity": "article", "value": "adapterblech"}
+    - Fuege [Adapterblech]{"entity": "article", "value": "adapterblech"} dem Angebot hinzu bitte
+    - Ja, bitte bestell mir noch ein paar [Adapterbleche]{"entity": "article", "value": "adapterblech"}
+    - Für die Montage werden noch mehr [Adapterbleche]{"entity": "article", "value": "adapterblech"} benötigt
+    - Hau [Adapterblech]{"entity": "article", "value": "adapterblech"} auf die Liste
+    - ich brauche [Stockschrauben]{"entity": "article", "value": "stockschraube"} amigo
+    - ich brauche [Stockschrauben]{"entity": "article", "value": "stockschraube"}
+    - ich moechte [Stockschrauben]{"entity": "article", "value": "stockschraube"} bestellen
+    - ich moechte [Stockschrauben]{"entity": "article", "value": "stockschraube"}
+    - ich moechte [Stockschrauben]{"entity": "article", "value": "stockschraube"} kaufen
+    - ich brauche noch mehr [stockschrauben]{"entity": "article", "value": "stockschraube"} für meine Baustelle
+    - wir brauchen [stockschrauben]{"entity": "article", "value": "stockschraube"} für den auftrag
+    - ich brauche noch mehr [Stockschrauben]{"entity": "article", "value": "stockschraube"} aber diesmal mit Bauzulassung
+    - Ich brauche [Stockschrauben]{"entity": "article", "value": "stockschraube"} mit [25 cm]{"entity": "alength", "value": "250 mm"} Laenge
+    - ich brauche [20 cm]{"entity": "alength", "value": "200 mm"} lange [Stockschrauben]{"entity": "article", "value": "stockschraube"} ohne Bauzulassung
+    - [M10](ascrew_type) [Adapterbleche]{"entity": "article", "value": "adapterblech"} werden benötigt
+    - [Eins](sales_units) [M12](ascrew_type) [Adapterblech]{"entity": "article", "value": "adapterblech"} brauchen wir noch
+    - [M 10]{"entity": "ascrew_type", "value": "M10"} [Adapterbleche]{"entity": "article", "value": "adapterblech"} brauchen wir noch
+    - [M 12]{"entity": "ascrew_type", "value": "M12"} [Adapterbleche]{"entity": "article", "value": "adapterblech"} für die Baustelle bitte
+    - ich brauche [adapterbleche]{"entity": "article", "value": "adapterblech"}
+    - ich brauche noch mehr [Adapterbleche]{"entity": "article", "value": "adapterblech"} für [M12](ascrew_type) schrauben
+    - ich brauche noch mehr von den [Schienen]{"entity": "article", "value": "schiene"}
+    - jetzt würde ich gerne noch [Haken]{"entity": "article", "value": "dachhaken"} bestellen, wir brauchen welche für das Dach
+    - ich brauche [Stockschrauben]{"entity": "article", "value": "stockschraube"}, [25 cm]{"entity": "alength", "value": "250 mm"} bitte
+    - ich brauche noch [Endklemmen]{"entity": "clamp_type", "value": "endklemme"}
+    - ich brauche noch [Mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"}
+    - jetzt hätte ich noch gerne [Adapterbleche]{"entity": "article", "value": "adapterblech"} für [M12](ascrew_type) Profil
+    - ich brauche [25 cm]{"entity": "alength", "value": "250 mm"} lange [Stockschrauben]{"entity": "article", "value": "stockschraube"}
+    - ich brauche [stockschrauben]{"entity": "article", "value": "stockschraube"}
+    - [schwarze]{"entity": "rail_color", "value": "schwarz"} [40er Montageschienen](rail_adesign) wären optimal
+    - ich möchte [Dachhaken]{"entity": "article", "value": "dachhaken"} bestellen
+    - ich möchte [Klemmen]{"entity": "article", "value": "klemme"} kaufen
+    - ich möchte [dachhaken](article) bestellen
+    - ich möchte haken bestellen
+    - ich möchte [breite](rail_bfeature) [Standardschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"} kaufen
+    - ich möchte [Schienen]{"entity": "article", "value": "schiene"} bestellen
+    - ich möchte [schienen]{"entity": "article", "value": "schiene"}
+    - ich möchte [schwarze]{"entity": "rail_color", "value": "schwarz"} [Standardmontageschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"} bestellen
+    - ich möchte [schienen](sales_units) bestellen
+    - ich möchte [Standardmontageschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"} kaufen
+    - ich möchte [schienen]{"entity": "article", "value": "schiene"} kaufen
+    - ich möchte [Schienen]{"entity": "article", "value": "schiene"} erwerben
+    - ich brauche [ultraleichte]{"entity": "rail_bfeature", "value": "ultraleicht"} [40er Montageschienen](rail_adesign) [50](sales_units) Stück
+    - ja ich will noch mehr [haken]{"entity": "article", "value": "dachhaken"}
+    - ich brauche bitte mehr [dachhaken](article)
+    - ja brauche noch mehr [dachhaken](article) bitte
+    - ich brauche [breite]{"entity": "rail_adesign", "value": "80er Montageschienen"} [Schienen]{"entity": "article", "value": "schiene"}
+    - ich möchte [Schienen]{"entity": "article", "value": "schiene"} für den Bau erwerben
+    - Guten Tag, ich möchte [Schienen]{"entity": "article", "value": "schiene"} bestellen
+    - ich brauche auch noch [schwarze]{"entity": "rail_color", "value": "schwarz"} [Schienen]{"entity": "article", "value": "schiene"}
+    - ich brauche [schwarze]{"entity": "rail_color", "value": "schwarz"} [40er Montageschienen](rail_adesign)
+    - ich brauche noch mehr [schienen]{"entity": "article", "value": "schiene"} das hätte ich fast vergessen
+    - [Stockschrauben]{"entity": "article", "value": "stockschraube"} haben wir auch zu wenig
+    - [ultraleichte]{"entity": "rail_bfeature", "value": "ultraleicht"} [Standardmontageschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"}
+    - Verdammt, ich brauche [Schienen]{"entity": "article", "value": "schiene"}
+    - ich möchte [Montageschienen]{"entity": "article", "value": "schiene"} bestellen bitte
+    - ich brauche noch [Stockschrauben]{"entity": "article", "value": "stockschraube"}
+    - ich brauche [schienen]{"entity": "article", "value": "schiene"} mit breitem Profil
+    - ja ich brauche noch [Mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"}
+    - [schwarze]{"entity": "rail_color", "value": "schwarz"} [40er Montageschienen](rail_adesign) also die eloxierten, haben Sie solche noch vorrätig?
+    - ich brauche [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"}
+    - bestell [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} für mich
+    - ich brauche [mittelklemme](clamp_type)
+    - ich brauche [ultraleichte]{"entity": "rail_bfeature", "value": "ultraleicht"} [Montageschienen]{"entity": "article", "value": "schiene"}
+    - ich brauche unbedingt noch [adapterbleche]{"entity": "article", "value": "adapterblech"}
+    - ich brauche [schienen]{"entity": "article", "value": "schiene"} mein freund
+    - ich brauche [breite]{"entity": "rail_adesign", "value": "80er Montageschienen"} [Montageschienen]{"entity": "article", "value": "schiene"}
+    - ich brauche noch [adapterbleche]{"entity": "article", "value": "adapterblech"}
+    - ich brauche noch [schienen]{"entity": "article", "value": "schiene"}
+    - [40er montageschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"} in [weiß]{"entity": "rail_color", "value": "weissaluminium"}
+    - ich möchte [endklemmen]{"entity": "clamp_type", "value": "endklemme"} bestellen
+    - ich brauche [M12](ascrew_type) [Adapterbleche]{"entity": "article", "value": "adapterblech"}
+    - ich möchte [schienen]{"entity": "article", "value": "schiene"} erwerben für morgen
+    - [Adapterbleche]{"entity": "article", "value": "adapterblech"} für [M12](ascrew_type) Schrauben bitte
+    - ich brauche [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} für [WASICLIP](framed)
+    - [breite]{"entity": "rail_adesign", "value": "80er Montageschienen"} sind perfekt für mein Anliegen
+    - vielen dank, kannst du mir noch [dachhaken](article) auf die bestellung schreiben?
+    - [schwarze]{"entity": "rail_color", "value": "schwarz"} [40er Montageschienen](rail_adesign) wären perfekt für morgen
+    - kannst du [schienen]{"entity": "article", "value": "schiene"} für mich bestellen?
+    - [schwarze]{"entity": "rail_color", "value": "schwarz"} [Montageschienen]{"entity": "rail_adesign", "value": "schiene"} wären optimal, sind die noch vorrätig?
+    - noch [adapterbleche]{"entity": "article", "value": "adapterblech"} für [M10](ascrew_type) schraubendurchmesser
+    - jetzt brauche ich noch [schienen]{"entity": "article", "value": "schiene"}
+    - jetzt brauche ich noch [endklemmen]{"entity": "clamp_type", "value": "endklemme"}
+    - ich brauche [Stockschrauben]{"entity": "article", "value": "stockschraube"} [20 cm]{"entity": "alength", "value": "200 mm"}
+    - ich brauche noch [schwarze]{"entity": "rail_color", "value": "schwarz"} [40er Montageschienen](rail_adesign) sind die lieferbar?
+    - Stop. Ich meinte [Endklemmen]{"entity": "clamp_type", "value": "endklemme"}
+    - ich möchte [Mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} kaufen
+    - Ich möchte [breite]{"entity": "rail_adesign", "value": "80er Montageschienen"} [Schienen]{"entity": "article", "value": "schiene"} bestellen
+    - ich möchte [Mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} bestellen
+    - ich möchte [Dachhaken]{"entity": "article", "value": "dachhaken"} kaufen
+    - ich möchte [vierziger Montageschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"} erwerben
+    - ich möchte [Montageschienen]{"entity": "article", "value": "schiene"} erwerben
+    - ich brauche [m-zwölf]{"entity": "ascrew_type", "value": "M12"} [Adapterbleche]{"entity": "article", "value": "adapterblech"}
+    - ich brauche [Adapterbleche]{"entity": "article", "value": "adapterblech"} für Schrauben mit Durchmesser [m-zwölf]{"entity": "ascrew_type", "value": "M12"}
+    - ich brauche noch [Adapterbleche]{"entity": "article", "value": "adapterblech"} für [m-zwölf]{"entity": "ascrew_type", "value": "M12"} Stockschrauben
+    - ich brauche [Adapterbleche]{"entity": "article", "value": "adapterblech"}
+    - [m-zehn]{"entity": "ascrew_type", "value": "M10"} [adapterblech](article) bitte
+    - ich brauche [schwarze]{"entity": "rail_color", "value": "schwarz"} [vierziger Montageschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"}
+    - ich brauche [Adapterbleche]{"entity": "article", "value": "adapterblech"} für [m-zehn]{"entity": "ascrew_type", "value": "M10"}
+    - i brauch noch mehr [haken]{"entity": "article", "value": "dachhaken"}
+    - ja ich brauche noch [14](sales_units) [Stockschrauben]{"entity": "article", "value": "stockschraube"}
+    - [m-zwölf]{"entity": "ascrew_type", "value": "M12"} bleche
+    - ich möchte [adapterbleche]{"entity": "article", "value": "adapterblech"} erwerben
+    - ich brauche zusätzlich noch [Stockschrauben]{"entity": "article", "value": "stockschraube"}
+    - [m-zehn]{"entity": "ascrew_type", "value": "M10"} Schrauben müssen festgemacht werden
+    - noch [schienen]{"entity": "article", "value": "schiene"} mit [seitlicher Nutung]{"entity": "rail_bfeature", "value": "seitliche Nutung"} bitte
+    - ich brauche noch [breite]{"entity": "rail_adesign", "value": "80er Montageschienen"} [schienen]{"entity": "article", "value": "schiene"}
+    - jetzt brauche ich noch [schwarze]{"entity": "rail_color", "value": "schwarz"} [schienen]{"entity": "article", "value": "schiene"}
+    - ich brauche [Endklemmen]{"entity": "clamp_type", "value": "endklemme"} für [gerahmte]{"entity": "framed", "value": "gerahmt"} Module
+    - ich möchte [ultraleichte]{"entity": "rail_bfeature", "value": "ultraleicht"} [schienen]{"entity": "article", "value": "schiene"} bestellen
+    - Ich brauche [Schienen]{"entity": "article", "value": "schiene"} für ein [Trapezdach-Montageschienen]{"entity": "rail_bfeature", "value": "trapezdach"}
+    - ich brauche zusätzlich [Stockschrauben]{"entity": "article", "value": "stockschraube"} mit Bauzulassung
+    - okay, ich möchte [Schienen]{"entity": "article", "value": "schiene"} bestellen
+    - ich brauche noch [Endklemmen]{"entity": "clamp_type", "value": "endklemme"} für [gerahmte]{"entity": "framed", "value": "gerahmt"} Module mit [WASICLIP](framed)
+    - ich brauche noch mehr von den [Endklemmen]{"entity": "clamp_type", "value": "endklemme"}
+    - bitte noch [adapterbleche]{"entity": "article", "value": "adapterblech"} für [m-zehn]{"entity": "ascrew_type", "value": "M10"} schrauben
+    - ich brauche zusätzlich noch [dachhaken](article)
+    - ich brauche [40er Montageschienen](rail_adesign) [standard]{"entity": "rail_bfeature", "value": "Keine"}
+    - ich möchte [40er Montageschienen](rail_adesign) [keine](rail_bfeature) Sonderausfuehrung
+    - ich möchte nochmals [Schienen]{"entity": "article", "value": "schiene"} bestellen [keine](rail_bfeature) Besonderheiten Version [metallen]{"entity": "rail_color", "value": "weissaluminium"}
+    - ich brauche [vierziger Montageschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"} in Version [metallen]{"entity": "rail_color", "value": "weissaluminium"}
+    - ich brauche [vierziger Montageschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"} Version [metallen]{"entity": "rail_color", "value": "weissaluminium"}
+    - ich brauche [Montageschienen]{"entity": "article", "value": "schiene"} in [ultraleichter]{"entity": "rail_bfeature", "value": "ultraleicht"} ausfuehrung
+    - ich brauche [breite]{"entity": "rail_adesign", "value": "80er Montageschienen"} Montageschiene in [metallener]{"entity": "rail_color", "value": "weissaluminium"} Ausführung
+    - ich brauche [breite]{"entity": "rail_adesign", "value": "80er Montageschienen"} Montageschienen in [metallener]{"entity": "rail_color", "value": "weissaluminium"} ausfuehrung
+    - ich brauche [Endklemmen]{"entity": "clamp_type", "value": "endklemme"} aus [Glas](framed) bitte
+    - ich brauche [schienen]{"entity": "article", "value": "schiene"} für die baustelle
+    - ich brauche [Schiene]{"entity": "article", "value": "schiene"} für die baustelle
+    - ich möchte noch ein paar [Stockschrauben]{"entity": "article", "value": "stockschraube"} zur Bestellung hinzufügen
+    - ich brauche noch [Adapterbleche]{"entity": "article", "value": "adapterblech"} für [m-zwölf]{"entity": "ascrew_type", "value": "M12"} schrauben
+    - ich brauche [trapezdach-montageschienen]{"entity": "rail_bfeature", "value": "trapezdach"}
+    - ich brauche [schienen]{"entity": "article", "value": "schiene"} für ein [Trapezdach-Montageschienen]{"entity": "rail_bfeature", "value": "trapezdach"}
+    - ich brauche noch mehr [Adapterbleche]{"entity": "article", "value": "adapterblech"}
+    - ich brauche [m-zwölf]{"entity": "ascrew_type", "value": "M12"} [adapterblech](article)
+    - ich möchte [m-zwölf]{"entity": "ascrew_type", "value": "M12"} [adapterbleche]{"entity": "article", "value": "adapterblech"}
+    - bestell mir noch [m-zehn]{"entity": "ascrew_type", "value": "M10"} [Adapterblech]{"entity": "article", "value": "adapterblech"}
+    - ich brauche [Stockschraube]{"entity": "article", "value": "stockschraube"}
+    - ich brauche [stockschraube](article)
+    - ich will [Stockschraube]{"entity": "article", "value": "stockschraube"}
+    - ich brauche [End-klemme]{"entity": "clamp_type", "value": "endklemme"}
+    - ich brauche [end-klemme]{"entity": "clamp_type", "value": "endklemme"}
+    - ich brauche [mittel-klemme]{"entity": "clamp_type", "value": "mittelklemme"}
+    - ich brauche [end-klemmen]{"entity": "clamp_type", "value": "endklemme"}
+    - ich brauche [mittel-klemmen]{"entity": "clamp_type", "value": "mittelklemme"}
+    - ich brauch [Endklemmen]{"entity": "clamp_type", "value": "endklemme"}
+    - ich brauche [Haken]{"entity": "article", "value": "dachhaken"}
+    - bestell [schienen]{"entity": "article", "value": "schiene"}
+    - ich brauche [schiene](article)
+    - ich brauch [Schiene]{"entity": "article", "value": "schiene"}
+    - Ich brauche [Schienen]{"entity": "article", "value": "schiene"} für ein [Trapezdach]{"entity": "rail_bfeature", "value": "trapezdach"}
+    - kann ich noch [dach-haken]{"entity": "article", "value": "dachhaken"} haben?
+    - ich brauche [20 cm]{"entity": "alength", "value": "200 mm"} lange [stockschrauben]{"entity": "article", "value": "stockschraube"}
+    - ich brauche [25 cm]{"entity": "alength", "value": "250 mm"} lange [stockschrauben]{"entity": "article", "value": "stockschraube"}
+    - [m-zehn]{"entity": "ascrew_type", "value": "M10"} schrauben müssen befestigt werden
+    - ich brauche [adapter-bleche]{"entity": "article", "value": "adapterblech"}
+    - ich möchte [adapterbleche]{"entity": "article", "value": "adapterblech"}
+    - ich brauche [adapberbleche]{"entity": "article", "value": "adapterblech"}
+    - gib mir [adapter-blech]{"entity": "article", "value": "adapterblech"} [m-zwölf]{"entity": "ascrew_type", "value": "M12"} bitte
+    - ich möchte [stock-schraube]{"entity": "article", "value": "stockschraube"} kaufen
+    - ich möchte [stock-schraube]{"entity": "article", "value": "stockschraube"}
+    - ich brauche [End-klemmen]{"entity": "clamp_type", "value": "endklemme"}
+    - ich möchte [Mittel-klemmen]{"entity": "clamp_type", "value": "mittelklemme"} bestellen
+    - ich brauche [schienen]{"entity": "article", "value": "schiene"} für ein [trapezdach](rail_bfeature)
+    - wir brauchen mehr [blech-ziegel]{"entity": "article", "value": "blechziegel"}
+    - wir brauchen mehr [blecherne Ziegel]{"entity": "article", "value": "blechziegel"}
+    - wir brauchen mehr [blechpfannen]{"entity": "article", "value": "blechziegel"}
+    - wir brauchen mehr [blech-pfanne]{"entity": "article", "value": "blechziegel"}
+    - wir brauchen mehr [blech-pfannen]{"entity": "article", "value": "blechziegel"}
+    - wir brauchen mehr [pfannen]{"entity": "article", "value": "blechziegel"}
+    - bestell mehr [ziegel]{"entity": "article", "value": "blechziegel"}
+    - bestell mehr [blech-ziegel]{"entity": "article", "value": "blechziegel"}
+    - bestell mehr [blecherne Ziegel]{"entity": "article", "value": "blechziegel"}
+    - bestell mehr [blechpfannen]{"entity": "article", "value": "blechziegel"}
+    - bestell mehr [blech-pfanne]{"entity": "article", "value": "blechziegel"}
+    - bestell mehr [blech-pfannen]{"entity": "article", "value": "blechziegel"}
+    - bestell mehr [pfannen]{"entity": "article", "value": "blechziegel"}
+    - ich möchte noch mehr [ziegel]{"entity": "article", "value": "blechziegel"}
+    - ich möchte noch mehr [blech-ziegel]{"entity": "article", "value": "blechziegel"}
+    - ich möchte noch mehr [blecherne Ziegel]{"entity": "article", "value": "blechziegel"}
+    - ich möchte noch mehr [blechpfannen]{"entity": "article", "value": "blechziegel"}
+    - ich möchte noch mehr [blech-pfanne]{"entity": "article", "value": "blechziegel"}
+    - ich möchte noch mehr [blech-pfannen]{"entity": "article", "value": "blechziegel"}
+    - ich möchte noch mehr [pfannen]{"entity": "article", "value": "blechziegel"}
+    - ich brauche noch [ziegel]{"entity": "article", "value": "blechziegel"}
+    - ich brauche noch [blech-ziegel]{"entity": "article", "value": "blechziegel"}
+    - ich brauche noch [blecherne Ziegel]{"entity": "article", "value": "blechziegel"}
+    - ich brauche noch [blechpfannen]{"entity": "article", "value": "blechziegel"}
+    - ich brauche noch [blech-pfanne]{"entity": "article", "value": "blechziegel"}
+    - ich brauche noch [blech-pfannen]{"entity": "article", "value": "blechziegel"}
+    - ich brauche noch [pfannen]{"entity": "article", "value": "blechziegel"}
+    - besorge mir noch mehr von [ziegel]{"entity": "article", "value": "blechziegel"}
+    - besorge mir noch mehr von [blech-ziegel]{"entity": "article", "value": "blechziegel"}
+    - besorge mir noch mehr von [blecherne Ziegel]{"entity": "article", "value": "blechziegel"}
+    - besorge mir noch mehr von [blechpfannen]{"entity": "article", "value": "blechziegel"}
+    - besorge mir noch mehr von [blech-pfanne]{"entity": "article", "value": "blechziegel"}
+    - besorge mir noch mehr von [blech-pfannen]{"entity": "article", "value": "blechziegel"}
+    - besorge mir noch mehr von [pfannen]{"entity": "article", "value": "blechziegel"}
+    - wir brauchen mehr [ziegel beton]{"entity": "brick_type", "value": "beton"}
+    - wir brauchen mehr [betonziegel]{"entity": "brick_type", "value": "beton"}
+    - wir brauchen mehr [beton-ziegel]{"entity": "brick_type", "value": "beton"}
+    - wir brauchen mehr [beton ziegel]{"entity": "brick_type", "value": "beton"}
+    - bestell mehr [ziegel beton]{"entity": "brick_type", "value": "beton"}
+    - bestell mehr [betonziegel]{"entity": "brick_type", "value": "beton"}
+    - bestell mehr [beton-ziegel]{"entity": "brick_type", "value": "beton"}
+    - bestell mehr [beton ziegel]{"entity": "brick_type", "value": "beton"}
+    - ich möchte noch mehr [ziegel beton]{"entity": "brick_type", "value": "beton"}
+    - ich möchte noch mehr [betonziegel]{"entity": "brick_type", "value": "beton"}
+    - ich möchte noch mehr [beton-ziegel]{"entity": "brick_type", "value": "beton"}
+    - ich möchte noch mehr [beton ziegel]{"entity": "brick_type", "value": "beton"}
+    - ich brauche noch [ziegel beton]{"entity": "brick_type", "value": "beton"}
+    - ich brauche noch [betonziegel]{"entity": "brick_type", "value": "beton"}
+    - ich brauche noch [beton-ziegel]{"entity": "brick_type", "value": "beton"}
+    - ich brauche noch [beton ziegel]{"entity": "brick_type", "value": "beton"}
+    - besorge mir noch mehr von [ziegel beton]{"entity": "brick_type", "value": "beton"}
+    - besorge mir noch mehr von [betonziegel]{"entity": "brick_type", "value": "beton"}
+    - besorge mir noch mehr von [beton-ziegel]{"entity": "brick_type", "value": "beton"}
+    - besorge mir noch mehr von [beton ziegel]{"entity": "brick_type", "value": "beton"}
+    - wir brauchen mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton-zweifünfzig]{"entity": "brick_type", "value": "ton250"}
+    - wir brauchen mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton-zwei-fünfzig]{"entity": "brick_type", "value": "ton250"}
+    - wir brauchen mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton-zweihundertfünfzig]{"entity": "brick_type", "value": "ton250"}
+    - wir brauchen mehr [ton-zweifünfzig-ziegel]{"entity": "brick_type", "value": "ton250"}
+    - wir brauchen mehr [ton-zwei-fünfzig-ziegel]{"entity": "brick_type", "value": "ton250"}
+    - wir brauchen mehr [ton-zweihundertfünfzig-ziegel]{"entity": "brick_type", "value": "ton250"}
+    - wir brauchen mehr [zweifünfzig-ton-ziegel]{"entity": "brick_type", "value": "ton250"}
+    - wir brauchen mehr [zwei-fünfzig-ton-ziegel]{"entity": "brick_type", "value": "ton250"}
+    - wir brauchen mehr [zweihundertfünfzig-ton-ziegel]{"entity": "brick_type", "value": "ton250"}
+    - wir brauchen mehr [zweifünfzig-tonziegel]{"entity": "brick_type", "value": "ton250"}
+    - wir brauchen mehr [zwei-fünfzig-tonziegel]{"entity": "brick_type", "value": "ton250"}
+    - wir brauchen mehr [zweihundertfünfzig-tonziegel]{"entity": "brick_type", "value": "ton250"}
+    - wir brauchen mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton zweifünfzig]{"entity": "brick_type", "value": "ton250"}
+    - wir brauchen mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton zwei fünfzig]{"entity": "brick_type", "value": "ton250"}
+    - wir brauchen mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton zweihundertfünfzig]{"entity": "brick_type", "value": "ton250"}
+    - wir brauchen mehr [ton zweifünfzig]{"entity": "brick_type", "value": "ton250"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - wir brauchen mehr [ton zwei fünfzig]{"entity": "brick_type", "value": "ton250"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - wir brauchen mehr [ton zweihundertfünfzig]{"entity": "brick_type", "value": "ton250"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - wir brauchen mehr [zweifünfzig ton]{"entity": "brick_type", "value": "ton250"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - wir brauchen mehr [zwei fünfzig ton]{"entity": "brick_type", "value": "ton250"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - wir brauchen mehr [zweihundertfünfzig ton]{"entity": "brick_type", "value": "ton250"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - wir brauchen mehr [zweifünfzig tonziegel]{"entity": "brick_type", "value": "ton250"}
+    - wir brauchen mehr [zwei fünfzig tonziegel]{"entity": "brick_type", "value": "ton250"}
+    - wir brauchen mehr [zweihundertfünfzig tonziegel]{"entity": "brick_type", "value": "ton250"}
+    - wir brauchen mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton 250]{"entity": "brick_type", "value": "ton250"}
+    - wir brauchen mehr [ton 250]{"entity": "brick_type", "value": "ton250"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - wir brauchen mehr [250 ton]{"entity": "brick_type", "value": "ton250"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - wir brauchen mehr [250 tonziegel]{"entity": "brick_type", "value": "ton250"}
+    - wir brauchen mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton-250]{"entity": "brick_type", "value": "ton250"}
+    - wir brauchen mehr [ton-250-ziegel]{"entity": "brick_type", "value": "ton250"}
+    - wir brauchen mehr [250-ton-ziegel]{"entity": "brick_type", "value": "ton250"}
+    - wir brauchen mehr [250-tonziegel]{"entity": "brick_type", "value": "ton250"}
+    - bestell mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton-zweifünfzig]{"entity": "brick_type", "value": "ton250"}
+    - bestell mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton-zwei-fünfzig]{"entity": "brick_type", "value": "ton250"}
+    - bestell mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton-zweihundertfünfzig]{"entity": "brick_type", "value": "ton250"}
+    - bestell mehr [ton-zweifünfzig-ziegel]{"entity": "brick_type", "value": "ton250"}
+    - bestell mehr [ton-zwei-fünfzig-ziegel]{"entity": "brick_type", "value": "ton250"}
+    - bestell mehr [ton-zweihundertfünfzig-ziegel]{"entity": "brick_type", "value": "ton250"}
+    - bestell mehr [zweifünfzig-ton-ziegel]{"entity": "brick_type", "value": "ton250"}
+    - bestell mehr [zwei-fünfzig-ton-ziegel]{"entity": "brick_type", "value": "ton250"}
+    - bestell mehr [zweihundertfünfzig-ton-ziegel]{"entity": "brick_type", "value": "ton250"}
+    - bestell mehr [zweifünfzig-tonziegel]{"entity": "brick_type", "value": "ton250"}
+    - bestell mehr [zwei-fünfzig-tonziegel]{"entity": "brick_type", "value": "ton250"}
+    - bestell mehr [zweihundertfünfzig-tonziegel]{"entity": "brick_type", "value": "ton250"}
+    - bestell mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton zweifünfzig]{"entity": "brick_type", "value": "ton250"}
+    - bestell mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton zwei fünfzig]{"entity": "brick_type", "value": "ton250"}
+    - bestell mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton zweihundertfünfzig]{"entity": "brick_type", "value": "ton250"}
+    - bestell mehr [ton zweifünfzig]{"entity": "brick_type", "value": "ton250"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - bestell mehr [ton zwei fünfzig]{"entity": "brick_type", "value": "ton250"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - bestell mehr [ton zweihundertfünfzig]{"entity": "brick_type", "value": "ton250"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - bestell mehr [zweifünfzig ton]{"entity": "brick_type", "value": "ton250"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - bestell mehr [zwei fünfzig ton]{"entity": "brick_type", "value": "ton250"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - bestell mehr [zweihundertfünfzig ton]{"entity": "brick_type", "value": "ton250"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - bestell mehr [zweifünfzig tonziegel]{"entity": "brick_type", "value": "ton250"}
+    - bestell mehr [zwei fünfzig tonziegel]{"entity": "brick_type", "value": "ton250"}
+    - bestell mehr [zweihundertfünfzig tonziegel]{"entity": "brick_type", "value": "ton250"}
+    - bestell mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton 250]{"entity": "brick_type", "value": "ton250"}
+    - bestell mehr [ton 250]{"entity": "brick_type", "value": "ton250"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - bestell mehr [250 ton]{"entity": "brick_type", "value": "ton250"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - bestell mehr [250 tonziegel]{"entity": "brick_type", "value": "ton250"}
+    - bestell mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton-250]{"entity": "brick_type", "value": "ton250"}
+    - bestell mehr [ton-250-ziegel]{"entity": "brick_type", "value": "ton250"}
+    - bestell mehr [250-ton-ziegel]{"entity": "brick_type", "value": "ton250"}
+    - bestell mehr [250-tonziegel]{"entity": "brick_type", "value": "ton250"}
+    - ich möchte noch mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton-zweifünfzig]{"entity": "brick_type", "value": "ton250"}
+    - ich möchte noch mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton-zwei-fünfzig]{"entity": "brick_type", "value": "ton250"}
+    - ich möchte noch mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton-zweihundertfünfzig]{"entity": "brick_type", "value": "ton250"}
+    - ich möchte noch mehr [ton-zweifünfzig-ziegel]{"entity": "brick_type", "value": "ton250"}
+    - ich möchte noch mehr [ton-zwei-fünfzig-ziegel]{"entity": "brick_type", "value": "ton250"}
+    - ich möchte noch mehr [ton-zweihundertfünfzig-ziegel]{"entity": "brick_type", "value": "ton250"}
+    - ich möchte noch mehr [zweifünfzig-ton-ziegel]{"entity": "brick_type", "value": "ton250"}
+    - ich möchte noch mehr [zwei-fünfzig-ton-ziegel]{"entity": "brick_type", "value": "ton250"}
+    - ich möchte noch mehr [zweihundertfünfzig-ton-ziegel]{"entity": "brick_type", "value": "ton250"}
+    - ich möchte noch mehr [zweifünfzig-tonziegel]{"entity": "brick_type", "value": "ton250"}
+    - ich möchte noch mehr [zwei-fünfzig-tonziegel]{"entity": "brick_type", "value": "ton250"}
+    - ich möchte noch mehr [zweihundertfünfzig-tonziegel]{"entity": "brick_type", "value": "ton250"}
+    - ich möchte noch mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton zweifünfzig]{"entity": "brick_type", "value": "ton250"}
+    - ich möchte noch mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton zwei fünfzig]{"entity": "brick_type", "value": "ton250"}
+    - ich möchte noch mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton zweihundertfünfzig]{"entity": "brick_type", "value": "ton250"}
+    - ich möchte noch mehr [ton zweifünfzig]{"entity": "brick_type", "value": "ton250"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - ich möchte noch mehr [ton zwei fünfzig]{"entity": "brick_type", "value": "ton250"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - ich möchte noch mehr [ton zweihundertfünfzig]{"entity": "brick_type", "value": "ton250"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - ich möchte noch mehr [zweifünfzig ton]{"entity": "brick_type", "value": "ton250"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - ich möchte noch mehr [zwei fünfzig ton]{"entity": "brick_type", "value": "ton250"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - ich möchte noch mehr [zweihundertfünfzig ton]{"entity": "brick_type", "value": "ton250"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - ich möchte noch mehr [zweifünfzig tonziegel]{"entity": "brick_type", "value": "ton250"}
+    - ich möchte noch mehr [zwei fünfzig tonziegel]{"entity": "brick_type", "value": "ton250"}
+    - ich möchte noch mehr [zweihundertfünfzig tonziegel]{"entity": "brick_type", "value": "ton250"}
+    - ich möchte noch mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton 250]{"entity": "brick_type", "value": "ton250"}
+    - ich möchte noch mehr [ton 250]{"entity": "brick_type", "value": "ton250"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - ich möchte noch mehr [250 ton]{"entity": "brick_type", "value": "ton250"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - ich möchte noch mehr [250 tonziegel]{"entity": "brick_type", "value": "ton250"}
+    - ich möchte noch mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton-250]{"entity": "brick_type", "value": "ton250"}
+    - ich möchte noch mehr [ton-250-ziegel]{"entity": "brick_type", "value": "ton250"}
+    - ich möchte noch mehr [250-ton-ziegel]{"entity": "brick_type", "value": "ton250"}
+    - ich möchte noch mehr [250-tonziegel]{"entity": "brick_type", "value": "ton250"}
+    - wir brauchen mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton-zweisechzig]{"entity": "brick_type", "value": "ton260"}
+    - wir brauchen mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton-zwei-sechzig]{"entity": "brick_type", "value": "ton260"}
+    - wir brauchen mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton-zweihundertsechzig]{"entity": "brick_type", "value": "ton260"}
+    - wir brauchen mehr [ton-zweisechzig-ziegel]{"entity": "brick_type", "value": "ton260"}
+    - wir brauchen mehr [ton-zwei-sechzig-ziegel]{"entity": "brick_type", "value": "ton260"}
+    - wir brauchen mehr [ton-zweihundertsechzig-ziegel]{"entity": "brick_type", "value": "ton260"}
+    - wir brauchen mehr [zweisechzig-ton-ziegel]{"entity": "brick_type", "value": "ton260"}
+    - wir brauchen mehr [zwei-sechzig-ton-ziegel]{"entity": "brick_type", "value": "ton260"}
+    - wir brauchen mehr [zweihundertsechzig-ton-ziegel]{"entity": "brick_type", "value": "ton260"}
+    - wir brauchen mehr [zweisechzig-tonziegel]{"entity": "brick_type", "value": "ton260"}
+    - wir brauchen mehr [zwei-sechzig-tonziegel]{"entity": "brick_type", "value": "ton260"}
+    - wir brauchen mehr [zweihundertsechzig-tonziegel]{"entity": "brick_type", "value": "ton260"}
+    - wir brauchen mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton zweisechzig]{"entity": "brick_type", "value": "ton260"}
+    - wir brauchen mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton zwei sechzig]{"entity": "brick_type", "value": "ton260"}
+    - wir brauchen mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton zweihundertsechzig]{"entity": "brick_type", "value": "ton260"}
+    - wir brauchen mehr [ton zweisechzig]{"entity": "brick_type", "value": "ton260"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - wir brauchen mehr [ton zwei sechzig]{"entity": "brick_type", "value": "ton260"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - wir brauchen mehr [ton zweihundertsechzig]{"entity": "brick_type", "value": "ton260"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - wir brauchen mehr [zweisechzig ton](brick_type) [ziegel]{"entity": "article", "value": "blechziegel"}
+    - wir brauchen mehr [zwei sechzig ton](brick_type) [ziegel]{"entity": "article", "value": "blechziegel"}
+    - wir brauchen mehr [zweihundertsechzig ton](brick_type) [ziegel]{"entity": "article", "value": "blechziegel"}
+    - wir brauchen mehr [zweisechzig tonziegel]{"entity": "brick_type", "value": "ton260"}
+    - wir brauchen mehr [zwei sechzig tonziegel]{"entity": "brick_type", "value": "ton260"}
+    - wir brauchen mehr [zweihundertsechzig tonziegel]{"entity": "brick_type", "value": "ton260"}
+    - wir brauchen mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton 260]{"entity": "brick_type", "value": "ton260"}
+    - wir brauchen mehr [ton 260]{"entity": "brick_type", "value": "ton260"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - wir brauchen mehr [260 ton]{"entity": "brick_type", "value": "ton260"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - wir brauchen mehr [260 tonziegel]{"entity": "brick_type", "value": "ton260"}
+    - wir brauchen mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton-260]{"entity": "brick_type", "value": "ton260"}
+    - wir brauchen mehr [ton-260-ziegel]{"entity": "brick_type", "value": "ton260"}
+    - wir brauchen mehr [260-ton-ziegel]{"entity": "brick_type", "value": "ton260"}
+    - wir brauchen mehr [260-tonziegel]{"entity": "brick_type", "value": "ton260"}
+    - bestell mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton-zweisechzig]{"entity": "brick_type", "value": "ton260"}
+    - bestell mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton-zwei-sechzig]{"entity": "brick_type", "value": "ton260"}
+    - bestell mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton-zweihundertsechzig]{"entity": "brick_type", "value": "ton260"}
+    - bestell mehr [ton-zweisechzig-ziegel]{"entity": "brick_type", "value": "ton260"}
+    - bestell mehr [ton-zwei-sechzig-ziegel]{"entity": "brick_type", "value": "ton260"}
+    - bestell mehr [ton-zweihundertsechzig-ziegel]{"entity": "brick_type", "value": "ton260"}
+    - bestell mehr [zweisechzig-ton-ziegel]{"entity": "brick_type", "value": "ton260"}
+    - bestell mehr [zwei-sechzig-ton-ziegel]{"entity": "brick_type", "value": "ton260"}
+    - bestell mehr [zweihundertsechzig-ton-ziegel]{"entity": "brick_type", "value": "ton260"}
+    - bestell mehr [zweisechzig-tonziegel]{"entity": "brick_type", "value": "ton260"}
+    - bestell mehr [zwei-sechzig-tonziegel]{"entity": "brick_type", "value": "ton260"}
+    - bestell mehr [zweihundertsechzig-tonziegel]{"entity": "brick_type", "value": "ton260"}
+    - bestell mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton zweisechzig]{"entity": "brick_type", "value": "ton260"}
+    - bestell mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton zwei sechzig]{"entity": "brick_type", "value": "ton260"}
+    - bestell mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton zweihundertsechzig]{"entity": "brick_type", "value": "ton260"}
+    - bestell mehr [ton zweisechzig]{"entity": "brick_type", "value": "ton260"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - bestell mehr [ton zwei sechzig]{"entity": "brick_type", "value": "ton260"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - bestell mehr [ton zweihundertsechzig]{"entity": "brick_type", "value": "ton260"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - bestell mehr [zweisechzig ton](brick_type) [ziegel]{"entity": "article", "value": "blechziegel"}
+    - bestell mehr [zwei sechzig ton](brick_type) [ziegel]{"entity": "article", "value": "blechziegel"}
+    - bestell mehr [zweihundertsechzig ton](brick_type) [ziegel]{"entity": "article", "value": "blechziegel"}
+    - bestell mehr [zweisechzig tonziegel]{"entity": "brick_type", "value": "ton260"}
+    - bestell mehr [zwei sechzig tonziegel]{"entity": "brick_type", "value": "ton260"}
+    - bestell mehr [zweihundertsechzig tonziegel]{"entity": "brick_type", "value": "ton260"}
+    - bestell mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton 260]{"entity": "brick_type", "value": "ton260"}
+    - bestell mehr [ton 260]{"entity": "brick_type", "value": "ton260"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - bestell mehr [260 ton]{"entity": "brick_type", "value": "ton260"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - bestell mehr [260 tonziegel]{"entity": "brick_type", "value": "ton260"}
+    - bestell mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton-260]{"entity": "brick_type", "value": "ton260"}
+    - bestell mehr [ton-260-ziegel]{"entity": "brick_type", "value": "ton260"}
+    - bestell mehr [260-ton-ziegel]{"entity": "brick_type", "value": "ton260"}
+    - bestell mehr [260-tonziegel]{"entity": "brick_type", "value": "ton260"}
+    - ich möchte noch mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton-zweisechzig]{"entity": "brick_type", "value": "ton260"}
+    - ich möchte noch mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton-zwei-sechzig]{"entity": "brick_type", "value": "ton260"}
+    - ich möchte noch mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton-zweihundertsechzig]{"entity": "brick_type", "value": "ton260"}
+    - ich möchte noch mehr [ton-zweisechzig-ziegel]{"entity": "brick_type", "value": "ton260"}
+    - ich möchte noch mehr [ton-zwei-sechzig-ziegel]{"entity": "brick_type", "value": "ton260"}
+    - ich möchte noch mehr [ton-zweihundertsechzig-ziegel]{"entity": "brick_type", "value": "ton260"}
+    - ich möchte noch mehr [zweisechzig-ton-ziegel]{"entity": "brick_type", "value": "ton260"}
+    - ich möchte noch mehr [zwei-sechzig-ton-ziegel]{"entity": "brick_type", "value": "ton260"}
+    - ich möchte noch mehr [zweihundertsechzig-ton-ziegel]{"entity": "brick_type", "value": "ton260"}
+    - ich möchte noch mehr [zweisechzig-tonziegel]{"entity": "brick_type", "value": "ton260"}
+    - ich möchte noch mehr [zwei-sechzig-tonziegel]{"entity": "brick_type", "value": "ton260"}
+    - ich möchte noch mehr [zweihundertsechzig-tonziegel]{"entity": "brick_type", "value": "ton260"}
+    - ich möchte noch mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton zweisechzig]{"entity": "brick_type", "value": "ton260"}
+    - ich möchte noch mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton zwei sechzig]{"entity": "brick_type", "value": "ton260"}
+    - ich möchte noch mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton zweihundertsechzig]{"entity": "brick_type", "value": "ton260"}
+    - ich möchte noch mehr [ton zweisechzig]{"entity": "brick_type", "value": "ton260"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - ich möchte noch mehr [ton zwei sechzig]{"entity": "brick_type", "value": "ton260"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - ich möchte noch mehr [ton zweihundertsechzig]{"entity": "brick_type", "value": "ton260"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - ich möchte noch mehr [zweisechzig ton](brick_type) [ziegel]{"entity": "article", "value": "blechziegel"}
+    - ich möchte noch mehr [zwei sechzig ton](brick_type) [ziegel]{"entity": "article", "value": "blechziegel"}
+    - ich möchte noch mehr [zweihundertsechzig ton](brick_type) [ziegel]{"entity": "article", "value": "blechziegel"}
+    - ich möchte noch mehr [zweisechzig tonziegel]{"entity": "brick_type", "value": "ton260"}
+    - ich möchte noch mehr [zwei sechzig tonziegel]{"entity": "brick_type", "value": "ton260"}
+    - ich möchte noch mehr [zweihundertsechzig tonziegel]{"entity": "brick_type", "value": "ton260"}
+    - ich möchte noch mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton 260]{"entity": "brick_type", "value": "ton260"}
+    - ich möchte noch mehr [ton 260]{"entity": "brick_type", "value": "ton260"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - ich möchte noch mehr [260 ton]{"entity": "brick_type", "value": "ton260"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - ich möchte noch mehr [260 tonziegel]{"entity": "brick_type", "value": "ton260"}
+    - ich möchte noch mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ton-260](brick_type)
+    - ich möchte noch mehr [ton-260-ziegel]{"entity": "brick_type", "value": "ton260"}
+    - ich möchte noch mehr [260-ton-ziegel]{"entity": "brick_type", "value": "ton260"}
+    - ich möchte noch mehr [260-tonziegel]{"entity": "brick_type", "value": "ton260"}
+    - wir brauchen mehr [sonderziegel](brick_type)
+    - wir brauchen mehr [sonder-ziegel]{"entity": "brick_type", "value": "sonderziegel"}
+    - wir brauchen mehr [besondere-ziegel]{"entity": "brick_type", "value": "sonderziegel"}
+    - wir brauchen mehr [sonder]{"entity": "brick_type", "value": "sonderziegel"} [ziegel]{"entity": "article", "value": "blechziegel"}
+    - wir brauchen mehr [besondere ziegel]{"entity": "brick_type", "value": "sonderziegel"}
+    - wir brauchen mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ausserhalb des Sortiments]{"entity": "brick_type", "value": "sonderziegel"}
+    - bestell mehr [sonderziegel](brick_type)
+    - bestell mehr [sonder-ziegel]{"entity": "brick_type", "value": "sonderziegel"}
+    - bestell mehr [besondere-ziegel]{"entity": "brick_type", "value": "sonderziegel"}
+    - bestell mehr [sonder ziegel]{"entity": "brick_type", "value": "sonderziegel"}
+    - bestell mehr [besondere ziegel]{"entity": "brick_type", "value": "sonderziegel"}
+    - bestell mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ausserhalb des Sortiments]{"entity": "brick_type", "value": "sonderziegel"}
+    - ich möchte noch mehr [sonderziegel](brick_type)
+    - ich möchte noch mehr [sonder-ziegel]{"entity": "brick_type", "value": "sonderziegel"}
+    - ich möchte noch mehr [besondere-ziegel]{"entity": "brick_type", "value": "sonderziegel"}
+    - ich möchte noch mehr [sonder ziegel]{"entity": "brick_type", "value": "sonderziegel"}
+    - ich möchte noch mehr [besondere ziegel]{"entity": "brick_type", "value": "sonderziegel"}
+    - ich möchte noch mehr [ziegel]{"entity": "article", "value": "blechziegel"} [ausserhalb des Sortiments]{"entity": "brick_type", "value": "sonderziegel"}
+    - ich brauche noch [sonderziegel](brick_type)
+    - ich brauche noch [sonder-ziegel]{"entity": "brick_type", "value": "sonderziegel"}
+    - ich brauche noch [besondere-ziegel]{"entity": "brick_type", "value": "sonderziegel"}
+    - ich brauche noch [sonder ziegel]{"entity": "brick_type", "value": "sonderziegel"}
+    - ich brauche noch [besondere ziegel]{"entity": "brick_type", "value": "sonderziegel"}
+    - ich brauche noch [ziegel]{"entity": "article", "value": "blechziegel"} [ausserhalb des Sortiments]{"entity": "brick_type", "value": "sonderziegel"}
+    - besorge mir noch mehr von [sonderziegel](brick_type)
+    - besorge mir noch mehr von [sonder-ziegel]{"entity": "brick_type", "value": "sonderziegel"}
+    - besorge mir noch mehr von [besondere-ziegel]{"entity": "brick_type", "value": "sonderziegel"}
+    - besorge mir noch mehr von [sonder ziegel]{"entity": "brick_type", "value": "sonderziegel"}
+    - besorge mir noch mehr von [besondere ziegel]{"entity": "brick_type", "value": "sonderziegel"}
+    - besorge mir noch mehr von [ziegel]{"entity": "article", "value": "blechziegel"} [ausserhalb des Sortiments]{"entity": "brick_type", "value": "sonderziegel"}
+    - ich brauche noch mehr [blechziegel](article) bitte sehr
+    - ich brauche [blechziegel](article)
+    - ich brauche [betonziegel]{"entity": "brick_type", "value": "beton"}
+    - [ziegel](article) [ton260](brick_type)
+    - ich brauche [Blechziegel]{"entity": "article", "value": "blechziegel"}
+    - [ziegel]{"entity": "article", "value": "blechziegel"} [ton zweifünfzig]{"entity": "brick_type", "value": "ton250"}
+    - ich möchte [blechziegel](article) erwerben
+    - ich würde gerne [blechziegel](article) erwerben
+    - ich möchte [blechziegel](article) bestellen
+    - ich brauche [ziegel]{"entity": "article", "value": "blechziegel"}
+    - wolle [stock-schrauben]{"entity": "article", "value": "stockschraube"} kaufe
+    - ich möchte [blechziegel](article) kaufen die [ton250](brick_type)
+    - ich möchte der Liste noch [blech-ziegel]{"entity": "article", "value": "blechziegel"} hinzufügen
+    - [ziegel]{"entity": "article", "value": "blechziegel"} [ausserhalb des Sortiments]{"entity": "brick_type", "value": "sonderziegel"}
+    - guten tag, ich möchte [Blechziegel]{"entity": "article", "value": "blechziegel"} hinzufügen
+    - [sonderziegel](brick_type) bitte
+    - haben Sie auch [blechziegel](article)?
+    - ich möchte [blechziegel](article) bitte sehr
+    - ich möchte [Blechziegel]{"entity": "article", "value": "blechziegel"} erwerben
+    - ich hätte gerne [ton260 ziegel](brick_type)
+    - [beton ziegel]{"entity": "brick_type", "value": "beton"} müssen getauscht werden
+    - ich hätte gerne noch mehr [blechziegel](article)
+    - ich brauche [blechpfanne]{"entity": "article", "value": "blechziegel"}
+    - [ziegel]{"entity": "article", "value": "blechziegel"} für [beton](brick_type) bitte
+    - ich möchte [blech-ziegel]{"entity": "article", "value": "blechziegel"} bestellen
+    - [Sonderziegel]{"entity": "brick_type", "value": "sonderziegel"} bitte
+    - ich brauche noch mehr [blechziegel](article)
+    - ich brauche noch [ton250](brick_type)
+    - ich brauche noch [ton260](brick_type)
+    - ich brauche zusätzlich noch [ton250 ziegel](brick_type)
+    - guten tag ich würde gerne [blechziegel](article) bestellen
+    - ich würde gerne [blechziegel](article) bestellen
+    - ich brauche nochmals [sonderziegel](brick_type)
+    - ich möchte mehr von den [blechziegeln]{"entity": "article", "value": "blechziegel"} der [sonder](brick_type) version bestellen
+    - fuege der liste [photovoltaikmodul](article) hinzu
+    - fuege der liste [PV-Modul]{"entity": "article", "value": "photovoltaikmodul"} hinzu
+    - fuege der liste [PV Modul]{"entity": "article", "value": "photovoltaikmodul"} hinzu
+    - fuege der liste [Photovoltaik-modul]{"entity": "article", "value": "photovoltaikmodul"} hinzu
+    - fuege der liste [Photovoltaikmodul]{"entity": "article", "value": "photovoltaikmodul"} hinzu
+    - fuege der liste [pv-modul]{"entity": "article", "value": "photovoltaikmodul"} hinzu
+    - fuege der liste [pv modul]{"entity": "article", "value": "photovoltaikmodul"} hinzu
+    - fuege der liste [fotovoltaikmodul]{"entity": "article", "value": "photovoltaikmodul"} hinzu
+    - fuege der liste [fotovoltaik modul]{"entity": "article", "value": "photovoltaikmodul"} hinzu
+    - fuege der liste [fotovoltaik-modul]{"entity": "article", "value": "photovoltaikmodul"} hinzu
+    - fuege der liste [solarmodul]{"entity": "article", "value": "photovoltaikmodul"} hinzu
+    - fuege der liste [solar-modul]{"entity": "article", "value": "photovoltaikmodul"} hinzu
+    - fuege der liste [solar modul]{"entity": "article", "value": "photovoltaikmodul"} hinzu
+    - fuege der liste [sola-modul]{"entity": "article", "value": "photovoltaikmodul"} hinzu
+    - fuege der liste [Solarmodul]{"entity": "article", "value": "photovoltaikmodul"} hinzu
+    - fuege der liste [PVModule]{"entity": "article", "value": "photovoltaikmodul"} hinzu
+    - fuege der liste [photovoltaikmodule]{"entity": "article", "value": "photovoltaikmodul"} hinzu
+    - fuege der liste [pv module]{"entity": "article", "value": "photovoltaikmodul"} hinzu
+    - erweitere die bestellung um [photovoltaikmodul](article)
+    - erweitere die bestellung um [PV-Modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - erweitere die bestellung um [PV Modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - erweitere die bestellung um [Photovoltaik-modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - erweitere die bestellung um [Photovoltaikmodul]{"entity": "article", "value": "photovoltaikmodul"}
+    - erweitere die bestellung um [pv-modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - erweitere die bestellung um [pv modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - erweitere die bestellung um [fotovoltaikmodul]{"entity": "article", "value": "photovoltaikmodul"}
+    - erweitere die bestellung um [fotovoltaik modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - erweitere die bestellung um [fotovoltaik-modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - erweitere die bestellung um [solarmodul]{"entity": "article", "value": "photovoltaikmodul"}
+    - erweitere die bestellung um [solar-modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - erweitere die bestellung um [solar modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - erweitere die bestellung um [sola-modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - erweitere die bestellung um [Solarmodul]{"entity": "article", "value": "photovoltaikmodul"}
+    - erweitere die bestellung um [PVModule]{"entity": "article", "value": "photovoltaikmodul"}
+    - erweitere die bestellung um [photovoltaikmodule]{"entity": "article", "value": "photovoltaikmodul"}
+    - erweitere die bestellung um [pv module]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich brauche zusaetzlich [photovoltaikmodul](article)
+    - ich brauche zusaetzlich [PV-Modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich brauche zusaetzlich [PV Modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich brauche zusaetzlich [Photovoltaik-modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich brauche zusaetzlich [Photovoltaikmodul]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich brauche zusaetzlich [pv-modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich brauche zusaetzlich [pv modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich brauche zusaetzlich [fotovoltaikmodul]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich brauche zusaetzlich [fotovoltaik modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich brauche zusaetzlich [fotovoltaik-modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich brauche zusaetzlich [solarmodul]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich brauche zusaetzlich [solar-modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich brauche zusaetzlich [solar modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich brauche zusaetzlich [sola-modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich brauche zusaetzlich [Solarmodul]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich brauche zusaetzlich [PVModule]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich brauche zusaetzlich [photovoltaikmodule]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich brauche zusaetzlich [pv module]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich moechte [photovoltaikmodul](article)
+    - ich moechte [PV-Modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich moechte [PV Modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich moechte [Photovoltaik-modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich moechte [Photovoltaikmodul]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich moechte [pv-modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich moechte [pv modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich moechte [fotovoltaikmodul]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich moechte [fotovoltaik modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich moechte [fotovoltaik-modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich moechte [solarmodul]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich moechte [solar-modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich moechte [solar modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich moechte [sola-modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich moechte [Solarmodul]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich moechte [PVModule]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich moechte [photovoltaikmodule]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich moechte [pv module]{"entity": "article", "value": "photovoltaikmodul"}
+    - besorge mir noch mehr von [photovoltaikmodul](article)
+    - besorge mir noch mehr von [PV-Modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - besorge mir noch mehr von [PV Modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - besorge mir noch mehr von [Photovoltaik-modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - besorge mir noch mehr von [Photovoltaikmodul]{"entity": "article", "value": "photovoltaikmodul"}
+    - besorge mir noch mehr von [pv-modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - besorge mir noch mehr von [pv modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - besorge mir noch mehr von [fotovoltaikmodul]{"entity": "article", "value": "photovoltaikmodul"}
+    - besorge mir noch mehr von [fotovoltaik modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - besorge mir noch mehr von [fotovoltaik-modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - besorge mir noch mehr von [solarmodul]{"entity": "article", "value": "photovoltaikmodul"}
+    - besorge mir noch mehr von [solar-modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - besorge mir noch mehr von [solar modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - besorge mir noch mehr von [sola-modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - besorge mir noch mehr von [Solarmodul]{"entity": "article", "value": "photovoltaikmodul"}
+    - besorge mir noch mehr von [PVModule]{"entity": "article", "value": "photovoltaikmodul"}
+    - besorge mir noch mehr von [photovoltaikmodule]{"entity": "article", "value": "photovoltaikmodul"}
+    - besorge mir noch mehr von [pv module]{"entity": "article", "value": "photovoltaikmodul"}
+    - Als letztes noch das [photovoltaikmodul](article) auf die Bestellung
+    - Als letztes noch das [PV-Modul]{"entity": "article", "value": "photovoltaikmodul"} auf die Bestellung
+    - Als letztes noch das [PV Modul]{"entity": "article", "value": "photovoltaikmodul"} auf die Bestellung
+    - Als letztes noch das [Photovoltaik-modul]{"entity": "article", "value": "photovoltaikmodul"} auf die Bestellung
+    - Als letztes noch das [Photovoltaikmodul]{"entity": "article", "value": "photovoltaikmodul"} auf die Bestellung
+    - Als letztes noch das [pv-modul]{"entity": "article", "value": "photovoltaikmodul"} auf die Bestellung
+    - Als letztes noch das [pv modul]{"entity": "article", "value": "photovoltaikmodul"} auf die Bestellung
+    - Als letztes noch das [fotovoltaikmodul]{"entity": "article", "value": "photovoltaikmodul"} auf die Bestellung
+    - Als letztes noch das [fotovoltaik modul]{"entity": "article", "value": "photovoltaikmodul"} auf die Bestellung
+    - Als letztes noch das [fotovoltaik-modul]{"entity": "article", "value": "photovoltaikmodul"} auf die Bestellung
+    - Als letztes noch das [solarmodul]{"entity": "article", "value": "photovoltaikmodul"} auf die Bestellung
+    - Als letztes noch das [solar-modul]{"entity": "article", "value": "photovoltaikmodul"} auf die Bestellung
+    - Als letztes noch das [solar modul]{"entity": "article", "value": "photovoltaikmodul"} auf die Bestellung
+    - Als letztes noch das [sola-modul]{"entity": "article", "value": "photovoltaikmodul"} auf die Bestellung
+    - Als letztes noch das [Solarmodul]{"entity": "article", "value": "photovoltaikmodul"} auf die Bestellung
+    - Als letztes noch das [PVModule]{"entity": "article", "value": "photovoltaikmodul"} auf die Bestellung
+    - Als letztes noch das [photovoltaikmodule]{"entity": "article", "value": "photovoltaikmodul"} auf die Bestellung
+    - Als letztes noch das [pv module]{"entity": "article", "value": "photovoltaikmodul"} auf die Bestellung
+    - ich brauche die für [beton](brick_type)
+    - ich brauche [blechziegel](article) unbedingt
+    - ich brauche noch [photovoltaikmodule]{"entity": "article", "value": "photovoltaikmodul"}
+    - in [weiss]{"entity": "rail_color", "value": "weissaluminium"}
+    - ich brauche noch [stockschrauben]{"entity": "article", "value": "stockschraube"}
+    - ich brauche noch [pv module]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich brauche [ton250](brick_type) [blechziegel](article)
+    - ich brauche [pv modul]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich möchte [fünfzehn](sales_units) [solarmodule]{"entity": "article", "value": "photovoltaikmodul"} erwerben brudi
+    - ich möchte [solarmodule]{"entity": "article", "value": "photovoltaikmodul"} bestellen
+    - ich brauche noch [dreizehn](sales_units) [photovoltaikmodule]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich brauche [solarmodule]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich brauche [PV-module]{"entity": "article", "value": "photovoltaikmodul"} [dreißig](sales_units) stück
+    - ich möchte [photovoltaikmodule]{"entity": "article", "value": "photovoltaikmodul"} bestellen bitte sehrr
+    - ich brauche [pv module]{"entity": "article", "value": "photovoltaikmodul"} [zehn](sales_units) stück
+    - ich möchte [photovoltaikmodule]{"entity": "article", "value": "photovoltaikmodul"} kaufen [neun](sales_units) stück
+    - ich brauche noch [pv-module]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich brauche noch mehr [solarmodule]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich brauche [photovoltaik-module]{"entity": "article", "value": "photovoltaikmodul"} für den bau
+    - ich brauche [photovoltaikmodule]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich brauche [endklemmen]{"entity": "clamp_type", "value": "endklemme"} mit [wasiclip]{"entity": "framed", "value": "WASICLIP"}
+    - ich möchte [breite]{"entity": "rail_adesign", "value": "80er Montageschienen"} [Montageschienen]{"entity": "article", "value": "schiene"} bestellen
+    - ich brauche noch zusätzlich [photovoltaikmodule]{"entity": "article", "value": "photovoltaikmodul"} [drei](sales_units) an der Zahl
+    - ich brauche noch [drei](sales_units) [photovoltaikmodule]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich möchte [stockschrauben]{"entity": "article", "value": "stockschraube"} bestellen [25 cm]{"entity": "alength", "value": "250 mm"}
+    - ich brache [pv-module]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich brauche [PV-module]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich brauche [Mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} mit [WASICLIP](framed)
+    - ich brauche [schwarze]{"entity": "rail_color", "value": "schwarz"} [schienen]{"entity": "article", "value": "schiene"}
+    - ich möchte [photovoltaikmodule]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich brauche noch [dachhaken](article)
+    - ich brauche [pv module]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich brauche noch [dachziegel]{"entity": "article", "value": "blechziegel"}
+    - ich möchte [blechziegel](article)
+    - ich brauche [Mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} mit [wasiclip]{"entity": "framed", "value": "WASICLIP"}
+    - ich brauche [40er montageschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"}
+    - jetzt noch [solarmodule]{"entity": "article", "value": "photovoltaikmodul"} [22](sales_units) stück
+    - ich brauche zustätzlich [Mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} mit [Wasiclip]{"entity": "framed", "value": "WASICLIP"}
+    - ich brauche noch [adapterbleche]{"entity": "article", "value": "adapterblech"} für [m-zwölf]{"entity": "ascrew_type", "value": "M12"}
+    - [16](sales_units) weitere [Dachhaken]{"entity": "article", "value": "dachhaken"} bitte
+    - ich brauche noch [blechziegel](article)
+    - ich brauche noch [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} mit [wasiclip]{"entity": "framed", "value": "WASICLIP"}
+    - ich brauche [schienen]{"entity": "article", "value": "schiene"} fürs [trapezdach](rail_bfeature)
+    - ich brauche noch [breite]{"entity": "rail_adesign", "value": "80er Montageschienen"} [Montageschienen]{"entity": "article", "value": "schiene"}
+    - ich brauche [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} mit [wasiclip]{"entity": "framed", "value": "WASICLIP"} in [dunkel]{"entity": "rail_color", "value": "schwarz"} bitte
+    - ich brauche [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} mit [wasiclip]{"entity": "framed", "value": "WASICLIP"}
+    - ich brauche noch mehr [pv-module]{"entity": "article", "value": "photovoltaikmodul"}
+    - nochmal die gleiche menge [adapterbleche]{"entity": "article", "value": "adapterblech"} für [m-zwoelf]{"entity": "ascrew_type", "value": "M12"}
+    - [Adapterbleche]{"entity": "article", "value": "adapterblech"} für [m-zwölf]{"entity": "ascrew_type", "value": "M12"} schrauben bitte
+    - [adapterbleche]{"entity": "article", "value": "adapterblech"} für [m-zehn]{"entity": "ascrew_type", "value": "M10"} bräuchte ich auch noch
+    - ich brauche [blechziegel](article) für den austausch von betonziegeln
+    - jetzt brauche ich zusätzlich noch [blechpfannen]{"entity": "article", "value": "blechziegel"}
+    - jetzt noch [dachhaken](article) bitte
+    - ich brauche [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} die gleiche anzahl für [glas](framed)
+    - ich brauche [endklemmen]{"entity": "clamp_type", "value": "endklemme"} aus [glas](framed)
+    - ich brauche [schwarze]{"entity": "rail_color", "value": "schwarz"} [montageschienen]{"entity": "article", "value": "schiene"}
+    - ich möchte [endklemmen]{"entity": "clamp_type", "value": "endklemme"} erwerben für [gerahmte]{"entity": "framed", "value": "gerahmt"} module
+    - ich brauche [adapterbleche]{"entity": "article", "value": "adapterblech"} für [m-zwölf]{"entity": "ascrew_type", "value": "M12"} durchmesser
+    - ich brauche [blechziegel](article) für [beton](brick_type)
+    - ich brauche [stockschrauben]{"entity": "article", "value": "stockschraube"} [20 cm]{"entity": "alength", "value": "200 mm"}
+    - ich brauche [schienen]{"entity": "article", "value": "schiene"} mit [seitlicher nutung]{"entity": "rail_bfeature", "value": "seitliche Nutung"}
+    - ich brauche [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} für [gerahmte]{"entity": "framed", "value": "gerahmt"} module
+    - ich möchte [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} erwerben mit [wasiclip]{"entity": "framed", "value": "WASICLIP"}
+    - ich brauche noch mehr von den [blechziegeln]{"entity": "article", "value": "blechziegel"} für [ton260](brick_type)
+    - [adapterbleche]{"entity": "article", "value": "adapterblech"} brauche ich auch
+    - ich brauche [stockschrauben]{"entity": "article", "value": "stockschraube"} dafür
+    - ich brauche [blechziegel](article) bitte
+    - ich brauche mehr [ziegel]{"entity": "brick_type", "value": "blechziegel"} in [ton 260](brick_type)
+    - ich brauche [blechziegel](article) in [ton250](brick_type) bitte sehr
+    - ich brauche [blechziegel](article) in [ton250](brick_type)
+    - ich brauche [blechziegel](article) [ton 260](brick_type)
+    - ich möchte [ton250](brick_type)
+    - ich brauche [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} mit [wasiclip]{"entity": "framed", "value": "WASICLIP"} für [37 mm](height) in [dunkel]{"entity": "rail_color", "value": "schwarz"}
+    - ich möchte noch [endklemmen]{"entity": "clamp_type", "value": "endklemme"} für [gerahmte]{"entity": "framed", "value": "gerahmt"} module in [50 mm](height) und [weiß]{"entity": "rail_color", "value": "weissaluminium"} bitte
+    - ich möchte [Endklemmen]{"entity": "clamp_type", "value": "endklemme"} bestellen
+    - ich brauche [sonderziegel](article)
+    - ich brauche [ton250](brick_type)
+    - ich brauche [blechziegel](article) [ton250](brick_type)
+    - ich brauche [trapezdach](rail_bfeature) [schienen]{"entity": "article", "value": "schiene"}
+    - ich hätte gerne noch [schienen]{"entity": "article", "value": "schiene"} mit [seitlicher nutung]{"entity": "rail_bfeature", "value": "seitliche Nutung"}
+    - ich möchte [breite]{"entity": "rail_adesign", "value": "80er Montageschienen"} [montageschienen]{"entity": "article", "value": "schiene"} bitte
+    - ich möchte [Schienen]{"entity": "article", "value": "schiene"} mit breitem profil erwerben
+    - ich brauche zusätzlich noch schwere [Dachhaken]{"entity": "article", "value": "dachhaken"}
+    - ja dieselben nur als [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} für [glas](framed)
+    - [adapterbleche]{"entity": "article", "value": "adapterblech"} [m-zwölf]{"entity": "ascrew_type", "value": "M12"} bitte
+    - [blechziegel](article) für [beton](brick_type) austausch
+    - ich brauche [adapterbleche]{"entity": "article", "value": "adapterblech"} für [m10](ascrew_type)
+    - jetzt noch welche für [beton](brick_type)
+    - ich brauche [adapterbleche]{"entity": "article", "value": "adapterblech"} für [m-zwölf]{"entity": "ascrew_type", "value": "M12"}
+    - ich möchte noch mehr von diesen [blechziegeln]{"entity": "article", "value": "blechziegel"} haben für [sonder]{"entity": "brick_type", "value": "sonderziegel"} version
+    - ich möchte [stockschrauben]{"entity": "article", "value": "stockschraube"}
+    - ich möchte [stockschrauben]{"entity": "article", "value": "stockschraube"} [20 cm]{"entity": "alength", "value": "200 mm"}
+    - ich möchte noch [14](sales_units) mehr [pv module]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich möchte [schienen]{"entity": "article", "value": "schiene"} in [standard]{"entity": "rail_bfeature", "value": "Keine"} ausfuehrung
+    - ich möchte [dachhaken](article)
+    - ich möchte noch mehr von den [solarmodulen](article) haben bitte
+    - ich brauche [breite]{"entity": "rail_adesign", "value": "80er Montageschienen"} [schienen]{"entity": "article", "value": "schiene"}
+    - ich möchte noch mehr [dachhaken](article) bitte
+    - ich brauche [solarmodule]{"entity": "article", "value": "photovoltaikmodul"} jetzt
+    - ich möchte auch noch gerne [stockschrauben]{"entity": "article", "value": "stockschraube"} mit [20 cm]{"entity": "alength", "value": "200 mm"} laenge
+    - ich hätte gerne noch mehr von euren [blechziegeln]{"entity": "article", "value": "blechziegel"}
+    - ich möchte [blechziegel](article) in [sonder]{"entity": "brick_type", "value": "sonderziegel"} ausfuehrung
+    - ich brauche auch noch [sonderziegel](brick_type)
+    - ich möchte [adapterbleche]{"entity": "article", "value": "adapterblech"} für [m-zwölf]{"entity": "ascrew_type", "value": "M12"}
+    - für [beton](brick_type)
+    - ich möchte unbedingt mehr [blechziegel](article) bestellen, bevor die uns ausgehen
+    - ich möchte [stockschrauben]{"entity": "article", "value": "stockschraube"} für [20 cm]{"entity": "alength", "value": "200 mm"} haben
+    - ich möchte [adapterbleche]{"entity": "article", "value": "adapterblech"} bestellen
+    - ich brauche [dachhaken](article) bitte
+    - ich brauche [schiene](article) mit [seitlicher nutung]{"entity": "rail_bfeature", "value": "seitliche Nutung"}
+    - zusätzlich hätte ich noch gerne [photovoltaikmodule]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich brauche [stockschrauben]{"entity": "article", "value": "stockschraube"} für laenge [25 cm]{"entity": "alength", "value": "250 mm"}
+    - dazu hätte ich noch gerne [schienen]{"entity": "article", "value": "schiene"}
+    - ich möchte noch merh von diese [dachhaken](article) bestellen bitte
+    - ich brauche [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} für module aus [glas](framed)
+    - ich brauche [endklemmen]{"entity": "clamp_type", "value": "endklemme"} für [gerahmte]{"entity": "framed", "value": "gerahmt"} module
+    - ah entschuldige ich möchte [endklemmen]{"entity": "clamp_type", "value": "endklemme"} für module aus [glas](framed)
+    - ich brauche [mittelklemme](clamp_type) mit [wasiclip]{"entity": "framed", "value": "WASICLIP"}
+    - ich brauche [endklemme](clamp_type) mit [wasiclip]{"entity": "framed", "value": "WASICLIP"}
+    - ich brauche [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} mit [wasiclip]{"entity": "framed", "value": "WASICLIP"} bitte
+    - ich möchte [endklemme](clamp_type) mit [wasiclip]{"entity": "framed", "value": "WASICLIP"}
+    - ich brauche [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} für [gerahmte]{"entity": "framed", "value": "gerahmt"} module bitte sehr
+    - als letztes noch [photovoltaikmodule]{"entity": "article", "value": "photovoltaikmodul"} dann haben wirs auch
+    - [adapterbleche]{"entity": "article", "value": "adapterblech"} für [m-zehn]{"entity": "ascrew_type", "value": "M10"} norm bitte
+    - ich möchte [stockschrauben]{"entity": "article", "value": "stockschraube"} für [25 centimeter]{"entity": "alength", "value": "250 mm"} laenge
+    - ich brauche [20 centimeter]{"entity": "alength", "value": "200 mm"} lange [stockschrauben]{"entity": "article", "value": "stockschraube"}
+    - ich möchte [M10](ascrew_type) [adapterbleche]{"entity": "article", "value": "adapterblech"} erwerben bitte sehr
+    - ich brauche auch noch [pv module]{"entity": "article", "value": "photovoltaikmodul"} für die aktuelle baustelle
+    - ich möchte [photovoltaikmodule]{"entity": "article", "value": "photovoltaikmodul"} bittesehr
+    - ich möchte [25 cm]{"entity": "alength", "value": "250 mm"} lange [stockschrauben]{"entity": "article", "value": "stockschraube"}
+    - ich brauche [blechziegel](article) für [ton 260]{"entity": "brick_type", "value": "ton260"}
+    - ich brauche [blechpfannen]{"entity": "article", "value": "blechziegel"} für [betonziegel]{"entity": "brick_type", "value": "beton"} bitte
+    - ich brauche [edklemmen](clamp_type)
+    - ich brauche [stockschrauben]{"entity": "article", "value": "stockschraube"} [25 cm]{"entity": "alength", "value": "250 mm"}
+    - dazu noch [breite]{"entity": "rail_adesign", "value": "80er Montageschienen"} [schienen]{"entity": "article", "value": "schiene"} bitte
+    - gib mir noch mehr [photovoltaikmodule]{"entity": "article", "value": "photovoltaikmodul"} bitte
+    - und dazu brauche ich noch [stockschrauben]{"entity": "article", "value": "stockschraube"} auf [20cm]{"entity": "alength", "value": "200 mm"} laenge
+    - kannst du n och [adapterbleche]{"entity": "article", "value": "adapterblech"} im angebot vermerken, die für [m12](ascrew_type)
+    - ich brauche [adapterblech](article) für [m12](ascrew_type)
+    - ich brauche auch noch [stockschrauben]{"entity": "article", "value": "stockschraube"} für [20 cm]{"entity": "alength", "value": "200 mm"} laenge
+    - ich möchte auch noch [blechziegel](article) haben
+    - [sechzehn](sales_units) stucke auch
+    - ich möchte [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} bestelelen mit [wasiclip]{"entity": "framed", "value": "WASICLIP"} bittesehr
+    - ich möchte [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} besteleln mit [wasiclip]{"entity": "framed", "value": "WASICLIP"} bittesehr
+    - ich möchte [endklemmen]{"entity": "clamp_type", "value": "endklemme"} besteleln mit [wasiclip]{"entity": "framed", "value": "WASICLIP"} bittesehr
+    - ich möchte [endklemmen]{"entity": "clamp_type", "value": "endklemme"} besteleln mit [wasiclip]{"entity": "framed", "value": "WASICLIP"}
+    - [sechzehn](sales_units) reichet mir vollkomme aus
+    - ich möchte auch noch [blechziegel](article)
+    - [m-zehn]{"entity": "ascrew_type", "value": "M10"} schraubendurchmesser
+    - ich möchte [adapterbleche]{"entity": "article", "value": "adapterblech"} erwerben von ihnen
+    - ich würde gerne noch mehr von den [dachhaken](article) bestellen
+    - [sechzehn](sales_units) stucke auch von diesem
+    - ich möchte [photovoltaikmodule]{"entity": "article", "value": "photovoltaikmodul"} kaufen
+    - ich möchte zusätzlich noch [stockschrauben]{"entity": "article", "value": "stockschraube"} bestellen für die baustelle, davon wurden zu wenige geliefert
+    - ich hätte gerne noch [stockschrauben]{"entity": "article", "value": "stockschraube"}, die fehlen bei uns noch auf baustelle
+    - ich möchte gerne [stockscharuben](article) erwerben, davon fehlen uns noch einige
+    - ich hätte gerne noch dieselben [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} also auch für [glas](framed)
+    - ich würde jetzt gerne noch [endklemmen]{"entity": "clamp_type", "value": "endklemme"} für [glas](framed) bestellen
+    - guten tag miteinand, ich hätte gerne [photovoltaikmodule]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich brauche mehr [pv-module]{"entity": "article", "value": "photovoltaikmodul"} dann war es das
+    - hierzu kommen noch [adapterblech](article) für [m-zwölf]{"entity": "ascrew_type", "value": "M12"} diese brauchen wir
+    - jetzt benötigen wir noch [blechziegel](article) am besten für [beton](brick_type)
+    - ich brauche [schiene](article) für [trapezdach](rail_bfeature)
+    - [dachhaken](article) brauche ich noch
+    - ich möchte [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} für [glas](framed)
+    - ich möchte [endklemmen]{"entity": "clamp_type", "value": "endklemme"} für [glasmodule](framed)
+    - ich benötige noch [dachhaken](article)
+    - [schwarze]{"entity": "rail_color", "value": "schwarz"} [schienen]{"entity": "article", "value": "schiene"} benötigen wir auch noch
+    - ich brauche [blechziegel](article) für [ton260](brick_type)
+    - ich brauche [ziegel]{"entity": "article", "value": "blechziegel"} für [ton260](brick_type)
+    - [adapterbleche]{"entity": "article", "value": "adapterblech"} hammer auch zu wenig davon die [m-zehn]{"entity": "ascrew_type", "value": "M10"} ausfuehrung
+    - ich brauche [adapterbleche]{"entity": "article", "value": "adapterblech"} für [m12](ascrew_type)
+    - ich brauche [pv-module]{"entity": "article", "value": "photovoltaikmodul"}
+    - dazu noch [dachhaken](article) bitte sehr
+    - ich möchte [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} mit [wasiclip]{"entity": "framed", "value": "WASICLIP"} für [31 mm](height) hoehe dazubestellen
+    - i hätt gern mehr von den [endklemmen]{"entity": "clamp_type", "value": "endklemme"} mit [wasi-clip]{"entity": "framed", "value": "WASICLIP"}
+    - [salut](clamp_type), ich hätte gerne [pv module]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich möchte [adapterbleche]{"entity": "article", "value": "adapterblech"} für [m-zehn]{"entity": "ascrew_type", "value": "M10"} erwerben
+    - ich möchte [schienen]{"entity": "article", "value": "schiene"} mit [seitlicher nutung]{"entity": "rail_bfeature", "value": "seitliche Nutung"}
+    - ich möchte [dachhaken](article) für das angebot erwerben
+    - ich brauche [adapterbleche]{"entity": "article", "value": "adapterblech"} für [m-zehn]{"entity": "ascrew_type", "value": "M10"}
+    - ich brauche [blechziegel](article) [ton260](brick_type)
+    - ich brauche [dachhaken](article) für die baustelle hier
+    - [ton250](brick_type) wären sehr gut
+    - ich brauche noch [endklemmen]{"entity": "clamp_type", "value": "endklemme"} mit [wasiclip]{"entity": "framed", "value": "WASICLIP"} für [39 mm](height) bitte sehr
+    - ich möchte [endklemmen]{"entity": "clamp_type", "value": "endklemme"} mit [wasiclip]{"entity": "framed", "value": "WASICLIP"} für [41 mm](height) bestellen
+    - ich möchte noch mehr [photovoltaikmodule]{"entity": "article", "value": "photovoltaikmodul"} erwerben
+    - ich brauche [pv-module]{"entity": "article", "value": "photovoltaikmodul"} [fünfzehn](sales_units) stück bitte
+    - ich brauche [schwarze]{"entity": "rail_color", "value": "schwarz"} [schienen]{"entity": "article", "value": "schiene"} noch dazu
+    - ich brauche [adapterbleche]{"entity": "article", "value": "adapterblech"} für [m-zehn]{"entity": "ascrew_type", "value": "M10"} durchmesser
+    - ich brauche [adapterbleche]{"entity": "article", "value": "adapterblech"} für [m10](ascrew_type) schrauben
+    - ich möchte [adapterbleche]{"entity": "article", "value": "adapterblech"} für [m12](ascrew_type)
+    - ich brauche nochmal [haken]{"entity": "article", "value": "dachhaken"} bitte
+    - ich brauche noch mehr von den [blechziegel](article) für den austausch von [ton260](brick_type) [pfannen]{"entity": "article", "value": "blechziegel"}
+    - ich möchte [blechziegel](article) für den austausch von [beton](brick_type)
+    - ich breauche noch mehr [stockschrauben]{"entity": "article", "value": "stockschraube"} [25 cm]{"entity": "alength", "value": "250 mm"} bitte
+    - ich hätte gerne [stockschrauben]{"entity": "article", "value": "stockschraube"} [25 cm]{"entity": "alength", "value": "250 mm"}
+    - ich hätte gerne [stockschrauben]{"entity": "article", "value": "stockschraube"}
+    - ich hätte gerne [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} mit [wasiclip]{"entity": "framed", "value": "WASICLIP"} für [40 mm](height)
+    - ich möchte [endklemmen]{"entity": "clamp_type", "value": "endklemme"} für [glas](framed)
+    - ich möchte zusätzlich [schienen]{"entity": "article", "value": "schiene"} mit [seitlicher nutung]{"entity": "rail_bfeature", "value": "seitliche Nutung"}
+    - ich brauche auch noch [normale]{"entity": "rail_bfeature", "value": "Keine"} [dachhaken](article)
+    - ich möchte noch mehr [breite]{"entity": "rail_adesign", "value": "80er Montageschienen"} [schienen]{"entity": "article", "value": "schiene"} erwerben
+    - [adapterbleche]{"entity": "article", "value": "adapterblech"} für [m-zehn]{"entity": "ascrew_type", "value": "M10"} noch bitte
+    - ich möchte auch noch [stockschrauben]{"entity": "article", "value": "stockschraube"} erwerben
+    - ich brauche [blechziegel](article) für [ton250](brick_type)
+    - ich brauche [endklemmen]{"entity": "clamp_type", "value": "endklemme"} mit [wasiclip]{"entity": "framed", "value": "WASICLIP"} für [29 mm](height) bitte sehr
+    - ich brauche [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} mit [wasiclip]{"entity": "framed", "value": "WASICLIP"} für [29 mm](height) bitte sehr
+    - wir brauchen noch mehr von den [dachhaken](article)
+    - ich möchte [endklemmen]{"entity": "clamp_type", "value": "endklemme"} erwerben mit [wasiclip]{"entity": "framed", "value": "WASICLIP"} für [29 mm](height)
+    - ich möchte [dachhaken](article) erwerben
+    - ich möchte [40er montageschienen]{"entity": "rail_adesign", "value": "40er Montageschienen"}
+    - ich möchte [20 cm]{"entity": "alength", "value": "200 mm"} lange [stockschrauben]{"entity": "article", "value": "stockschraube"} erwerben
+    - ich möchte noch [adapterbleche]{"entity": "article", "value": "adapterblech"} bitte
+    - mir fehlen noch [solarmodule]{"entity": "article", "value": "photovoltaikmodul"} für die baustelle
+    - ich brauche [adapterblech](article) für [m10](ascrew_type)
+    - ich möchte noch [stockschrauben]{"entity": "article", "value": "stockschraube"} dem angebot ergänzen für [20 cm]{"entity": "alength", "value": "200 mm"}
+    - füge noch [stockschrauben]{"entity": "article", "value": "stockschraube"} für [20 cm]{"entity": "alength", "value": "200 mm"} dem angebot hinzu bitte
+    - noch mehr [adapterbleche]{"entity": "article", "value": "adapterblech"} bitte
+    - ich brauche mehr [adapterbleche]{"entity": "article", "value": "adapterblech"} bitte
+    - für [m12](ascrew_type)
+    - ich möchte [adapterbleche]{"entity": "article", "value": "adapterblech"} für [m-12](ascrew_type)
+    - ich möchte [adapterbleche]{"entity": "article", "value": "adapterblech"} für [m-zehn]{"entity": "ascrew_type", "value": "M10"}
+    - ich möchte noch [stockschraube](article) für [25 cm]{"entity": "alength", "value": "250 mm"} bitte sehr
+    - ich möchte noch mehr [pv-module]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich möchte jetzt noch [solarmodule]{"entity": "article", "value": "photovoltaikmodul"} hinzufügen
+    - gib mir noch mehr [photovoltaikmodule]{"entity": "article", "value": "photovoltaikmodul"}
+    - erweitere das angebot um [solarmodule]{"entity": "article", "value": "photovoltaikmodul"} bitte
+    - ich möchte noch mehr [pv-module]{"entity": "article", "value": "photovoltaikmodul"} bitte
+    - ich brauche doch noch [5](sales_units) mehr von den [photovoltaikmodulen]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich hätte noch gerne [blechziegel](article) in [sonder]{"entity": "brick_type", "value": "sonderziegel"} ausführung
+    - ich möchte [blechziegel](article) in [sonder]{"entity": "brick_type", "value": "sonderziegel"} ausführung
+    - erweitere das angebot um [sonderziegel](brick_type)
+    - ich brauche [blechziegel](article) für [ziegel]{"entity": "article", "value": "blechziegel"} [ausserhalb des sortiments]{"entity": "brick_type", "value": "sonderziegel"} #
+    - ich brauche noch mehr [blechziegel](article) für [ton 250](brick_type) dieses mal
+    - ich möchte auch noch welche für [beton](brick_type)
+    - ich möchte noch mehr [blechziegel](article) für [ton260](brick_type) austausch erwerben
+    - ich brauche [schienen]{"entity": "article", "value": "schiene"} in [schwarzer]{"entity": "rail_color", "value": "schwarz"} ausführung
+    - mit [seitlicher nutung]{"entity": "rail_bfeature", "value": "seitliche Nutung"} auch noch bitte
+    - ich möchte [breite]{"entity": "rail_adesign", "value": "80er Montageschienen"} [schienen]{"entity": "article", "value": "schiene"} bitte
+    - ich möchte [schienen]{"entity": "article", "value": "schiene"} in [standard]{"entity": "rail_bfeature", "value": "Keine"} ausführung
+    - ich möchte [schwarze]{"entity": "rail_color", "value": "schwarz"} [montageschienen]{"entity": "article", "value": "schiene"} bitte
+    - ich möchte noch mehr [montageschienen]{"entity": "article", "value": "schiene"}
+    - ich möchte [schienen]{"entity": "article", "value": "schiene"} erwerben
+    - kannst du mir noch mehr [dachhaken](article) besorgen?
+    - kannst du mir noch mehr von den [dachhaken](article) geben
+    - ich brauche noch mehr [dachhaken](article) aber diesmal andere
+    - ich brauche [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} für [glasmodule](framed)
+    - ich brauche [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} mit [wasiclip]{"entity": "framed", "value": "WASICLIP"} für [38 mm](height)
+    - ich brauche [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} mit [wasiclip]{"entity": "framed", "value": "WASICLIP"} für [29 mm](height)
+    - [einundzwanzig](sales_units) stück bitte mehr brauche ich nichnt
+    - ich möchte [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} bestellen für [gerahmte]{"entity": "framed", "value": "gerahmt"} module
+    - ich brauche noch [endklemmen]{"entity": "clamp_type", "value": "endklemme"} mit [wasiclip]{"entity": "framed", "value": "WASICLIP"}
+    - ich brauche [endklemmen]{"entity": "clamp_type", "value": "endklemme"} mit [wasiclip]{"entity": "framed", "value": "WASICLIP"} für [29 mm](height)
+    - ich brauche [endklemmen]{"entity": "clamp_type", "value": "endklemme"} für [glas](framed)
+    - ich möchte [endklemmen]{"entity": "clamp_type", "value": "endklemme"} mit [wasiclip]{"entity": "framed", "value": "WASICLIP"}
+    - ich benötige noch mehr von den [endklemmen]{"entity": "clamp_type", "value": "endklemme"} für [gerahmte]{"entity": "framed", "value": "gerahmt"} module bitte
+    - ich brauche auch noch [blechziegel](article) für [beton](brick_type)
+    - ich mlöchte [adapterblech](article)
+    - ich möchte dazu noch [stockschrauben]{"entity": "article", "value": "stockschraube"} für [20 cm]{"entity": "alength", "value": "200 mm"}
+    - ich möchte [blechziegel](article) bestellen [ton250](brick_type) oder [sonder ziegel]{"entity": "brick_type", "value": "sonderziegel"}
+    - perfekt, nun brauche ich noch [breite]{"entity": "rail_adesign", "value": "80er Montageschienen"} [schienen]{"entity": "article", "value": "schiene"} für das vorhaben
+    - ich möchte [dachhaken](article) bitte
+    - ich möchte [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} für [glasmodule](framed) bitte
+    - ich möchte noch [endklemmen]{"entity": "clamp_type", "value": "endklemme"} für [glasmodule](framed)
+    - ich möchte [stockschrauben]{"entity": "article", "value": "stockschraube"} [25 cm]{"entity": "alength", "value": "250 mm"}
+    - ich möchte zusätzlich noch [adapterbleche]{"entity": "article", "value": "adapterblech"} für [m10](ascrew_type)
+    - ich möchte [pvmodule]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich möchte gerne [blechziegel](article) bestellen die [sondere ausfuehrung](brick_type) also die [ziegel]{"entity": "article", "value": "blechziegel"} [ausserhalb des sortiments]{"entity": "brick_type", "value": "sonderziegel"}
+    - ich hätte gerne noch mehr [blechziegel](article) die [ton250](brick_type) oder [ziegel]{"entity": "article", "value": "blechziegel"} [ausserhalb des sortiments]{"entity": "brick_type", "value": "sonderziegel"}
+    - ich hätte gerne noch mehr [blechziegel](article) die [ton250](brick_type) und [ziegel]{"entity": "article", "value": "blechziegel"} [ausserhalb des sortiments]{"entity": "brick_type", "value": "sonderziegel"}
+    - ich möchte gerne [blechziegel](article) bestellen die [sonder ausfuehrung](brick_type) also [ziegel]{"entity": "article", "value": "blechziegel"} [ausserhalb des sortiments]{"entity": "brick_type", "value": "sonderziegel"}
+    - ich brauche [ziegel]{"entity": "article", "value": "blechziegel"} [ton250](brick_type)
+    - ich brauche [ziegel]{"entity": "article", "value": "blechziegel"} [ton 250]{"entity": "brick_type", "value": "ton250"} bitte seehr
+    - ich brauche [ziegel]{"entity": "article", "value": "blechziegel"} [ton250](brick_type) bitte
+    - ich möchte [ziegel]{"entity": "article", "value": "blechziegel"} [ton 250]{"entity": "brick_type", "value": "ton250"} bestellen bitte
+    - ich möchte noch [stockschrauben]{"entity": "article", "value": "stockschraube"} bitte
+    - ich möchte [blechziegel](article) [ton250](brick_type) bestellen
+    - ich hätte gerne [ziegel](article) [ausserhalb des sortiments](brick_type)
+    - dazu hätte ich gerne zusaetzlich noch [solarmodule]{"entity": "article", "value": "photovoltaikmodul"}
+    - ich möchte [adapterblech](article) für [m10](ascrew_type)
+    - ich möchte [stockschrauben]{"entity": "article", "value": "stockschraube"} [20cm]{"entity": "alength", "value": "200 mm"} bitte
+    - ich würde gerne [dachhaken](article) erwerben
+    - ich möchte [haken](article) erwerben
+    - ich möchte [ziegel]{"entity": "brick_type", "value": "blechziegel"} erwerben
+    - ich möchte [ziegel]{"entity": "article", "value": "blechziegel"} bitte
+    - hast du mir noch [dachhaken](article) bitte?
+    - ich möchte [stockschrauben]{"entity": "article", "value": "stockschraube"} [25 cm]{"entity": "alength", "value": "250 mm"} erwerben bitte
+    - ich würde echt gerne [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} bestellen
+    - ich möchte [stockschrauben]{"entity": "article", "value": "stockschraube"} kaufen
+    - ich möchte [dachhaken](article) bestellen bitte
+    - ich möchte [stockschrauben]{"entity": "article", "value": "stockschraube"} bestellen
+    - hallo ich hätte gerne [klemmen]{"entity": "article", "value": "klemme"}
+    - ich möchte [mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} bestellen
+    - ich möchte noch [endklemmen]{"entity": "clamp_type", "value": "endklemme"} dazu auch für [glasmodule](framed)
+    - ich möchte [dachhaken](article) dazu noch
+- intent: give_sales_unit
+  examples: |
+    - [15](sales_units) Verkaufseinheiten
+    - [25](sales_units)
+    - [15](sales_units)
+    - [zwoelf](sales_units)
+    - [drei](sales_units) Verkaufseinheiten
+    - [4](sales_units)
+    - [7](sales_units)
+    - [99](sales_units) Verkaufseinheiten, bitte
+    - [fuenfzig](sales_units)
+    - [30](sales_units)
+    - [22](sales_units)
+    - [1000](sales_units) Einheiten
+    - [70](sales_units) bitte
+    - [huntertfuenfzig](sales_units) bitte
+    - [hundert](sales_units) Einheiten bitte
+    - [fuenfhundert](sales_units)
+    - [22](sales_units) Verkaufseinheiten
+    - [fuenfzig](sales_units), das wird eine grosse anlage
+    - [hundert](sales_units)
+    - [fuenfundfuenfzig](sales_units)
+    - [dreiundzwanzig](sales_units)
+    - [dreihundert](sales_units)
+    - [zehn](sales_units)
+    - [55](sales_units)
+    - [5](sales_units)
+    - [dreiunddreissig](sales_units)
+    - [siebenundfuenfzig](sales_units) an der Zahl
+    - [fuenfunddreissig](sales_units)
+    - [dreihundert](sales_units) [Haken]{"entity": "article", "value": "dachhaken"} bitte
+    - [achtzig](sales_units)
+    - [neunzehn](sales_units)
+    - [eins](sales_units) Einheiten
+    - [zwei](sales_units) Einheiten
+    - [drei](sales_units) Einheiten
+    - [vier](sales_units) Einheiten
+    - [fuenf](sales_units) Einheiten
+    - [sechs](sales_units) Einheiten
+    - [sieben](sales_units) Einheiten
+    - [acht](sales_units) Einheiten
+    - [neun](sales_units) Einheiten
+    - [zehn](sales_units) Einheiten
+    - [elf](sales_units) Einheiten
+    - [zwoelf](sales_units) Einheiten
+    - [dreizehn](sales_units) Einheiten
+    - [vierzehn](sales_units) Einheiten
+    - [fuenfzehn](sales_units) Einheiten
+    - [sechzehn](sales_units) Einheiten
+    - [siebzehn](sales_units) Einheiten
+    - [achtzehn](sales_units) Einheiten
+    - [neunzehn](sales_units) Einheiten
+    - [zwanzig](sales_units) Einheiten
+    - [einundzwanzig](sales_units) Einheiten
+    - [zweiundzwanzig](sales_units) Einheiten
+    - [dreiundzwanzig](sales_units) Einheiten
+    - [vierundzwanzig](sales_units) Einheiten
+    - [fuenfundzwanzig](sales_units) Einheiten
+    - [sechsundzwanzig](sales_units) Einheiten
+    - [siebenundzwanzig](sales_units) Einheiten
+    - [achtundzwanzig](sales_units) Einheiten
+    - [dreissig](sales_units) Einheiten
+    - [einunddreissig](sales_units) Einheiten
+    - [zweiunddreissig](sales_units) Einheiten
+    - [neununddreissig](sales_units) Einheiten
+    - [vierzig](sales_units) Einheiten
+    - [einundvierzig](sales_units) Einheiten
+    - [zweiundvierzig](sales_units) Einheiten
+    - [fuenfundvierzig](sales_units) Einheiten
+    - [sechsundvierzig](sales_units) Einheiten
+    - [siebenundvierzig](sales_units) Einheiten
+    - [achtundvierzig](sales_units) Einheiten
+    - [neunundvierzig](sales_units) Einheiten
+    - [fuenfzig](sales_units) Einheiten
+    - [einundfuenfzig](sales_units) Einheiten
+    - [zweiundfuenfzig](sales_units) Einheiten
+    - [dreiundfuenfzig](sales_units) Einheiten
+    - [vierundfuenfzig](sales_units) Einheiten
+    - [fuenfundfuenfzig](sales_units) Einheiten
+    - [sechsundfuenfzig](sales_units) Einheiten
+    - [siebenundfuenfzig](sales_units) Einheiten
+    - [achtundfuenfzig](sales_units) Einheiten
+    - [neunundfuenfzig](sales_units) Einheiten
+    - [sechzig](sales_units) Einheiten
+    - [einundsechzig](sales_units) Einheiten
+    - [zweiundsechzig](sales_units) Einheiten
+    - [dreiundsechzig](sales_units) Einheiten
+    - [vierundsechzig](sales_units) Einheiten
+    - [fuenfundsechzig](sales_units) Einheiten
+    - [sechsundsechzig](sales_units) Verkaufseinheiten
+    - [siebenundsechzig](sales_units) Verkaufseinheiten
+    - [achtundsechzig](sales_units) Verkaufseinheiten
+    - [neunundsechzig](sales_units) Verkaufseinheiten
+    - [siebzig](sales_units) Verkaufseinheiten
+    - [einundsiebzig](sales_units) Verkaufseinheiten
+    - [zweiundsiebzig](sales_units) Verkaufseinheiten
+    - [dreiundsiebzig](sales_units) Verkaufseinheiten
+    - [vierundsiebzig](sales_units) Verkaufseinheiten
+    - [fuenfundsiebzig](sales_units) Verkaufseinheiten
+    - [sechsundsiebzig](sales_units) Verkaufseinheiten
+    - [siebenundsiebzig](sales_units) Verkaufseinheiten
+    - [achtundsiebzig](sales_units) Verkaufseinheiten
+    - [neunundsiebzig](sales_units) Verkaufseinheiten
+    - [achtzig](sales_units) Verkaufseinheiten
+    - [einundachtzig](sales_units) Verkaufseinheiten
+    - [zweiundachtzig](sales_units) Verkaufseinheiten
+    - [dreiundachtzig](sales_units) Verkaufseinheiten
+    - [vierundachtzig](sales_units) Verkaufseinheiten
+    - [fuenfundachtzig](sales_units) Verkaufseinheiten
+    - [sechsundachtzig](sales_units) Verkaufseinheiten
+    - [siebenundachtzig](sales_units) Verkaufseinheiten
+    - [achtundachtzig](sales_units) Verkaufseinheiten
+    - [neunundachtzig](sales_units) Verkaufseinheiten
+    - [neunzig](sales_units) Verkaufseinheiten
+    - [einundneunzig](sales_units) Verkaufseinheiten
+    - [zweiundneunzig](sales_units) Verkaufseinheiten
+    - [dreiundneunzig](sales_units) Verkaufseinheiten
+    - [vierundneunzig](sales_units) Verkaufseinheiten
+    - [fuenfundneunzig](sales_units) Verkaufseinheiten
+    - [sechsundneunzig](sales_units) Verkaufseinheiten
+    - [siebenundneunzig](sales_units) Verkaufseinheiten
+    - [achtundneunzig](sales_units) Verkaufseinheiten
+    - [neunundneunzig](sales_units) Verkaufseinheiten
+    - [einhundert](sales_units) Verkaufseinheiten
+    - [hundert](sales_units) Verkaufseinheiten
+    - [vierhundertfuenf](sales_units) Einheiten, bruder
+    - [hundertsiebenundsiebzig](sales_units) Verkaufseinheiten, bitte
+    - [hundertzwei](sales_units)
+    - [hundertzwoelf](sales_units) Einheiten bitte
+    - [fuenfundfuenfzig](sales_units) Einheiten, bitte
+    - [34](sales_units)
+    - [hunderteins](sales_units)
+    - [zwoelf](sales_units) einheiten
+    - [zwoelf](sales_units) Einheiten bitte
+    - [dreizehn](sales_units)
+    - [fuenfzehn](sales_units)
+    - [fuenfunddreisig](sales_units) bitte
+    - [dreisig](sales_units)
+    - [23](sales_units)
+    - wir brauchen nur noch [drei](sales_units)
+    - [siebzehn](sales_units)
+    - [zwei](sales_units) VE
+    - [vier](sales_units)
+    - [14](sales_units)
+    - [24](sales_units)
+    - [sieben](sales_units)
+    - [vierzehn](sales_units) sollten reichen
+    - [vierundfuenfzig](sales_units)
+    - [vierzehn](sales_units)
+    - [13](sales_units)
+    - [vierundvierzig](sales_units)
+    - [11](sales_units)
+    - [zweihundertdreißig](sales_units)
+    - [hundertdreißig](sales_units) Einheiten bitte
+    - [7](sales_units) Stueck diesmal
+    - [fünfhundert](sales_units), das ist eine große baustelle
+    - [1234](sales_units)
+    - [2](sales_units) Stueck reichen aus
+    - [44](sales_units) Einheiten
+    - ich möchte nur [drei](sales_units)
+    - [33](sales_units)
+    - [53](sales_units) Stueck mein Freund!
+    - [22](sales_units) Verkaufseinheiten sind ausreichend
+    - [66](sales_units)
+    - [fünfunddreißig](sales_units)
+    - [fünfzig](sales_units)
+    - [siebenundfünfzig](sales_units)
+    - [fünfhundert](sales_units)
+    - [dreiundfünfzig](sales_units)
+    - [zweiundfünfzig](sales_units)
+    - [3](sales_units) stueck
+    - [3](sales_units)
+    - [13](sales_units) stück
+    - [1](sales_units)
+    - [2](sales_units)
+    - [dreiunddreißig](sales_units) verkaufseinheiten
+    - [drei](sales_units)
+    - [44](sales_units) bitte sehr
+    - [14](sales_units) reichen
+    - [13](sales_units) Stück
+    - [zwei](sales_units) Stück
+    - [33](sales_units) verkaufseinheiten
+    - [dreiundzwanzig](sales_units) stück
+    - [12](ascrew_type) Stück bitte
+    - [12](ascrew_type) stück
+    - nur [2](sales_units)
+    - [dreizehn](sales_units) bitte
+    - [zwei](sales_units) reichen aus
+    - [3](sales_units) stück
+    - [elf](sales_units)
+    - [fünf](sales_units) reichen mir
+    - [vier](sales_units) reichen mir
+    - [drei](sales_units) langen allemal
+    - [vierzehn](sales_units) genügen
+    - [dreizehn](sales_units) davon
+    - [vierzig](sales_units)
+    - [31](sales_units)
+    - [vier](sales_units) reichen
+    - [22](sales_units) erst mal
+    - [dreizehn](sales_units) Stück
+    - [siebzehn](sales_units) reichen aus
+    - [fünfundsiebzig](sales_units)
+    - [siebzehn](sales_units) stück
+    - [drei](sales_units) genügen
+    - [vier](sales_units) stuck
+    - [13](sales_units) stuck
+    - [3](sales_units) reichen aus
+    - [sieben](sales_units) stück
+    - [vierzehn](sales_units) stück
+    - [4](sales_units) stuck
+    - [vierzehn](sales_units) stuck
+    - [drei](sales_units) [adapterbleche]{"entity": "article", "value": "adapterblech"} bitte mein freund
+    - [23](sales_units) stückle
+    - [fünfundzwanzig](sales_units)
+    - [vierzig](sales_units) stuck
+    - [vierzehn](sales_units) verkaufseinheite
+    - [zwölf](sales_units) stuck
+    - [vier](sales_units) stueck
+    - [fünfundzwanzig](sales_units) Centimeter
+    - [dreizehn](sales_units) stuck
+    - [zwei](sales_units)
+    - [zwölf](sales_units) stück
+    - [fünf](sales_units)
+    - [fünf](sales_units) reichen mir dieses mal
+    - [dreizehn](sales_units) stück
+    - [vierzig](sales_units) stück
+    - [fünfzig](sales_units) stück
+    - [drei](sales_units) reichen aus es sind nur wenige module
+    - [fünfzehn](sales_units)
+    - [fünf](sales_units) stück
+    - [vierzehn](sales_units) stück an der Zahl
+    - [achtzehn](sales_units)
+    - [eins](sales_units) nur
+    - [zwei](sales_units) stuck reichen mir
+    - [eins](sales_units) ist genug
+    - [fünf](sales_units) reichen vollkommen
+    - [vier](sales_units) stück
+    - [vierzehn](sales_units) stück reichen mir
+    - [14](sales_units) stück
+    - [zweifünfzig tonziegel]{"entity": "brick_type", "value": "ton250"}
+    - [dreizehn](sales_units) reichen aus
+    - [fünfzig](sales_units) bitte
+    - [drei](sales_units) reichen vollkommen
+    - [sechzig](sales_units) stück
+    - [zwölf](sales_units)
+    - [40](sales_units)
+    - [neun](sales_units)
+    - [acht](sales_units)
+    - [drei](sales_units) stück
+    - [dreizehn](sales_units) stüfck
+    - [99](sales_units)
+    - anzahl [22](sales_units)
+    - [zweiundzwanzig](sales_units) stück bitte
+    - [33](sales_units) stücke
+    - [15](sales_units) stück
+    - [70](sales_units) stück
+    - [45](sales_units) stück
+    - [50](sales_units)
+    - [100](sales_units)
+    - [25](sales_units) stück
+    - [50](sales_units) stück
+    - [23](sales_units) stück
+    - [acht](sales_units) stück
+    - [17](sales_units)
+    - [16](sales_units)
+    - [18](sales_units) stück
+    - [dreißig](sales_units)
+    - [150](sales_units) stücke
+    - [120](sales_units) stück
+    - [zweihundert](sales_units)
+    - [dreiunddreißig](sales_units)
+    - [zweiundzwanzig](sales_units)
+    - [zwanzig](sales_units)
+    - [zehn](sales_units) nochmals
+    - [m-zwoelf]{"entity": "ascrew_type", "value": "M12"}
+    - [40](sales_units) stück bitte sehr
+    - [14](sales_units) eine kleine anlage haben wir
+    - [fünfzig](sales_units) reichen aus
+    - [vierhundert](sales_units)
+    - [einhundertfünfzig](sales_units)
+    - [32](sales_units)
+    - [32](sales_units) stück
+    - [44](sales_units)
+    - [33](sales_units) stück
+    - [12](sales_units) einheiten bitte
+    - [12](sales_units)
+    - [33](sales_units) stück bitte
+    - [siebzig](sales_units) stück
+    - [13](sales_units) stück bittesehr
+    - [13](sales_units) bittesehr
+    - [25](sales_units) stück bitte
+    - [30](sales_units) stück wieder bitte sehr
+    - [30](sales_units) stück wieder bitte
+    - [30](sales_units) stück
+    - [3](sales_units) stück bitte
+    - [3](sales_units) stück reichen mir vollkommen aus
+    - [22](sales_units) stück
+    - [siebenundsiebzig](sales_units)
+    - [34](sales_units) diesmal
+    - [121](sales_units)
+    - [dreizehn](sales_units) stück bitte
+    - [27](sales_units) stück bitte
+    - [33](sales_units) an der zahl
+    - [28](sales_units) stücke
+    - [29](sales_units)
+    - [30](sales_units) stückli
+    - [elf](sales_units) bitte b
+    - [sechs](sales_units) stuck wäret perfekt hierfür
+    - [zwei](sales_units) stück reichet diesmol
+    - [dreizehn](sales_units) auch
+    - [dreizehn](sales_units) auch bitte sehr
+    - [13](sales_units) stück bitte sehr mei
+    - [dreizehn](sales_units) auch bitte
+    - [zwölf](sales_units) Einheiten bitte
+    - [dreizehn](sales_units) reichen mir aus
+    - [dreizehn](sales_units) stückle reichet mer
+    - [dreizehn](sales_units) reichen vollkommen aus
+    - [13](sales_units) stuckli reichet mir
+    - [14](sales_units) stuckli
+    - [vierzehn](sales_units) stuckl
+    - [14](sales_units) auch hier bitte sehr
+    - [14](sales_units) stück bitte
+    - [15](sales_units) stucki
+    - [15](sales_units) Stucke bitte
+    - [15](sales_units) stuckle
+    - [15](sales_units) stucke
+    - auch [15](sales_units) stück hier
+    - [15](sales_units) stueck bitte
+    - [siebenundzwanzig](sales_units)
+    - [fünfzehn](sales_units) stück bitte
+    - [sieben](sales_units) an der zahl bitte
+    - [fünf](sales_units) bitte
+    - [M12](ascrew_type) bittesehr
+    - [sieben](sales_units) bitte
+    - [vierzig](sales_units) stück bittesehr
+    - [14](sales_units) bitte sehr mein freund
+    - [15](sales_units) bitte sehr
+    - [sieben](sales_units) dann haben wir es aber auch
+    - mit [vierzehn](sales_units) sind wir gut versorgt
+    - [siebzehn](sales_units) bitte sehr stuck
+    - [siebzehn](sales_units) stuckli reichet mir ausw
+    - [siebzehn](sales_units) bitte sehr
+    - [sechzehn](sales_units) sreichet mir voll auus
+    - [sechzehn](sales_units)
+    - [sechzehn](sales_units) stück bitte sehr
+    - [sechzehn](sales_units) stuck reichet mer
+    - [sechzehn](sales_units) stück auch wieder bitte sehr
+    - [achtundvierzig](sales_units)
+    - [zweiunddreißig](sales_units)
+    - [9](sales_units) davon bitte
+    - [neun](sales_units) reichen vollkommen aus
+    - [neun](sales_units) stück bitte sehr
+    - [vier](sales_units) davon bitte
+    - [fünf](sales_units) stück davon bitte
+    - [drei](sales_units) diesmal
+    - [vierzehn](sales_units) davon aber ich brauche noch andere
+    - [fünf](sales_units) reichen
+    - [dreizehn](sales_units) stück davon noch bitte
+    - [zwölf](sales_units) bitte sehr
+    - [dreihundert](sales_units) bitte
+    - [vierhundert](sales_units) brauche ich davon
+    - [vierzig](sales_units) bitte
+    - [vierzehn](sales_units) bitte
+    - [vierzehn](sales_units) stück bittesehr
+    - [vier](sales_units) bitte nur
+    - [drei](sales_units) reichen dieses mal aus allemal
+    - [zwölf](sales_units) bitte
+    - [fünf](sales_units) stück bitte
+    - [14](sales_units) stück bittesehr
+    - [18](bstreet) stück bitte sehr
+    - [18](bstreet) bittesehr
+    - [17](sales_units) bittesehr
+    - [zwei](sales_units) bitte sehr
+    - [16](sales_units) bittesehr
+    - [14](sales_units) bittesehr
+    - [drei](sales_units) reichen hier
+    - und [vierundvierzig](sales_units) stück bitte
+    - [drei](sales_units) reichen mir
+    - [fünf](sales_units) stück bitte sehr
+    - [fünf](sales_units) reichen da
+    - [fünf](sales_units) stück reichen mire
+    - [zwei](sales_units) reichen von denen
+    - [zwei](sales_units) stück bitte
+    - [drei](sales_units) stück bitte
+    - [vierundvierzig](sales_units) stück bitte
+    - [zwanzig](sales_units) stück
+    - [fünfunddreißig](sales_units) stück bitte
+    - [22](sales_units) stück bitte sehr
+    - [dreißig](sales_units) stück bitte sehr
+    - [dreißig](sales_units) reichen mir
+    - [dreißig](sales_units) stucke reichen aus
+    - [dreißig](sales_units) stück
+    - [vierzig](sales_units) stück bitte sehr
+    - [vierzehn](sales_units) stück wären top
+    - [dreizehn](sales_units) reichen mir
+    - [elf](sales_units) reichen vollkommen aus
+    - [28](sales_units) stück bitte
+    - [22](sales_units) stück bitte
+    - [vierundzwanzig](sales_units) stück reichen diesmal
+    - [vierundzwanzig](sales_units) stück reichen mir
+    - [zwölf](sales_units) stück bitte
+    - [einundvierzig](sales_units)
+    - [m12](ascrew_type) bitte
+    - [drei](sales_units) bitte sehr
+    - [vierzehn](sales_units) reichet mir auus
+    - [dreihundert](sales_units) stück es ist eine große baustelle
+    - [vierzig](sales_units) stück bitte
+    - [vier](sales_units) stück bitte sehr
+    - [vierunddreißig](sales_units)
+    - [vierzig](sales_units) stück please
+    - [vierzig](sales_units) stück reichen für das vorhaben
+    - [eins](sales_units) noch dazu dann war es das
+    - [fünfzehn](sales_units) bitte
+    - ich möchte [5](sales_units) davon
+    - [drei](sales_units) bitte
+    - [dreihundert](sales_units) stück diesmal bitte aber schnelle lieferung
+    - [fünfzig](sales_units) stück reichen mir davon vollkommen auus
+    - [fünf](sales_units) stück reichen mir davon
+    - [vierzehn](sales_units) stück mehr brauche ich davon erstmal nicht
+    - [fünfundzwanzig](sales_units) reichen davon vollkommen aus
+    - [fünfzig](sales_units) reichen mir davon mehr brauche ich nicht glaube ich
+    - [vierzig](sales_units) bitte sehr
+    - [fünf](sales_units) reichen davon
+    - [vier](sales_units) bitte
+    - [fünf](sales_units) bitte das reicht vollkommen
+    - ich hätte gerne [drei](sales_units) davon
+    - [fünf](sales_units) stück bitte mehr brauche ich nicht
+    - [zwei](sales_units) stück bitte mehr brauche ich net
+    - [drei](sales_units) reichen aus
+    - [vierzehn](sales_units) stück bitte mehr brauche ich nicht
+    - [vierzehn](sales_units) stück bitte mehr brauche ich net
+    - [zwei](sales_units) stück bitte sehr
+    - [zweiundzwanzig](sales_units) stück reichen hierfür asu
+    - [vierzehn](sales_units) stück reichen für das hier aus
+    - [vier](sales_units) reichen davon
+    - [dreizehn](sales_units) reichen hier aus
+    - [dreißig](sales_units) stück wären perfekt
+    - [fünf](sales_units) sind genug
+    - [fünfzig](sales_units) stück bitte
+    - [zwei](sales_units) bitte
+    - [3](sales_units) reichen davon
+    - [12](sales_units) stück bitte
+    - [43](sales_units) bitte
+    - [3](sales_units) stück reichen mir
+    - [dreißig](sales_units) bitte
+    - [35](sales_units) stück bitte sehr
+    - [35](sales_units) bitte
+    - [fünfzehn](sales_units) stück bitte sehr
+    - [zwei](sales_units) reichen aus fra
+    - [vier](sales_units) stück reichen alle mal
+- intent: give_height
+  examples: |
+    - [6 mm](height) hohe [Endklemmen]{"entity": "clamp_type", "value": "endklemme"}
+    - [7 mm](height) hohe [Mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"}
+    - [6](height) bis [9](height) mm hohe [Endklemmen]{"entity": "clamp_type", "value": "endklemme"}
+    - [8 Millimeter]{"entity": "height", "value": "8 mm"} Hoehe
+    - [9 mm](height)  hohe [Endklemmen]{"entity": "clamp_type", "value": "endklemme"}
+    - [Mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"} fuer [28 Millimeter]{"entity": "height", "value": "28 mm"}
+    - [29 mm](height)
+    - [30 mm](height)
+    - [31 mm](height)
+    - [32 mm](height)
+    - [33 mm](height)
+    - [34 mm](height)
+    - [35 mm](height)
+    - [36 mm](height)
+    - [37 mm](height)
+    - [38 mm](height)
+    - [39 mm](height)
+    - [40 mm](height)
+    - [41 mm](height)
+    - [42 mm](height)
+    - [43 mm](height)
+    - [44 mm](height)
+    - [45 mm](height)
+    - [46 mm](height)
+    - [47 mm](height)
+    - [48 mm](height)
+    - [49 mm](height)
+    - [50 mm](height)
+    - [sechs mm](height)
+    - [sieben mm](height)
+    - [acht mm](height)
+    - [neun mm](height)
+    - [achtundzwanzig mm](height) [Endklemme]{"entity": "clamp_type", "value": "endklemme"}
+    - [neunundzwanzig mm](height) [Mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"}
+    - [dreissig mm](height) [Mittelklemmen]{"entity": "clamp_type", "value": "mittelklemme"}
+    - [einunddreissig mm](height)
+    - [zweiunddreissig mm](height)
+    - [dreiunddreissig mm](height)
+    - [vierunddreissig mm](height)
+    - [fuenfunddreissig mm](height)
+    - [sechsunddreissig mm](height)
+    - [siebenunddreissig mm](height)
+    - [achtunddreissig mm](height)
+    - [neununddreissig mm](height)
+    - [vierzig mm](height)
+    - [einundvierzig mm](height)
+    - [zweiundvierzig mm](height)
+    - [dreiundvierzig mm](height)
+    - [vierundvierzig mm](height)
+    - [fuenfundvierzig mm](height)
+    - [sechsundvierzig mm](height)
+    - [siebenundvierzig mm](height)
+    - [achtundvierzig mm](height)
+    - [neunundvierzig mm](height)
+    - [fuenfzig mm](height)
+    - [40 mm](height) Hoehe
+    - [28 mm](height)
+    - so [40 mm](height)
+    - [38 millimeter](height)
+    - [WASICLIP](framed) für [38 mm](height)
+    - Schomburger Str. 3
+    - [29 mm](height) bitte sehr
+    - [29 mm](height) Höhe wär perfekt
+    - [35 mm](height) hoehe bitte
+    - auch wieder [41 mm](height)
+    - [41 mm](height) am besten
+    - [wasiclip]{"entity": "framed", "value": "WASICLIP"} [38 mm](height)
+    - [35 mm](height) bitte
+    - [35 mm](height) bitte sehr
+    - [39 mm](height) hoehe
+- intent: thanks
+  examples: |
+    - Vielen Dank!
+    - Das war hilfreich, dankeschoen
+    - super, danke!
+    - Danke
+    - vielen dank
+    - vielen lieben dank
+    - danke bot
+    - lieben dank
+    - toll danke
+    - ok danke
+    - perfekt danke
+    - danke fuer alles
+    - danke fuer die hilfe
+    - cool, danke
+    - ja danke
+    - ok vielen dank
+    - grossartig vielen dank
+    - Sehr gut, vielen Dank!
+    - perfekt, danke dir
+    - danke
+    - vielen dank, das wars!
+    - danke!
+    - vielen Dank
+    - danke das wars, auf wiederhören
+    - danke das war es
+    - nein das wär alles, vielen dank!
+    - Dankeschön
+    - das war es, dankeschön
+    - danke, das wars
+    - das war es danke
+    - danke sehr
+    - perfekt, danke dir!
+    - danke 
+    - danke dir 
+    - danke Ihnen 
+    - danke schön 
+    - danke schoen 
+    - danke sehr 
+    - danke vielmals 
+    - ich habe zu danken 
+    - vielen dank 
+    - vielen Dank
+    - vielen lieben dank 
+    - vielen vielen dank 
+    - wir haben zu danken 
+    - besten Dank 
+    - firma dankt
+    - gott vergelt s 
+    - Gott vergelt es
+    - dank 
+    - herzlichen dank
+    - lieben Dank
+    - man dankt
+    - merci 
+    - verbindlichsten dank 
+    - vergelt s gott
+- intent: stop
+  examples: |
+    - Stop
+    - Stoop
+    - stoop
+    - Halt
+    - zurueck
+    - Abbrechen
+    - Stopp
+    - Verdammt
+    - Du verstehst mich nicht
+    - Oh mein Gott wie kann das nicht funktionieren
+    - stop, ich will abbrechen!
+    - stop! ich möchte was anderes
+    - stop, das wollte ich nicht
+    - stop, ich habe einen fehler gemacht
+    - stop
+    - stop, falsche ware
+    - stop ich will doch etwas anderes
+    - stop, doch einen anderen artikel
+    - stop ich will doch was anderes
+    - stop doch der falsche artikel
+    - stop, ich brauche doch keine
+    - stop doch nicht
+    - stop wirklich ich möchte abbrechen
+    - stop, das war falsch oh mann
+    - stop, halt das war falsche information
+    - stop, das war falsche
+    - stop, halt das war nicht richtig. Abbrechen bitte!
+    - stop, das wollte ich doch nicht
+    - halt, stopp
+    - stop, halt das möchte ich nicht
+    - stop, das wollte ich dann doch nicht haha
+    - stop, abbrechen
+    - halt stop, abbrechen bitte das möchte ich nicht
+    - Halt stop ich möchte einen anderen artikel
+    - Halt stop abbrechen bitte
+    - abbrechen
+    - abbrechen bitte
+    - halt das war falsch
+- intent: generate_final_task
+  examples: |
+    - Erstelle das Angebot
+    - Füge das Angebot zusammen
+    - Erstelle das Angebot für den Kunden bitte
+    - Ich brauche das in Form von einer Rechnung
+    - Jetzt hab ich alles, Rechnung bitte
+    - Perfekt, Rechnung bitte
+    - Gib mir das Angebot bitte
+    - Angebot, bitte
+    - Schick mir das Angebot
+    - Generiere das angebot
+    - generiere das Angebot
+    - Erstelle die Rechnung für das Angebot
+    - bitte erstelle mir die Rechnung zu meinem Angebot
+    - okay, das sieht vollständig aus bitte generiere nun die Rechnung
+    - Rechnung bitte
+    - erstelle das pdf
+    - ich habe alles generiere die rechnung
+    - ich hätte gerne eine rechnung mit allen positionen des Angebots
+    - gut das sind jetzt alle Positionen, mach mir die Rechnung bitte
+    - ich möchte die rechnung bitte
+    - sehr gut das ist alles, bitte erstell die rechnung für mich
+    - perfekt, rechnung bitte
+    - super, angebot in pdf bitte
+    - Die Rechnung für den Kunden mit allen Positionen bitte
+    - erstell meine rechnung
+    - okay, dann sind die Positionen vollständig, bitte generiere die Rechnung
+    - okay erstelle eine Rechnung für das Angebot bitte
+    - Erstelle eine Rechnung für mein Angebot
+    - generiere das Angebot zu den Positionen der Bestellung
+    - danke, bitte generiere die Rechnung für dieses Angebot
+    - erstell mir eine Rechnung zu meiner Bestellung
+    - generiere die Rechnung für das Bauvorhaben
+    - Generiere die Rechnung für dieses Angebot
+    - generiere eine rechnung von diesen Positionen
+    - generiere das PDF für den Kunden
+    - generiere PDF
+    - generiere das PDF
+    - Bitte generiere mein PDF
+    - generiere mein pdf file
+    - generiere mein PDF bitte
+    - generiere mein PDF
+    - Erstelle das PDF für mich bitte, das war jetzt alles
+    - Generiere das Angebot bitte
+    - generiere mein Angebot als PDF Datei bitte
+    - Erstelle die PDF amigo
+    - Erstelle ein PDF amigo
+    - erstelle mein pdf bitte
+    - Erstelle ein PDF
+    - erstelle das PDF nochmals
+    - Erstelle noch ein PDF für mich
+    - erstelle ein PDF für mich
+    - erstelle noch ein PDF
+    - erstelle mein PDF
+    - Erstelle das letzte PDF
+    - generiere mein pdf bitte
+    - generiere das PDF bitte mr. rassa
+    - Erstelle die Rechnung für mich
+    - erstelle meine Rechnung bitte der Kunde wartet
+    - erstelle noch das PDF für mich
+    - erstelle noch ein pdf für mich
+    - erstelle noch ein PDF für mich bitte sehr
+    - nochmal ein pdf bello bitte
+    - nochmal ein PDF bitte amigo
+    - nochmal ein PDF bitte
+    - und nochmal ein PDF bitte
+    - und nochmal ein angebot bitte Rechnung meine ich
+    - ich bräuchte eine weitere, aktuellere Version der Rechnung generiere das PDF bitte
+    - erstelle mir die Rechnung mit allen Positionen bitte
+    - erzeuge mir nochmals die Rechnung bitte
+    - generiere nochmals das PDF für die Rechnung
+    - generiere mein PDF nochmals
+    - generiere mein PDF bitte sehr
+    - erstelle meine PDF bitte
+    - Erstelle meine PDF
+    - Erstelle nochmal das Angebot für mich bitte
+    - generiere das PDF für mich bitte
+    - generiere meine PDF
+    - erstelle das PDF
+    - erstelle meine PDF bitte sehr
+    - erstelle mein pdf
+    - erstelle mir das pdf
+    - erstelle die PDF
+    - generiere die Rechnung in PDF Format bitte sehr
+    - generiere das Angebot in PDF Format bitte sehr
+    - generiere die Rechnung in PDF Format bitte
+    - generiere das pdf
+    - erstelle mein pdf die rechnung bitte
+    - erstell mir die Rechnung zu dem angebot
+    - erstelle das pdf für mich
+    - erstelle mein PDF bitte
+    - erstell mein pdf bitte
+    - erstelle das pdf mit der rechnung, die diese artikel enthält
+    - erstelle die rechnung zu diesem angebot
+    - erstelle das PDF zu der Rechnung bitte
+    - erstelle die Rechnung in PDF
+    - erstelle mir meine Rechnung zu dem Angebot
+    - generiere die pdf für mich
+    - generiere das pdf für die rechnung
+    - erstelle das pdf bitte
+    - erstelle die Rechnung in pdf format bitte
+- intent: give_clamp_id
+  examples: |
+    - [9742-WASI4-30](w_clamp_id)
+    - [9742-WASI4-30SE](w_clamp_id)
+    - [9742-WASI4-32](w_clamp_id)
+    - [9742-WASI4-32SE](w_clamp_id)
+    - [9742-WASI4-34](w_clamp_id)
+    - [9742-WASI4-34SE](w_clamp_id)
+    - [9742-WASI4-35](w_clamp_id)
+    - [9742-WASI4-35SE](w_clamp_id)
+    - [9745-WASI13](w_clamp_id)
+    - [9745-WASI13SE](w_clamp_id)
+    - [9742-WASI4-38](w_clamp_id)
+    - [9742-WASI4-38SE](w_clamp_id)
+    - [9742-WASI4-40](w_clamp_id)
+    - [9742-WASI4-40SE](w_clamp_id)
+    - [9742-WASI4-42](w_clamp_id)
+    - [9742-WASI4-43](w_clamp_id)
+    - [9742-WASI4-46SE](w_clamp_id)
+    - [9742-WASI4-50](w_clamp_id)
+    - [9742-WASI4-50SE](w_clamp_id)
+    - [9742-GM L80/6-9](w_clamp_id)
+    - [9745-GM L80/6-9](w_clamp_id)
+    - [9742-WASICLIPE32](w_clamp_id)
+    - [9742-WASICLIPE32SE](w_clamp_id)
+    - [9742-WASICLIPE35](w_clamp_id)
+    - [9742-WASICLIPE35SE](w_clamp_id)
+    - [9742-WASICLIPE38](w_clamp_id)
+    - [9742-WASICLIPE38SE](w_clamp_id)
+    - [9742-WASICLIPE40](w_clamp_id)
+    - [9742-WASICLIPE40SE](w_clamp_id)
+    - [9745-WASICLIPM1](w_clamp_id)
+    - [9745-WASICLIPM1SE](w_clamp_id)
+    - [9745-WASICLIPM2](w_clamp_id)
+    - [9745-WASICLIPM2SE](w_clamp_id)
+    - [9745-WASICLIPM3](w_clamp_id)
+    - [9745-WASICLIPM3SE](w_clamp_id)
+- intent: give_mount_id
+  examples: |
+    - [9521-2-150X60W](w_mount_id)
+    - [9525-2-140X56K](w_mount_id)
+    - [9525-2-140X56X8K](w_mount_id)
+    - [9216-2-10X200](w_mount_id)
+    - [9216-2-10X200-BZ](w_mount_id)
+    - [9216-2-10X250](w_mount_id)
+    - [9216-2-10X250-BZ](w_mount_id)
+    - [9543-2-82X30X5](w_mount_id)
+    - [9544-2-82X30X5](w_mount_id)
+- intent: read_current_positions
+  examples: |
+    - Lies mir mein bisheriges Angebot vor
+    - Wie sieht meine Liste aus?
+    - Wie sieht mein Angebot bisher aus?
+    - Welche Positionen sind auf meinem Angebot bis jetzt?
+    - Welche Positionen sind in meinem Angebot bisher?
+    - Welche Artikel stehen auf der Liste?
+    - Wie sieht das Angebot aus
+    - Lies mir meine Liste vor
+    - Was für Artikel sind in meinem Angebot enthalten?
+    - Lies mir die Liste nochmal vor
+    - Lies mir das Angebot noch einmal vor bitte
+    - lies mir meine aktuelle Liste vor bitte
+    - lies mir meine Liste vor
+    - lies mir meine Positionen auf der Liste vor bitte
+    - ich möchte mein Angebot nochmal sehen, zeigst du mir die Liste?
+    - zeig mir meine Positionen des Angebots bitte
+    - ich möchte die Positionen meines Angebots einsehen
+    - zeig mir meine Positionen des Auftrages an
+    - zeig mir meine Positionen des aktuellen Auftrags an
+    - zeig mir die aktuellen Positionen meines Auftrages an
+    - lies mir meine bisherigen Positionen des Angebots vor
+    - zeig mir die Positionen des bishereigen Auftrags an bitte
+    - zeig mir meine Positionen an bitte
+    - lies mir meine aktuellen Positionen des Angebots vor bitte
+    - lies mir die Positionen meines Angebots vor, bitte
+    - lies mir die derzeiten Positionen meines Angebotes vor
+    - lies mir meine Positionen des Angebots noch einmal vor bevor ich bestelle
+    - lies mir noch die Positionen des Angebots vort
+    - lies mir meine liste vor bitte
+    - ja, lies mir bitte die Positionen meines Angebots vor, ich möchte sichergehen dass ich nichts vergessen habe
+    - lies mir die Artikel meines Angebotes vor
+    - lies mir meine Positionen des Auftrags vor
+    - lies mir die Positionen meines Angebots vor
+    - lies mir meine aktuellen Positionen vor
+    - Lies mir meine aktuellen Positionen vor
+    - lies mir mein Angebot vor
+    - lies mir bitte abschließend nochmals meine Positionen vor
+    - lies mir meine positionen vor
+    - lies mir meine liste vor
+    - lies mir die aktuelle Liste vor
+    - lise mir meine liste vor
+    - lies mir meine positionen vor bitte
+    - lies mir meine positionen des angebotes vor bitte
+    - lies mir die aktuellen positionen vor bitte
+    - lies mir mein angebot vor
+    - lies mir die aktuelle liste vor
+    - lies mir die liste der Positionen auf der rechnung vor bitte sehr
+    - bitte lies mir meine liste vor
+    - lies mir die positionen des angebotes vor bitte
+    - lies mir meine aktuelle liste vor
+    - lies mir meine derzeitige liste vor
+- intent: define_bauvorhaben
+  examples: |
+    - Diesmal ist eine andere Baustelle
+    - Definiere Bauvorhaben
+    - Ich möchte ein neues Bauvorhaben eingeben
+    - Ich möchte ein Bauvorhaben eingeben
+    - Lass mich noch das Bauvorhaben spezifizieren
+    - Das Bauvorhaben ist Familie Müllers
+    - Bauvorhaben Reichle Goldschmied
+    - Das Bauvorhaben Decker
+    - Bauvorhaben ändern bitte
+    - ich möchte das Bauvorhaben definieren
+    - ich möchte das Bauvorhaben konfigurieren
+    - Ich möchte das Bauvorhaben anpassen
+    - ich möchte ein anderes bauvorhaben definieren
+- intent: delete_position
+  examples: |
+    - Entferne Position [15](sales_units) von der Liste
+    - Reduziere das Angebot um Position Nummer [2](sales_units)
+    - entferne position [4](sales_units)
+    - reduziere position [12](sales_units) von der Rechnung
+    - ich moechte nummer [11](sales_units) von der liste streichen
+    - streiche position [1](sales_units) von der rechnung
+    - reduziere die rechnung um die position an stelle [5](sales_units)
+    - entferne nummer [31](sales_units) vom angebot
+    - entferne nummer [53](sales_units) von der rechnung
+    - entferne nummer [13](sales_units) vom auftrag
+    - entferne nummer [32](sales_units) des angebotes
+    - reduziere nummer [5](sales_units) vom Angebot
+    - streiche nummer [2](sales_units)
+    - streiche position [2](sales_units)
+    - position [15](sales_units) ist falsch
+    - position [12](sales_units) ist der falsche Artikel
+    - entferne nummer [11](sales_units) vom angebot bitte
+    - entferne nummer [11](sales_units) des angebotes bitte
+    - ich möchte nummer [12](sales_units) streichen
+    - entferne nummer [4](sales_units) von der liste
+    - entferne nummer [4](sales_units) vom auftrag
+    - entferne position [4](sales_units) des angebotes
+    - lösche nummer [5](sales_units)
+    - loesche nummer [78](sales_units) des angebotes
+    - entferne nummer [19](sales_units) von der liste
+    - entferne nummer [12](sales_units) von der liste bitte
+    - entferne die nummer [12](sales_units) von der liste bitte
+    - entferne die nummer [14](sales_units) von der liste bitte
+    - entferne die nummer [13](sales_units) bitte von der liste
+    - bitte lösche position [11](sales_units) von der liste
+    - entferne position [15](sales_units), position [11](sales_units) und position [13](sales_units) von der liste bitte sehr
+    - entferne nummer [12](sales_units), nummer [7](sales_units) und nummer [2](sales_units) von der liste bitte
+    - entferne nummer [3](sales_units), position [2](sales_units) und nummer [1](sales_units) von der liste bitte
+    - entferne nummer [3](sales_units), position [2](sales_units) und nummer [1](sales_units) von der liste bitt
+    - entferne nummer [3](sales_units), position [2](sales_units) und nummer [1](sales_units) von der liste bit
+    - entferne position [3](sales_units), nummer [5](sales_units), und nummer [14](sales_units) von der liste
+    - entferne nummer [3](sales_units), position [6](sales_units) und position [7](sales_units) von der liste bitte
+    - loesche nummer [2](sales_units) nummer [6](sales_units) und nummer [12](sales_units) von der liste
+    - entferne position [5](sales_units), position [3](sales_units) und position [7](sales_units) vom angebot bitte sehr
+    - entferne position [6](sales_units), position [8](sales_units) und position [9](sales_units) vom auftrag bitte
+    - ich möchte position nummer [3](sales_units) entfernen
+    - entferne position [2](sales_units)
+    - entferne position [5](sales_units), position [3](sales_units) und position [7](sales_units) von der rechnung bitte
+    - entferne position [3](sales_units), position [5](sales_units) und position [8](sales_units) von der bestellung bitte
+- intent: delete_latest_position
+  examples: |
+    - entferne die letzte position
+    - entferne den letzten artikel
+    - das war der falsche artikel, entferne die letzte position bitte
+    - loesche die letzte position bitte
+    - ich möchte die letzte position streichen
+    - letzte position streichen bitte
+    - streich das letzte was dem angebot hinzugefügt wurde
+    - ich möchte die letzte position des angebotes streichen
+    - streich den letzten artikel
+    - oh das war mist, streich den letzten artikel
+    - Entferne den letzten Eintrag
+    - das war das falsche, den letzten Eintrag streichen bitte
+    - streich das letzte
+    - oh je, streich den letzten artikel bitte
+    - letzten artikel entfernen
+    - streiche den letzten artikel bitte
+    - ich möchte den letzten artikel entfernen, das war falsch
+    - letzter artikel war falsch, entfernen bitte
+    - den letzten artikel bitte entfernen
+    - bitte entferne den zuletzt hinzugefuegten artikel von der positionsliste
+    - entferne den letzten artikel von der liste bitte
+    - loesche den letzten artikel von der liste bitte
+    - entferne den letzten artikel bitte
+- synonym: 40er Montageschienen
+  examples: |
+    - Standardmontageschienen
+    - vierziger Montageschienen
+    - Standardschienen
+    - 40er Standardmontageschienen
+    - 40er montageschienen
+    - Montageschienen mit oberer Nutung
+    - Montageschienen normale Groesse
+    - Standardschiene
+    - vierziger-montageschienen
+    - 40er-montageschienen
+    - 40er-montageschiene
+    - vierziger-montageschiene
+- synonym: weissaluminium
+  examples: |
+    - alufarbene
+    - metallene
+    - weiss
+    - hell
+    - alufarben
+    - metallen
+    - weißaluminium
+    - weiß
+    - metall
+    - aluminiumfarben
+    - metallener
+    - metallfarben
+    - alufarber
+    - metallenen
+    - weissallumium
+    - helle
+- synonym: seitliche Nutung
+  examples: |
+    - seitlicher Nutung
+    - seitlicher nutung
+    - mit Nuten seitlich
+    - seitliche genuteten
+    - Nuten seitlich
+    - genuteten Schienen
+    - seitlich genuteten
+- synonym: ultraleicht
+  examples: |
+    - ultraleichter
+    - ultra-leichten
+    - ultraleichte
+    - ultra-leichte
+    - ultra-leichtes
+    - ultraleichtes
+    - niedriggewichtig
+    - niedrichgewichtige
+    - niedrichgewichtiger
+    - niedrichgewichtiges
+    - niedrichgewichtigen
+    - niedrichgewichtigem
+    - die leichten
+    - die Leichten
+    - ultra-leicht
+    - niedriggewichtigen
+    - niedriggewichtigere
+    - niedriggewichtige
+- synonym: Keine
+  examples: |
+    - Standard
+    - standard
+    - Standardausfuehrung
+    - normaler Ausfuehrung
+    - normale
+    - normale Ausfuehrung
+    - none
+    - normale Groesse
+    - normal
+    - normales
+    - normalen
+    - standar
+    - die normalen
+    - keine
+    - standardmass
+- synonym: 80er Montageschienen
+  examples: |
+    - breite Ausfuehrung
+    - breite
+    - achtziger Montageschienen
+    - breite Profile
+    - breite Schienen
+    - hohe Montageschienen
+    - breite Montageschienen obere Nutung
+    - breite Standardmontageschienen
+    - breite Aluschienen
+    - 80er-montageschiene
+    - 80er-montageschienen
+    - achtziger-montageschiene
+    - achtziger-montageschienen
+    - breiten
+- synonym: schiene
+  examples: |
+    - Schienen
+    - schienen
+    - Schiene
+    - Montageschienen
+    - montageschienen
+    - aluschiene
+    - aluschienen
+    - aluminiumschiene
+    - Aluminiumschienen
+- synonym: trapezdach
+  examples: |
+    - Trapezdach-Montageschienen
+    - Trapezdach
+    - trapezdach-montageschienen
+    - Trapezdachschienen
+    - Aluschienen fuers Trapezdach
+    - trapezdach-montageschiene
+- synonym: endklemme
+  examples: |
+    - Endklemmen
+    - endklemmen
+    - Endklemme
+    - End
+    - End-klemme
+    - end-klemme
+    - end-klemmen
+    - End-klemmen
+    - Endklemm
+- synonym: mittelklemme
+  examples: |
+    - Mittelklemmen
+    - mittelklemmen
+    - Mittelklemme
+    - Mittel
+    - mittel-klemme
+    - mittel-klemmen
+    - Mittel-klemmen
+- synonym: schwarz
+  examples: |
+    - schwarze
+    - dunkle
+    - dunkel
+    - schwarzer
+    - black
+    - schwarzen
+    - die dunklen
+    - schwarzes
+    - dunkles
+    - dunkeles
+    - dunkeln
+    - dunklen
+- synonym: 200 mm
+  examples: |
+    - 20 cm
+    - 200mm
+    - 20 centimeter
+    - 20 zentimeter
+    - 20 Centimeter
+    - 20cm
+    - 200 millimeter
+    - 20 Zentimeter
+    - 20-centimeter
+    - 20centimeter
+    - 200-millimeter
+    - 200millimeter
+- synonym: 250 mm
+  examples: |
+    - 25 cm
+    - 250mm
+    - 25 zentimeter
+    - 25 centimeter
+    - 25 Zentimeter
+    - 25 Centimeter
+    - 250 Millimeter
+    - 250 millimeter
+    - 25cm
+    - 25-cm
+    - 25-centimeter
+    - 25centimeter
+    - 250-millimeter
+    - 250millimeter
+    - 25 centi meter
+- synonym: stockschraube
+  examples: |
+    - stockschrauben
+    - Stockschrauben
+    - Stokschrauben
+    - Stockschraube
+    - stock-schraube
+    - stock-schrauben
+    - Stockschrauber
+- synonym: M12
+  examples: |
+    - m-zwölf
+    - M 12
+    - m-zwoelf
+    - mzwoelf
+    - mzwölf
+- synonym: M10
+  examples: |
+    - m-zehn
+    - M 10
+    - m-10
+- synonym: WASICLIP
+  examples: |
+    - Wasi
+    - wasi clip
+    - Wasiclip
+    - wasiclip
+    - wasi-clip
+    - vase clip
+    - wasie clip
+    - vasi clip
+    - was clip
+    - vas clip
+    - vasi-clip
+- synonym: ton260
+  examples: |
+    - ton-zweisechzig-ziegel
+    - ton 260
+    - ton-zweisechzig
+    - ton-zwei-sechzig
+    - ton-zweihundertsechzig
+    - ton-zwei-sechzig-ziegel
+    - ton-zweihundertsechzig-ziegel
+    - zweisechzig-ton-ziegel
+    - zwei-sechzig-ton-ziegel
+    - zweihundertsechzig-ton-ziegel
+    - zweisechzig-tonziegel
+    - zwei-sechzig-tonziegel
+    - zweihundertsechzig-tonziegel
+    - ton zweisechzig
+    - ton zwei sechzig
+    - ton zweihundertsechzig
+    - zweisechzig tonziegel
+    - zwei sechzig tonziegel
+    - zweihundertsechzig tonziegel
+    - 260 ton
+    - 260 tonziegel
+    - ton-260
+    - ton-260-ziegel
+    - 260-ton-ziegel
+    - 260-tonziegel
+    - zweihundertsechzig ton
+    - zwei sechzig ton
+    - zweisechzig ton
+- synonym: sonderziegel
+  examples: |
+    - sonder ziegel
+    - sonder-ziegel
+    - sonder
+    - sondere
+    - besondere-ziegel
+    - besondere ziegel
+    - ausserhalb des Sortiments
+    - Sonderziegel
+    - ausserhalb des sortiments
+    - sondere ausfuehrung
+    - sonder ausfuehrung
+- synonym: gerahmt
+  examples: |
+    - gerahmte
+    - gerahmtes
+    - gerahmter
+    - gerahmten
+    - gerahmtem
+    - gerahmtere
+    - gerahmteres
+    - gerahmteren
+    - gerahmterem
+    - geramt
+- synonym: beton
+  examples: |
+    - betonziegel
+    - ziegel beton
+    - beton-ziegel
+    - beton ziegel
+    - ziegel-beton
+    - Beton
+- synonym: blechziegel
+  examples: |
+    - blech-ziegel
+    - Blech Ziegel
+    - Ziegel
+    - ziegel
+    - blecherne Ziegel
+    - blechpfannen
+    - blech-pfanne
+    - blech-pfannen
+    - pfannen
+    - Blechziegel
+    - blechpfanne
+    - blechziegeln
+    - dachziegel
+    - dachziegeln
+- synonym: klemme
+  examples: |
+    - Klemmen
+    - klemmen
+    - clamp
+    - Klemme
+- synonym: dachhaken
+  examples: |
+    - Dachhaken
+    - haken
+    - Hoka
+    - Montagehaken
+    - Montagedachhaken
+    - Haken
+    - dach-haken
+    - Dachhoka
+    - Dachhoke
+    - montage-haken
+- synonym: flach
+  examples: |
+    - flache
+    - niedere
+    - niederer
+- synonym: hoch
+  examples: |
+    - hohe
+    - hohes
+    - hoher
+    - hohen
+    - hohem
+    - hoches
+    - hoche
+- synonym: adapterblech
+  examples: |
+    - Adapterbleche
+    - Adapterblech
+    - adapterbleche
+    - adapter-bleche
+    - adapberbleche
+    - adapter-blech
+    - Adapter-blech
+- synonym: ton250
+  examples: |
+    - ton-zweifünfzig
+    - ton-zwei-fünfzig
+    - ton-zweihundertfünfzig
+    - ton-zweifünfzig-ziegel
+    - ton-zwei-fünfzig-ziegel
+    - ton-zweihundertfünfzig-ziegel
+    - zweifünfzig-ton-ziegel
+    - zwei-fünfzig-ton-ziegel
+    - zweihundertfünfzig-ton-ziegel
+    - zweifünfzig-tonziegel
+    - zwei-fünfzig-tonziegel
+    - zweihundertfünfzig-tonziegel
+    - ton zweifünfzig
+    - ton zwei fünfzig
+    - ton zweihundertfünfzig
+    - zweifünfzig ton
+    - zwei fünfzig ton
+    - zweihundertfünfzig ton
+    - zweifünfzig tonziegel
+    - zwei fünfzig tonziegel
+    - zweihundertfünfzig tonziegel
+    - ton 250
+    - 250 ton
+    - 250 tonziegel
+    - ton-250
+    - ton-250-ziegel
+    - 250-ton-ziegel
+    - 250-tonziegel
+- synonym: photovoltaikmodul
+  examples: |
+    - PV-Modul
+    - PV Modul
+    - Photovoltaik-modul
+    - Photovoltaikmodul
+    - pv-modul
+    - pv modul
+    - fotovoltaikmodul
+    - fotovoltaik modul
+    - fotovoltaik-modul
+    - solarmodul
+    - solar-modul
+    - solar modul
+    - sola-modul
+    - Solarmodul
+    - PVModule
+    - photovoltaikmodule
+    - pv module
+    - solarmodule
+    - PV-module
+    - pv-module
+    - photovoltaik-module
+    - photovoltaikmodulen
+    - pvmodule
+    - solarmodulen
+- synonym: 8 mm
+  examples: |
+    - 8 Millimeter
+- synonym: 28 mm
+  examples: |
+    - 28 Millimeter
+- synonym: 9742-WASI4-30
+  examples: |
+    - Endklemmen fuer gerahmte Module, Hoehe 30mm
+- synonym: 9742-WASI4-30SE
+  examples: |
+    - Endklemmen fuer gerahmte Module, Hoehe 30mm, schwarz
+- synonym: 9742-WASI4-32
+  examples: |
+    - Endklemmen fuer gerahmte Module, Hoehe 32mm
+- synonym: 9742-WASI4-32SE
+  examples: |
+    - Endklemmen fuer gerahmte Module, Hoehe 32mm, schwarz
+- synonym: 9742-WASI4-34
+  examples: |
+    - Endklemmen fuer gerahmte Module, Hoehe 34mm
+- synonym: 9742-WASI4-34SE
+  examples: |
+    - Endklemmen fuer gerahmte Module, Hoehe 34mm, schwarz
+- synonym: 9742-WASI4-35
+  examples: |
+    - Endklemmen fuer gerahmte Module, Hoehe 35mm
+- synonym: 9742-WASI4-35SE
+  examples: |
+    - Endklemmen fuer gerahmte Module, Hoehe 35mm, schwarz
+- synonym: 9745-WASI13
+  examples: |
+    - Mittelklemmen fuer gerahmte Module, Hoehe 36mm
+- synonym: 9745-WASI13SE
+  examples: |
+    - Mittelklemmen fuer gerahmte Module, Hoehe 36mm, schwarz
+- synonym: 9742-WASI4-38
+  examples: |
+    - Endklemmen fuer gerahmte Module, Hoehe 38mm
+- synonym: 9742-WASI4-38SE
+  examples: |
+    - Endklemmen fuer gerahmte Module, Hoehe 38mm, schwarz
+- synonym: 9742-WASI4-40
+  examples: |
+    - Endklemmen fuer gerahmte Module, Hoehe 40mm
+- synonym: 9742-WASI4-40SE
+  examples: |
+    - Endklemmen fuer gerahmte Module, Hoehe 40mm, schwarz
+- synonym: 9742-WASI4-42
+  examples: |
+    - Endklemmen fuer gerahmte Module, Hoehe 42mm
+- synonym: 9742-WASI4-43
+  examples: |
+    - Endklemmen fuer gerahmte Module, Hoehe 43mm
+- synonym: 9742-WASI4-46SE
+  examples: |
+    - Endklemmen fuer gerahmte Module, Hoehe 46mm, schwarz
+- synonym: 9742-WASI4-50
+  examples: |
+    - Endklemmen fuer gerahmte Module, Hoehe 50mm
+- synonym: 9742-WASI4-50SE
+  examples: |
+    - Endklemmen fuer gerahmte Module, Hoehe 50mm, schwarz
+- synonym: 9742-GM L80/6-9
+  examples: |
+    - Endklemmen fuer Glasmodule, Height 6-9mm
+    - Endklemme fuer Glasmodule
+    - Endklemmen fuer Glas
+    - Glasendklemmen
+    - Glasmodulendklemmen
+    - Endklemmen fuer Glasmodule
+    - Endklemmen fuer Glasmodule, Hoehen 6-9mm
+- synonym: 9745-GM L80/6-9
+  examples: |
+    - Mittelklemmen fuer Glasmodule, Height 6-9mm
+    - Mittelklemme fuer Glasmodule
+    - Mittelklemmen fuer Glas
+    - Glasmittelklemmen
+    - Glasmodulmittelklemmen
+    - Mittelklemmen fuer Glasmodule
+    - Mittelklemmen fuer Glasmodule, Hoehen 6-9mm
+- synonym: 9742-WASICLIPE32
+  examples: |
+    - Endklemmen Klick fuer Modulhoehe 32mm
+- synonym: 9742-WASICLIPE32SE
+  examples: |
+    - Endklemmen Klick fuer Modulhoehe 32mm, schwarz
+- synonym: 9742-WASICLIPE35
+  examples: |
+    - Endklemmen Klick fuer Modulhoehe 35mm
+- synonym: 9742-WASICLIPE35SE
+  examples: |
+    - Endklemmen Klick fuer Modulhoehe 35mm, schwarz
+- synonym: 9742-WASICLIPE38
+  examples: |
+    - Endklemmen Klick fuer Modulhoehe 38mm
+- synonym: 9742-WASICLIPE38SE
+  examples: |
+    - Endklemmen Klick fuer Modulhoehe 38mm, schwarz
+- synonym: 9742-WASICLIPE40
+  examples: |
+    - Endklemmen Klick fuer Modulhoehe 40mm
+- synonym: 9742-WASICLIPE40SE
+  examples: |
+    - Endklemmen Klick fuer Modulhoehe 40mm, schwarz
+- synonym: 9745-WASICLIPM1
+  examples: |
+    - Mittelklemmen + WASICLIPS fuer Modulhoehen 28-34mm
+- synonym: 9745-WASICLIPM1SE
+  examples: |
+    - Mittelklemmen + WASICLIPS fuer Modulhoehen 28-34mm, schwarz
+- synonym: 9745-WASICLIPM2
+  examples: |
+    - Mittelklemmen + WASICLIPS fuer Modulhoehen 35mm
+- synonym: 9745-WASICLIPM2SE
+  examples: |
+    - Mittelklemmen + WASICLIPS fuer Modulhoehen 35mm, schwarz
+- synonym: 9745-WASICLIPM3
+  examples: |
+    - Mittelklemmen + WASICLIPS fuer Modulhoehen 36-44mm
+- synonym: 9745-WASICLIPM3SE
+  examples: |
+    - Mittelklemmen + WASICLIPS fuer Modulhoehen 36-44mm, schwarz
+- synonym: mm
+  examples: |
+    - Millimeter
+    - em em
+    - milli meter
+    - millimeter
+- synonym: cm
+  examples: |
+    - centimeter
+    - centi-meter
+    - zentimeter
+    - zenti-meter
+    - centi meter
+- synonym: '1'
+  examples: |
+    - Das Erste
+    - Der Erste
+    - Die Erste
+    - Erste
+    - Nummer Eins
+- synonym: '2'
+  examples: |
+    - Das Zweite
+    - Der Zweite
+    - Die Zweite
+    - Zweite
+    - Nummer Zwei
+- synonym: '3'
+  examples: |
+    - Das Dritte
+    - Der Dritte
+    - Die Dritte
+    - Dritte
+    - Nummer Drei
+- synonym: '4'
+  examples: |
+    - Das Vierte
+    - Der Vierte
+    - Die Vierte
+    - Vierte
+    - Nummer Vier
+- synonym: '5'
+  examples: |
+    - Das Fuenfte
+    - Der Fuenfte
+    - Die Fuenfte
+    - Fuenfte
+    - Nummer Fuenf
+- synonym: '6'
+  examples: |
+    - Das Sechste
+    - Der Sechste
+    - Die Sechste
+    - Sechste
+    - Nummer Sechs
+- synonym: '7'
+  examples: |
+    - Das Siebte
+    - Der Siebte
+    - Die Siebte
+    - Siebte
+    - Nummer Sieben
+- synonym: '8'
+  examples: |
+    - Das Achte
+    - Der Achte
+    - Die Achte
+    - Achte
+    - Nummer Acht
+- regex: w_clamp_id
+  examples: |
+    - ([0-9]{4})-([A-Z]{2})(.{3,13})
+- regex: w_mount_id
+  examples: |
+    - ([0-9]{4})-([0-9]{1})(.{3,11})

@@ -1,0 +1,1266 @@
+[
+  {
+    "text": "gruess gott",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.6268457174301147
+    }
+  },
+  {
+    "text": "goodevening",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.5544188022613525
+    }
+  },
+  {
+    "text": "Mahlzeit!",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9323580265045166
+    }
+  },
+  {
+    "text": "Kannst du uns begruessen",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "tell_time",
+      "confidence": 0.5398334264755249
+    }
+  },
+  {
+    "text": "hi, kannst du mir helfen",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "tell_time",
+      "confidence": 0.6199867725372314
+    }
+  },
+  {
+    "text": "cu",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.327374666929245
+    }
+  },
+  {
+    "text": "cee you later",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5248361229896545
+    }
+  },
+  {
+    "text": "good night",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7889173626899719
+    }
+  },
+  {
+    "text": "Ciao.",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9701064229011536
+    }
+  },
+  {
+    "text": "Schoen Feierabend",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.3984144628047943
+    }
+  },
+  {
+    "text": "sure",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9762890934944153
+    }
+  },
+  {
+    "text": "johr",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.5365681648254395
+    }
+  },
+  {
+    "text": "n",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.23717910051345825
+    }
+  },
+  {
+    "text": "nein doch ton250",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5114311575889587
+    }
+  },
+  {
+    "text": "Orderbot Instruction",
+    "intent": "request_tutorial_simple",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.4542328417301178
+    }
+  },
+  {
+    "text": "Erklär mir wie du funktionierst",
+    "intent": "request_tutorial_simple",
+    "intent_prediction": {
+      "name": "tell_time",
+      "confidence": 0.8833649754524231
+    }
+  },
+  {
+    "text": "wie funktionierst du? ich möchte eine Einführung bitte",
+    "intent": "request_tutorial_simple",
+    "intent_prediction": {
+      "name": "tell_time",
+      "confidence": 0.7808568477630615
+    }
+  },
+  {
+    "text": "ich wuerde gerne testen",
+    "intent": "test_hello_world",
+    "intent_prediction": {
+      "name": "want_article",
+      "confidence": 0.8478577136993408
+    }
+  },
+  {
+    "text": "Endklemmen",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "want_article",
+      "confidence": 0.9999942183494568
+    }
+  },
+  {
+    "text": "seitliche Nutung im standardmass",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "want_article",
+      "confidence": 0.8284896612167358
+    }
+  },
+  {
+    "text": "Mittelklemmen wasiclip",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "want_article",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "[m-zehn], bitte{\"entity\":\"ascrew_type\",\"value\":\"M10\"}",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "give_sales_unit",
+      "confidence": 0.7617347240447998
+    }
+  },
+  {
+    "text": "WASICLIP, 36 mm",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "give_height",
+      "confidence": 0.8286756277084351
+    }
+  },
+  {
+    "text": "zweihundertfünfzig tonziegel",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "give_sales_unit",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "betonziegel 40 an der zahl",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "give_sales_unit",
+      "confidence": 0.9977615475654602
+    }
+  },
+  {
+    "text": "End",
+    "intent": "want_article",
+    "intent_prediction": {
+      "name": "give_sales_unit",
+      "confidence": 0.6003645062446594
+    }
+  },
+  {
+    "text": "schwarze 40er Montageschienen wären optimal",
+    "intent": "want_article",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.9993039965629578
+    }
+  },
+  {
+    "text": "ich brauche schwarze 40er Montageschienen",
+    "intent": "want_article",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.9712091088294983
+    }
+  },
+  {
+    "text": "schwarze 40er Montageschienen wären perfekt für morgen",
+    "intent": "want_article",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.8763256669044495
+    }
+  },
+  {
+    "text": "ziegel ton260",
+    "intent": "want_article",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.9999849200248718
+    }
+  },
+  {
+    "text": "für m12",
+    "intent": "want_article",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.987474262714386
+    }
+  },
+  {
+    "text": "ich brauche mittelklemmen mit wasiclip für 38 mm",
+    "intent": "want_article",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.8735319375991821
+    }
+  },
+  {
+    "text": "fuenfzehn",
+    "intent": "give_sales_unit",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.4282480478286743
+    }
+  },
+  {
+    "text": "29 mm Höhe wär perfekt",
+    "intent": "give_height",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.4956357777118683
+    }
+  },
+  {
+    "text": "Du verstehst mich nicht",
+    "intent": "stop",
+    "intent_prediction": {
+      "name": "tell_time",
+      "confidence": 0.5844195485115051
+    }
+  },
+  {
+    "text": "Oh mein Gott wie kann das nicht funktionieren",
+    "intent": "stop",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.28738993406295776
+    }
+  },
+  {
+    "text": "loesche den letzten artikel von der liste bitte",
+    "intent": "delete_latest_position",
+    "intent_prediction": {
+      "name": "want_article",
+      "confidence": 0.9977694153785706
+    }
+  },
+  {
+    "text": "Hallo lieber bot.",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.662617027759552
+    }
+  },
+  {
+    "text": "Hallo bot.",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.8355416059494019
+    }
+  },
+  {
+    "text": "gute nacht",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9061511158943176
+    }
+  },
+  {
+    "text": "jawohl das wird benötigt",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "request_tutorial_simple",
+      "confidence": 0.2493525743484497
+    }
+  },
+  {
+    "text": "not really",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.4071119427680969
+    }
+  },
+  {
+    "text": "zweiundfünfzig reichen vollkommen aus mehr brauchen wir nicht",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "give_sales_unit",
+      "confidence": 0.9998987913131714
+    }
+  },
+  {
+    "text": "was kann ich mit dir anstellen",
+    "intent": "request_tutorial_simple",
+    "intent_prediction": {
+      "name": "stop",
+      "confidence": 0.33695441484451294
+    }
+  },
+  {
+    "text": "Montagevorrichtung fuers Trapezdach-Montageschienen bitte",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "want_article",
+      "confidence": 0.9565578699111938
+    }
+  },
+  {
+    "text": "schwarze 40er Montageschienen wären perfekt",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "want_article",
+      "confidence": 0.9999605417251587
+    }
+  },
+  {
+    "text": "für m-zwölf Schrauben bitte",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "want_article",
+      "confidence": 0.9998862743377686
+    }
+  },
+  {
+    "text": "m-zwölf werden benötigt",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "want_article",
+      "confidence": 0.9998956918716431
+    }
+  },
+  {
+    "text": "Amtzell",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.2458735853433609
+    }
+  },
+  {
+    "text": "beton ziegel bitte sehr",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "want_article",
+      "confidence": 0.9382467269897461
+    }
+  },
+  {
+    "text": "fuer beton bitte",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "want_article",
+      "confidence": 0.9997518062591553
+    }
+  },
+  {
+    "text": "30 stück bittesehr",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "give_sales_unit",
+      "confidence": 0.9999578595161438
+    }
+  },
+  {
+    "text": "m-zwölf bleche",
+    "intent": "want_article",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.4993024468421936
+    }
+  },
+  {
+    "text": "1234",
+    "intent": "give_sales_unit",
+    "intent_prediction": {
+      "name": "delete_position",
+      "confidence": 0.9017459750175476
+    }
+  },
+  {
+    "text": "30 stückli",
+    "intent": "give_sales_unit",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.9196794033050537
+    }
+  },
+  {
+    "text": "38 millimeter",
+    "intent": "give_height",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.38559088110923767
+    }
+  },
+  {
+    "text": "bitte entferne den zuletzt hinzugefuegten artikel von der positionsliste",
+    "intent": "delete_latest_position",
+    "intent_prediction": {
+      "name": "want_article",
+      "confidence": 0.8899100422859192
+    }
+  },
+  {
+    "text": "hello",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.8409460186958313
+    }
+  },
+  {
+    "text": "good by",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.8376780152320862
+    }
+  },
+  {
+    "text": "Schoenen Tag",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9573380947113037
+    }
+  },
+  {
+    "text": "schoenen tag noch",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7408149242401123
+    }
+  },
+  {
+    "text": "Tschuess chat bot.",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.942010223865509
+    }
+  },
+  {
+    "text": "fürs trapezdach",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.239667609333992
+    }
+  },
+  {
+    "text": "y",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.23368039727210999
+    }
+  },
+  {
+    "text": "indeed",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8329190611839294
+    }
+  },
+  {
+    "text": "Erzaehle mir mehr",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "want_article",
+      "confidence": 0.40789490938186646
+    }
+  },
+  {
+    "text": "Einführung in die Funktionalitäten",
+    "intent": "request_tutorial_simple",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.9814073443412781
+    }
+  },
+  {
+    "text": "Test",
+    "intent": "test_hello_world",
+    "intent_prediction": {
+      "name": "request_tutorial_simple",
+      "confidence": 0.348097026348114
+    }
+  },
+  {
+    "text": "test",
+    "intent": "test_hello_world",
+    "intent_prediction": {
+      "name": "request_tutorial_simple",
+      "confidence": 0.348097026348114
+    }
+  },
+  {
+    "text": "35 alufarbene Standardmontageschienen",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "give_sales_unit",
+      "confidence": 0.9895978569984436
+    }
+  },
+  {
+    "text": "so 30 mm circa",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "give_height",
+      "confidence": 0.9638417363166809
+    }
+  },
+  {
+    "text": "Bad Waldseerstr. 18",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.4725431203842163
+    }
+  },
+  {
+    "text": "Riedlingstr. 15",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "give_sales_unit",
+      "confidence": 0.4125320315361023
+    }
+  },
+  {
+    "text": "Geiselharz Netto PV-Anlage",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "generate_final_task",
+      "confidence": 0.5081207156181335
+    }
+  },
+  {
+    "text": "gerahmtem Ramen",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "give_sales_unit",
+      "confidence": 0.9993688464164734
+    }
+  },
+  {
+    "text": "Sonderausführung none",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5574462413787842
+    }
+  },
+  {
+    "text": "400 stück",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "give_sales_unit",
+      "confidence": 0.9985240697860718
+    }
+  },
+  {
+    "text": "dunkel und vierhundert stück",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "give_sales_unit",
+      "confidence": 0.9845885038375854
+    }
+  },
+  {
+    "text": "ich brauche ton 260",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "want_article",
+      "confidence": 0.9997497200965881
+    }
+  },
+  {
+    "text": "Mittel",
+    "intent": "want_article",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6344173550605774
+    }
+  },
+  {
+    "text": "zwoelf reichen aus",
+    "intent": "want_article",
+    "intent_prediction": {
+      "name": "give_sales_unit",
+      "confidence": 0.9927923083305359
+    }
+  },
+  {
+    "text": "schwarze 40er Montageschienen waeren perfekt",
+    "intent": "want_article",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.9998578429222107
+    }
+  },
+  {
+    "text": "ton250 wären sehr gut",
+    "intent": "want_article",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.7132312059402466
+    }
+  },
+  {
+    "text": "fuenfzig, das wird eine grosse anlage",
+    "intent": "give_sales_unit",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.31741490960121155
+    }
+  },
+  {
+    "text": "hundertzwei",
+    "intent": "give_sales_unit",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.6717878580093384
+    }
+  },
+  {
+    "text": "hunderteins",
+    "intent": "give_sales_unit",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.6717878580093384
+    }
+  },
+  {
+    "text": "fünfundzwanzig Centimeter",
+    "intent": "give_sales_unit",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.9998562932014465
+    }
+  },
+  {
+    "text": "Das Bauvorhaben ist Familie Müllers",
+    "intent": "define_bauvorhaben",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.3813313841819763
+    }
+  },
+  {
+    "text": "good morning",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9989982843399048
+    }
+  },
+  {
+    "text": "good evening",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9989926218986511
+    }
+  },
+  {
+    "text": "let's go",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.8540699481964111
+    }
+  },
+  {
+    "text": "good afternoon",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9968177080154419
+    }
+  },
+  {
+    "text": "Mach es gut",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.8491947650909424
+    }
+  },
+  {
+    "text": "Tschau",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "define_bauvorhaben",
+      "confidence": 0.37281087040901184
+    }
+  },
+  {
+    "text": "tschues",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "stop",
+      "confidence": 0.2864985466003418
+    }
+  },
+  {
+    "text": "Tschuess.",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8918027281761169
+    }
+  },
+  {
+    "text": "yes",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.4180036783218384
+    }
+  },
+  {
+    "text": "correct",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3346251845359802
+    }
+  },
+  {
+    "text": "auf jeden fall",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7780144810676575
+    }
+  },
+  {
+    "text": "Erzaehle noch mehr",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "want_article",
+      "confidence": 0.9945981502532959
+    }
+  },
+  {
+    "text": "never",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9617733955383301
+    }
+  },
+  {
+    "text": "don't like that",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9677215814590454
+    }
+  },
+  {
+    "text": "Wieso funktioniert das nicht?",
+    "intent": "request_tutorial_simple",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.28979215025901794
+    }
+  },
+  {
+    "text": "Standardmontageschienen",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "give_clamp_id",
+      "confidence": 0.40895146131515503
+    }
+  },
+  {
+    "text": "80er Montageschienen",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "want_article",
+      "confidence": 0.6822318434715271
+    }
+  },
+  {
+    "text": "ultraleichte 40er Montageschienen",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "want_article",
+      "confidence": 0.7519541382789612
+    }
+  },
+  {
+    "text": "ultra-leichte 40er Montageschienen waeren perfekt",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "want_article",
+      "confidence": 0.9998483657836914
+    }
+  },
+  {
+    "text": "für Module in gerahmter Ausführung",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "want_article",
+      "confidence": 0.9998353719711304
+    }
+  },
+  {
+    "text": "Schomburger Str. 5",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "give_sales_unit",
+      "confidence": 0.9731904864311218
+    }
+  },
+  {
+    "text": "standardmass",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "stop",
+      "confidence": 0.19979557394981384
+    }
+  },
+  {
+    "text": "ton250 wären perfekt für mein anliegen",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "want_article",
+      "confidence": 0.9980369210243225
+    }
+  },
+  {
+    "text": "für glasmodule",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "want_article",
+      "confidence": 0.9986394047737122
+    }
+  },
+  {
+    "text": "Bestelle 15 Verkaufseinheiten 80er Montageschienen mit seitlicher Nutung",
+    "intent": "want_article",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.9686502814292908
+    }
+  },
+  {
+    "text": "Mittelklemme wasiclip",
+    "intent": "want_article",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.9999957084655762
+    }
+  },
+  {
+    "text": "standard in weiss",
+    "intent": "want_article",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.9523917436599731
+    }
+  },
+  {
+    "text": "23 Stueck waeren ideal",
+    "intent": "want_article",
+    "intent_prediction": {
+      "name": "give_sales_unit",
+      "confidence": 0.9978922605514526
+    }
+  },
+  {
+    "text": "ich brauche 40er Montageschienen standard",
+    "intent": "want_article",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.6246449947357178
+    }
+  },
+  {
+    "text": "ich brauche vierziger Montageschienen Version metallen",
+    "intent": "want_article",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.9358727931976318
+    }
+  },
+  {
+    "text": "ziegel ton zweifünfzig",
+    "intent": "want_article",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.999014675617218
+    }
+  },
+  {
+    "text": "in weiss",
+    "intent": "want_article",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.7768536806106567
+    }
+  },
+  {
+    "text": "ich brauche mittelklemmen mit wasiclip für 37 mm in dunkel",
+    "intent": "want_article",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.9992557764053345
+    }
+  },
+  {
+    "text": "ich hätte gerne mittelklemmen mit wasiclip für 40 mm",
+    "intent": "want_article",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.7771950364112854
+    }
+  },
+  {
+    "text": "zwoelf",
+    "intent": "give_sales_unit",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.18430468440055847
+    }
+  },
+  {
+    "text": "so 40 mm",
+    "intent": "give_height",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.983670711517334
+    }
+  },
+  {
+    "text": "Schomburger Str. 3",
+    "intent": "give_height",
+    "intent_prediction": {
+      "name": "give_sales_unit",
+      "confidence": 0.9997014999389648
+    }
+  },
+  {
+    "text": "gott vergelt s",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "stop",
+      "confidence": 0.6906760334968567
+    }
+  },
+  {
+    "text": "man dankt",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.4011063873767853
+    }
+  },
+  {
+    "text": "vergelt s gott",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "stop",
+      "confidence": 0.6820699572563171
+    }
+  },
+  {
+    "text": "Halt",
+    "intent": "stop",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9805511236190796
+    }
+  },
+  {
+    "text": "halt das war falsch",
+    "intent": "stop",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.3940008878707886
+    }
+  },
+  {
+    "text": "Diesmal ist eine andere Baustelle",
+    "intent": "define_bauvorhaben",
+    "intent_prediction": {
+      "name": "give_sales_unit",
+      "confidence": 0.2525387406349182
+    }
+  },
+  {
+    "text": "goodmorning",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "request_tutorial_simple",
+      "confidence": 0.5801723003387451
+    }
+  },
+  {
+    "text": "Hallo.",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.822048544883728
+    }
+  },
+  {
+    "text": "Kannst mich begruessen",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.2086917906999588
+    }
+  },
+  {
+    "text": "have a nice day",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.4734547734260559
+    }
+  },
+  {
+    "text": "ciao",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9991782307624817
+    }
+  },
+  {
+    "text": "bot",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6725735068321228
+    }
+  },
+  {
+    "text": "tschues bot",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6616566777229309
+    }
+  },
+  {
+    "text": "vielen Dank! Auf Wiedersehen!",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.7438054084777832
+    }
+  },
+  {
+    "text": "vielen Dank! Wiedersehen!",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.9487558603286743
+    }
+  },
+  {
+    "text": "that sounds good",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5646995902061462
+    }
+  },
+  {
+    "text": "Natuerlich.",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5058138370513916
+    }
+  },
+  {
+    "text": "Wie benutze ich dich am besten",
+    "intent": "request_tutorial_simple",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.2062215954065323
+    }
+  },
+  {
+    "text": "testz",
+    "intent": "test_hello_world",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.5925397276878357
+    }
+  },
+  {
+    "text": "ich brauche schwarze 40er Standardmontageschienen",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "want_article",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "beton",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "want_article",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "sonder ziegel",
+    "intent": "give_info",
+    "intent_prediction": {
+      "name": "want_article",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "ich brauche endklemmen mit wasiclip für 40 mm",
+    "intent": "want_article",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.9970667362213135
+    }
+  },
+  {
+    "text": "40er Montageschienen",
+    "intent": "want_article",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.9999276399612427
+    }
+  },
+  {
+    "text": "ich möchte noch endklemmen für gerahmte module in 50 mm und weiß bitte",
+    "intent": "want_article",
+    "intent_prediction": {
+      "name": "give_info",
+      "confidence": 0.9637459516525269
+    }
+  },
+  {
+    "text": "sechzehn reichet mir vollkomme aus",
+    "intent": "want_article",
+    "intent_prediction": {
+      "name": "give_sales_unit",
+      "confidence": 0.9999974370002747
+    }
+  },
+  {
+    "text": "m-zehn schraubendurchmesser",
+    "intent": "want_article",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.860929548740387
+    }
+  },
+  {
+    "text": "m12 bitte",
+    "intent": "give_sales_unit",
+    "intent_prediction": {
+      "name": "want_article",
+      "confidence": 0.6866153478622437
+    }
+  },
+  {
+    "text": "ja danke",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8267965912818909
+    }
+  },
+  {
+    "text": "zurueck",
+    "intent": "stop",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8092758655548096
+    }
+  },
+  {
+    "text": "9742-GM L80/6-9",
+    "intent": "give_clamp_id",
+    "intent_prediction": {
+      "name": "give_mount_id",
+      "confidence": 0.7064685225486755
+    }
+  },
+  {
+    "text": "9745-GM L80/6-9",
+    "intent": "give_clamp_id",
+    "intent_prediction": {
+      "name": "give_mount_id",
+      "confidence": 0.7064685225486755
+    }
+  },
+  {
+    "text": "Bauvorhaben Reichle Goldschmied",
+    "intent": "define_bauvorhaben",
+    "intent_prediction": {
+      "name": "give_sales_unit",
+      "confidence": 0.9978969097137451
+    }
+  }
+]

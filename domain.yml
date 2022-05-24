@@ -1,0 +1,464 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- delete_position:
+    use_entities: true
+- request_tutorial_simple:
+    use_entities: true
+- define_bauvorhaben:
+    use_entities: true
+- generate_final_task:
+    use_entities: true
+- give_info:
+    use_entities: true
+- affirm:
+    use_entities: true
+- read_current_positions:
+    use_entities: true
+- give_sales_unit:
+    use_entities: true
+- thanks:
+    use_entities: true
+- give_height:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- want_article:
+    use_entities: true
+- give_mount_id:
+    use_entities: true
+- deny:
+    use_entities: true
+- give_clamp_id:
+    use_entities: true
+- give_rail_info:
+    use_entities: true
+- stop:
+    use_entities: true
+- bot_challenge:
+    use_entities: true
+- give_color:
+    use_entities: true
+- give_quantity:
+    use_entities: true
+- greet:
+    use_entities: true
+- nlu_fallback:
+    use_entities: true
+- out_of_scope:
+    use_entities: true
+- test_hello_world:
+    use_entities: true
+- want_brick:
+    use_entities: true
+- want_brick_all_infos:
+    use_entities: true
+- specify_brick_without_quantity:
+    use_entities: true
+- want_turmbiber_no_quantity:
+    use_entities: true
+- want_brick_no_quantity_no_color:
+    use_entities: true
+- tell_time:
+    use_entities: []
+- restart:
+    use_entities: true
+- want_clamp:
+    use_entities: true
+- want_wood:
+    use_entities: true
+- delete_latest_position:
+    use_entities: true
+entities:
+- MISC
+- adjustable
+- article
+- ascrew_type
+- brick_color
+- brick_type
+- clamp_type
+- framed
+- heavy_versions
+- height
+- alength
+- quantity
+- rail_adesign
+- rail_bfeature
+- rail_color
+- sales_units
+- w_clamp_id
+- w_mount_id
+- adesign
+- abv
+- cplz
+- bstreet
+- dcity
+slots:
+  brick_type:
+    type: rasa.shared.core.slots.CategoricalSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+    values:
+    - beton
+    - ton250
+    - ton260
+    - sonderziegel
+  label:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  brick_color:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  quantity:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  requested_slot:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  rail_color:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  rail_adesign:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  sales_units:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  rail_bfeature:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  adjustable:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  heavy_versions:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  article:
+    type: rasa.shared.core.slots.CategoricalSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+    values:
+    - dachhaken
+    - klemme
+    - schiene
+    - adapterblech
+    - stockschraube
+    - blechziegel
+    - blechpfanne
+    - photovoltaikmodul
+  framed:
+    type: rasa.shared.core.slots.CategoricalSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+    values:
+    - gerahmt
+    - wasiclip
+    - glas
+  clamp_type:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  height:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  w_clamp_id:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  w_mount_id:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  build_permit:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  alength:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  ascrew_type:
+    type: rasa.shared.core.slots.CategoricalSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+    values:
+    - m10
+    - m12
+  abv:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  bstreet:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  cplz:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  dcity:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+responses:
+  utter_greet:
+  - text: Hallo! Wie kann ich dir helfen?
+  utter_position_cancelled:
+  - text: Identifizierung Position für {article} abgebrochen. Wie kann ich helfen?
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: Ich bin ein Chatbot, entwickelt mit Rasa.
+  utter_out_of_scope:
+  - text: Ich habe nicht verstanden.
+  utter_ask_quantity:
+  - text: Wie viele soll ich bestellen?
+  utter_rephrase:
+  - text: Koennen Sie das wiederholen? Ich verstehe nicht wie ich helfen kann
+  utter_acquired_all_order_details:
+  - text: Alles klar, eine Bestellung ueber {quantity} {brick_color} {brick_type} wurden uebermittelt. Kann ich sonst noch was fuer dich tun?
+  utter_ask_framed:
+  - text: Welche Art von {clamp_type} moechten Sie bestellen fuer gerahmte Module, Glas oder mit WASICLIP?
+  utter_ask_brick_type:
+  - text: Welchen Ziegeltyp moechten Sie bestellen unser Sortiment verfügt über Beton, Ton250, Ton260 oder Sonderziegel?
+  utter_ask_continue:
+  - text: Bist du sicher, dass du die Bestellung abbrechen moechtest?
+  utter_submit:
+  - text: Alles klar, eine Bestellung ueber {quantity} {brick_color} {brick_type} wurde an den Lieferanten uebermittelt. Kann ich sonst noch was fuer dich tun?
+  utter_brick_slots:
+  - text: Dem Angebot wurden {sales_units} Einheiten {brick_type} hinzugefügt, kann ich sonst etwas für dich tun?
+  utter_recommend_wood:
+  - text: Gutes Holz.
+  utter_you_are_welcome:
+  - text: Gern geschehen, gibt es sonst noch eine Sache bei der ich helfen kann? Andernfalls wuensche ich Ihnen einen schoenen Tag!
+  utter_ask_rail_adesign:
+  - text: Welchen Profiltyp der Aluminiumschienen moechten Sie bestellen?
+  utter_ask_sales_units:
+  - text: Wie viele dieser Artikel sollen im Auftrag enthalten sein?
+  utter_ask_rail_color:
+  - text: In welcher farblichen Ausfuehrung soll Ihre Bestellung geliefert werden?
+  utter_rail_slots:
+  - text: Dem Angebot wurden {sales_units} {rail_adesign} in {rail_color} und {rail_bfeature} hinzugefuegt, {w_clamp_id}, kann ich sonst noch etwas hinzufuegen?
+  utter_ask_rail_bfeature:
+  - text: Bevorzugen Sie breite Profile, eine seitliche Nutung oder moechten Sie die Schienen in unserem Standardmass bestellen?
+  utter_ask_adjustable:
+  - text: Moechten sie starre Dachhaken so antworten Sie mit ja, fuer verstellbare antworten Sie mit nein!
+  utter_ask_heavy_versions:
+  - text: Moechten Sie die hoehergewichtige Version der verstellbaren Dachhaken bestellen, so antworten Sie mit ja oder das Standardgewicht, dann nein?
+  utter_hook_slots:
+  - text: Die Liste wurde um {sales_units} Dachhaken {adjustable} {heavy_versions} ergaenzt, {w_mount_id}. Kann ich sonst noch etwas für dich tun?
+  utter_ask_clamp_type:
+  - text: Moechten Sie End- oder Mittelklemmen bestellen?
+  utter_ask_height:
+  - text: Welche Hoehe sollen Ihre {clamp_type} befestigen?
+  utter_clamp_slots:
+  - text: Dem Angebot wurden {sales_units} {w_clamp_id} fuer {height} in {rail_color} hinzugefuegt, darf es sonst noch etwas sein?
+  utter_ask_alength:
+  - text: Welche Länge wird benötigt?
+  utter_ask_build_permit:
+  - text: Ist eine Bauzulassung der Schrauben notwendig?
+  utter_hanger_screw_slots:
+  - text: Dem Angebot wurden {sales_units} {w_mount_id} hinzugefuegt, darf es sonst noch etwas sein?
+  utter_plate_slots:
+  - text: Es wurden {sales_units} Adapterbleche fuer {ascrew_type}, {w_mount_id} dem Angebot hinzugefuegt. Darf es sonst noch etwas sein?
+  utter_ask_ascrew_type:
+  - text: Welche Schrauben sollen mit dem Adapterblech befestigt werden? M10 oder M12?
+  utter_ask_abv:
+  - text: Der Name des Bauvorhabens?
+  utter_ask_bstreet:
+  - text: Bauvorhaben {abv} befindet sich in welcher Strasse?
+  utter_ask_cplz:
+  - text: Die Postleitzahl des Ortes?
+  utter_ask_dcity:
+  - text: Abschließend der Name der Stadt oder Stadtteil
+  utter_tutorial_simple:
+  - text: Ich kann Sie im Angebotserstellprozess unterstützen. Sie können eine Liste befüllen, die als Grundlage für das erstellte Angebot dient. Äußere eine Artikelgruppe und wir determinieren den Artikel mit wenigen Fragen. Zum Abschluss der Position wird die Menge benötigt. Zur Erstellung des Angebots frage einfach nach der Rechnung. Viel Erfolg!
+  utter_pv_slots:
+  - text: Das Angebot wurde um {sales_units} PV-Module erweitert, kann ich sonst noch etwas hinzufuegen?
+actions:
+- action_ask_rail_adesign
+- action_hello_world
+- action_interpret
+- action_interpret_id
+- action_read_current_positions
+- action_reset_slots
+- action_tell_time
+- action_generate_final_task
+- action_utter_bauvorhaben_slots
+- action_delete_number_position
+- action_delete_latest_position
+- utter_ask_continue
+- utter_ask_heavy_versions
+- utter_ask_sales_units
+- utter_clamp_slots
+- utter_goodbye
+- utter_hanger_screw_slots
+- utter_hook_slots
+- utter_plate_slots
+- utter_rail_slots
+- utter_you_are_welcome
+- validate_simple_brick_form
+- validate_simple_clamp_form
+- validate_simple_hanger_screw_form
+- validate_simple_hook_form
+- validate_simple_plate_form
+- validate_simple_rail_form
+- validate_simple_bauvorhaben_form
+- validate_simple_pv_form
+forms:
+  simple_brick_form:
+    required_slots:
+      brick_type:
+      - entity: brick_type
+        type: from_entity
+      sales_units:
+      - entity: sales_units
+        type: from_entity
+  simple_rail_form:
+    ignored_intents:
+    - MISC
+    - quantity
+    - brick_color
+    - brick_type
+    - article
+    required_slots:
+      rail_adesign:
+      - entity: rail_adesign
+        type: from_entity
+      rail_bfeature:
+      - entity: rail_bfeature
+        type: from_entity
+      rail_color:
+      - entity: rail_color
+        type: from_entity
+      sales_units:
+      - entity: sales_units
+        type: from_entity
+  simple_hook_form:
+    ignored_intents:
+    - article
+    required_slots:
+      adjustable:
+      - intent: affirm
+        type: from_intent
+        value: nicht verstellbar
+      - intent: deny
+        type: from_intent
+        value: verstellbar
+      heavy_versions:
+      - intent: affirm
+        type: from_intent
+        value: schwere Ausfuehrung
+      - intent: deny
+        type: from_intent
+        value: leichte Ausfuehrung
+      sales_units:
+      - entity: sales_units
+        type: from_entity
+      w_mount_id:
+      - entity: w_mount_id
+        type: from_entity
+  simple_clamp_form:
+    required_slots:
+      clamp_type:
+      - entity: clamp_type
+        type: from_entity
+      framed:
+      - entity: framed
+        type: from_entity
+      height:
+      - entity: height
+        type: from_entity
+      rail_color:
+      - entity: rail_color
+        type: from_entity
+      sales_units:
+      - entity: sales_units
+        type: from_entity
+      w_clamp_id:
+      - entity: w_clamp_id
+        type: from_entity
+  simple_hanger_screw_form:
+    required_slots:
+      alength:
+      - entity: alength
+        type: from_entity
+      build_permit:
+      - intent: affirm
+        type: from_intent
+        value: ja
+      - intent: deny
+        type: from_intent
+        value: nein
+      sales_units:
+      - entity: sales_units
+        type: from_entity
+      w_mount_id:
+      - entity: w_mount_id
+        type: from_entity
+  simple_plate_form:
+    required_slots:
+      ascrew_type:
+      - entity: ascrew_type
+        type: from_entity
+      sales_units:
+      - entity: sales_units
+        type: from_entity
+      w_mount_id:
+      - entity: w_mount_id
+        type: from_entity
+  simple_bauvorhaben_form:
+    required_slots:
+      abv:
+      - type: from_text
+      bstreet:
+      - type: from_text
+      cplz:
+      - type: from_text
+      dcity:
+      - type: from_text
+  simple_pv_form:
+    required_slots:
+      sales_units:
+      - entity: sales_units
+        type: from_entity
+e2e_actions: []

@@ -1,0 +1,284 @@
+{
+  "article": [
+    {
+      "Id": "9742-WASI4-30",
+      "Full": "Endkl. gerahmte Module, Hoehe 30mm",
+      "Preis": 30
+    },
+    {
+      "Id": "9742-WASI4-30SE",
+      "Full": "Endkl. gerahmte Module, Hoehe 30mm, schwarz",
+      "Preis": 30
+    },
+    {
+      "Id": "9742-WASI4-32",
+      "Full": "Endkl. gerahmte Module, Hoehe 32mm",
+      "Preis": 30
+    },
+    {
+      "Id": "9742-WASI4-32SE",
+      "Full": "Endkl. gerahmte Module, Hoehe 32mm, schwarz",
+      "Preis": 30
+    },
+    {
+      "Id": "9742-WASI4-34",
+      "Full": "Endkl. gerahmte Module, Hoehe 34mm",
+      "Preis": 30
+    },
+    {
+      "Id": "9742-WASI4-34SE",
+      "Full": "Endkl. gerahmte Module, Hoehe 34mm, schwarz",
+      "Preis": 30
+    },
+    {
+      "Id": "9742-WASI4-35",
+      "Full": "Endkl. gerahmte Module, Hoehe 35mm",
+      "Preis": 30
+    },
+    {
+      "Id": "9742-WASI4-35SE",
+      "Full": "Endkl. gerahmte Module, Hoehe 35mm, schwarz",
+      "Preis": 30
+    },
+    {
+      "Id": "9745-WASI13",
+      "Full": "Mittelkl. gerahmte Module",
+      "Preis": 37
+    },
+    {
+      "Id": "9745-WASI13SE",
+      "Full": "Mittelkl. gerahmte Module, schwarz",
+      "Preis": 40
+    },
+    {
+      "Id": "9742-WASI4-38",
+      "Full": "Endkl. gerahmte Module, Hoehe 38mm",
+      "Preis": 37
+    },
+    {
+      "Id": "9742-WASI4-38SE",
+      "Full": "Endkl. gerahmte Module, Hoehe 38mm, schwarz",
+      "Preis": 40
+    },
+    {
+      "Id": "9742-WASI4-40",
+      "Full": "Endkl. gerahmte Module, Hoehe 40mm",
+      "Preis": 37
+    },
+    {
+      "Id": "9742-WASI4-40SE",
+      "Full": "Endkl. gerahmte Module, Hoehe 40mm, schwarz",
+      "Preis": 40
+    },
+    {
+      "Id": "9742-WASI4-42",
+      "Full": "Endkl. gerahmte Module, Hoehe 42mm",
+      "Preis": 37
+    },
+    {
+      "Id": "9742-WASI4-43",
+      "Full": "Endkl. gerahmte Module, Hoehe 43mm",
+      "Preis": 37
+    },
+    {
+      "Id": "9742-WASI4-46SE",
+      "Full": "Endkl. gerahmte Module, Hoehe 46mm, schwarz",
+      "Preis": 40
+    },
+    {
+      "Id": "9742-WASI4-50",
+      "Full": "Endkl. gerahmte Module, Hoehe 50mm",
+      "Preis": 37
+    },
+    {
+      "Id": "9742-WASI4-50SE",
+      "Full": "Endkl. gerahmte Module, Hoehe 50mm, schwarz",
+      "Preis": 40
+    },
+    {
+      "Id": "9742-GM L80/6-9",
+      "Full": "Endkl. fuer Glasmodule, Hoehe 6-9mm",
+      "Preis": 50
+    },
+    {
+      "Id": "9745-GM L80/6-9",
+      "Full": "Mittelkl. fuer Glasmodule, Hoehe 6-9mm",
+      "Preis": 50
+    },
+    {
+      "Id": "9742-WASICLIPE32",
+      "Full": "Endkl. Klick Hoehe 32mm",
+      "Preis": 37
+    },
+    {
+      "Id": "9742-WASICLIPE32SE",
+      "Full": "Endkl. Klick Hoehe 32mm, schwarz",
+      "Preis": 40
+    },
+    {
+      "Id": "9742-WASICLIPE35",
+      "Full": "Endkl. Klick Hoehe 35mm",
+      "Preis": 37
+    },
+    {
+      "Id": "9742-WASICLIPE35SE",
+      "Full": "Endkl. Klick Hoehe 35mm, schwarz",
+      "Preis": 40
+    },
+    {
+      "Id": "9742-WASICLIPE38",
+      "Full": "Endkl. Klick Hoehe 38mm",
+      "Preis": 37
+    },
+    {
+      "Id": "9742-WASICLIPE38SE",
+      "Full": "Endkl. Klick Hoehe 38mm, schwarz",
+      "Preis": 40
+    },
+    {
+      "Id": "9742-WASICLIPE40",
+      "Full": "Endkl. Klick Hoehe 40mm",
+      "Preis": 37
+    },
+    {
+      "Id": "9742-WASICLIPE40SE",
+      "Full": "Endkl. Klick Hoehe 40mm, schwarz",
+      "Preis": 40
+    },
+    {
+      "Id": "9745-WASICLIPM1",
+      "Full": "Mittelkl. + WASICLIPS Hoehe 28-34mm",
+      "Preis": 42
+    },
+    {
+      "Id": "9745-WASICLIPM1SE",
+      "Full": "Mittelkl. + WASICLIPS Hoehe 28-34mm, schwarz",
+      "Preis": 45
+    },
+    {
+      "Id": "9745-WASICLIPM2",
+      "Full": "Mittelkl. + WASICLIPS Hoehe 35mm",
+      "Preis": 42
+    },
+    {
+      "Id": "9745-WASICLIPM2SE",
+      "Full": "Mittelkl. + WASICLIPS Hoehe 35mm, schwarz",
+      "Preis": 45
+    },
+    {
+      "Id": "9745-WASICLIPM3",
+      "Full": "Mittelkl. + WASICLIPS Hoehe 36-44mm",
+      "Preis": 42
+    },
+    {
+      "Id": "9745-WASICLIPM3SE",
+      "Full": "Mittelkl. + WASICLIPS Hoehe 36-44mm, schwarz",
+      "Preis": 45
+    },
+    {
+      "Id": "9664-AL-40X40X6,4LSE",
+      "Full": "Schiene, o. Nutenstein/u. DIN 933, schwarz",
+      "Preis": 105
+    },
+    {
+      "Id": "9664-AL-40X40X6200",
+      "Full": "Montageschienen, o. Nutenstein/u. DIN 933",
+      "Preis": 99
+    },
+    {
+      "Id": "9664-AL-40X40X6400UL",
+      "Full": "Montageschienen, o. Nutenstein/u. DIN 933",
+      "Preis": 85
+    },
+    {
+      "Id": "9664-WASI15UL",
+      "Full": "Montageschienen, oben und seitlich Nutenstein",
+      "Preis": 105
+    },
+    {
+      "Id": "9664-AL-80X40X6200",
+      "Full": "Montageschienen, o. Nutenstein/u. DIN 933",
+      "Preis": 125
+    },
+    {
+      "Id": "9664-AL-90X60X6200",
+      "Full": "Trapezdachschiene, o. Nutenstein, hoch AluF25",
+      "Preis": 185
+    },
+    {
+      "Id": "9664-AL-90X6200",
+      "Full": "Trapezdachschiene, o. Nutenstein, flache Form",
+      "Preis": 225
+    },
+    {
+      "Id": "9521-2-150X60W",
+      "Full": "Dachhaken - mit Langloch im Haken",
+      "Preis": 22
+    },
+    {
+      "Id": "9525-2-140X56K",
+      "Full": "Dachhaken - 3-fach verstellbar",
+      "Preis": 27
+    },
+    {
+      "Id": "9525-2-140X56X8K",
+      "Full": "Dachhaken schwer, 3-fach verstellbar",
+      "Preis": 35
+    },
+    {
+      "Id": "9216-2-10X200",
+      "Full": "Stockschrauben SW7 konfektioniert",
+      "Preis": 12
+    },
+    {
+      "Id": "9216-2-10X200-BZ",
+      "Full": "Stockschrauben SW7, konfektioniert, Bauz.",
+      "Preis": 15
+    },
+    {
+      "Id": "9216-2-10X250",
+      "Full": "Stockschrauben SW7 konfektioniert",
+      "Preis": 14
+    },
+    {
+      "Id": "9216-2-10X250-BZ",
+      "Full": "Stockschrauben SW7, konfektioniert, Bauz.",
+      "Preis": 17
+    },
+    {
+      "Id": "9543-2-82X30X5",
+      "Full": "Adapterbleche fuer Stockschrauben M10",
+      "Preis": 22
+    },
+    {
+      "Id": "9544-2-82X30X5",
+      "Full": "Adapterbleche fuer Stockschrauben M12",
+      "Preis": 22
+    },
+    {
+      "Id": "ton260",
+      "Full": "Metalldachplatte Typ Ton 260",
+      "Preis": 55
+    },
+    {
+      "Id": "ton250",
+      "Full": "Metalldachplatte Typ Ton 250",
+      "Preis": 55
+    },
+    {
+      "Id": "beton",
+      "Full": "Metalldachplatte Typ Beton",
+      "Preis": 49
+    },
+    {
+      "Id": "sonderziegel",
+      "Full": "Metalldachplatte ausserhalb des Standardsortiments",
+      "Preis": 65
+    },
+    {
+      "Id": "PV-Modul",
+      "Full": "Hochleistungsmodul 320W inkl. Montagearbeiten",
+      "Preis": 485
+    }
+   ]
+}
